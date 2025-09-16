@@ -1,0 +1,91 @@
+{
+  "Assam": {
+    "fruit_production_overview": "Assam, with its fertile alluvial plains and subtropical climate, possesses a rich diversity of fruit crops, making it a major producer of bananas and pineapples in India. The state is renowned for its unique indigenous fruit varieties, such as the GI-tagged Kaji Nemu (Assam Lemon) and the prized Malbhog banana. Horticulture plays a vital role in the agrarian economy, with jackfruit, litchi, and various citrus fruits also being cultivated extensively.",
+    "major_fruit_districts": {
+      "Kamrup": {
+        "agricultural_significance": "Kamrup is a horticultural hub in Lower Assam, particularly famous for its extensive cultivation of diverse banana varieties. The district's favorable climate also supports large-scale production of jackfruit and areca nut.",
+        "fruits": [
+          {
+            "fruit_name": "Banana",
+            "peak_months": [8, 9, 10, 11],
+            "famous_varieties": ["Malbhog", "Jahaji", "Chini Champa"],
+            "health_tags": ["energy", "potassium", "digestion", "heart_health"],
+            "avg_price_per_kg_inr": 50,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Jackfruit",
+            "peak_months": [6, 7, 8],
+            "famous_varieties": ["Local Varieties"],
+            "health_tags": ["fiber", "energy", "immunity", "potassium"],
+            "avg_price_per_kg_inr": 30,
+            "estimated_user_rating": 4.3
+          }
+        ]
+      },
+      "Sonitpur": {
+        "agricultural_significance": "Centered around the city of Tezpur, Sonitpur is acclaimed for its delicious and juicy litchis, which are celebrated for their unique flavor. The district's fertile soil and climate are ideal for litchi and other subtropical fruit cultivation.",
+        "fruits": [
+          {
+            "fruit_name": "Litchi",
+            "peak_months": [5, 6],
+            "famous_varieties": ["Tezpur Litchi", "Shahi", "Bombai"],
+            "health_tags": ["vitamin_c", "antioxidant", "hydration", "immunity"],
+            "avg_price_per_kg_inr": 180,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Banana",
+            "peak_months": [9, 10, 11],
+            "famous_varieties": ["Malbhog", "Jahaji"],
+            "health_tags": ["energy", "potassium", "digestion"],
+            "avg_price_per_kg_inr": 55,
+            "estimated_user_rating": 4.6
+          }
+        ]
+      },
+      "Goalpara": {
+        "agricultural_significance": "Goalpara is one of the leading banana-producing districts in Assam, with vast areas dedicated to its cultivation. It is also a significant region for the unique Assam Lemon (Kaji Nemu), prized for its distinct aroma and flavor.",
+        "fruits": [
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Malbhog", "Kaskol", "Chini Champa"],
+            "health_tags": ["energy", "digestion", "potassium"],
+            "avg_price_per_kg_inr": 45,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Assam Lemon (Kaji Nemu)",
+            "peak_months": [7, 8, 9, 12, 1],
+            "famous_varieties": ["Kaji Nemu"],
+            "health_tags": ["vitamin_c", "immunity", "digestion", "detox"],
+            "avg_price_per_kg_inr": 90,
+            "estimated_user_rating": 4.9
+          }
+        ]
+      },
+      "Cachar": {
+        "agricultural_significance": "Located in the Barak Valley, Cachar is a prime district for pineapple cultivation in Assam. The region's acidic soil and high rainfall create the perfect environment for growing sweet and flavorful pineapples.",
+        "fruits": [
+          {
+            "fruit_name": "Pineapple",
+            "peak_months": [6, 7, 8],
+            "famous_varieties": ["Queen", "Kew"],
+            "health_tags": ["digestion", "immunity", "anti_inflammatory", "vitamin_c"],
+            "avg_price_per_kg_inr": 40,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Pomelo (Robab Tenga)",
+            "peak_months": [9, 10, 11],
+            "famous_varieties": ["Local Pink Flesh", "Local White Flesh"],
+            "health_tags": ["vitamin_c", "antioxidant", "heart_health", "hydration"],
+            "avg_price_per_kg_inr": 60,
+            "estimated_user_rating": 4.4
+          }
+        ]
+      }
+    }
+  }
+}

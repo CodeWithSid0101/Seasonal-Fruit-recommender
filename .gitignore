@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Environments
+.env
+.env.*
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Project artifacts
+*.pkl
+*.pickle
+*.joblib
+*.log
+
+# Cache
+.cache/
+pip-wheel-metadata/
+__pypackages__/
+
+# Node (just in case)
+node_modules/
+
+

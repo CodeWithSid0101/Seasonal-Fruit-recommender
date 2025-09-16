@@ -1,0 +1,91 @@
+{
+  "Telangana": {
+    "fruit_production_overview": "Telangana has rapidly emerged as a major horticultural state, renowned for being one of India's largest producers of sweet lime (Mosambi). The state is also a significant contributor to the country's mango supply, with the Banganapalli variety being widely cultivated. There is a strong government focus on diversifying the fruit basket, promoting high-value crops like guava, papaya, and dragon fruit, especially in the peri-urban districts.",
+    "major_fruit_districts": {
+      "Nalgonda": {
+        "agricultural_significance": "Nalgonda is famously known as the 'Sweet Lime Capital of India', with the largest area under Mosambi cultivation in the country. The district's unique soil and climatic conditions are perfectly suited for this citrus fruit, yielding high-quality produce.",
+        "fruits": [
+          {
+            "fruit_name": "Sweet Lime (Mosambi)",
+            "peak_months": [3, 4, 8, 9, 10],
+            "famous_varieties": ["Sathgudi"],
+            "health_tags": ["hydration", "vitamin_c", "digestion", "cooling"],
+            "avg_price_per_kg_inr": 40,
+            "estimated_user_rating": 4.8
+          }
+        ]
+      },
+      "Mahabubnagar": {
+        "agricultural_significance": "Mahabubnagar is a traditional mango hub in Telangana, known for growing the popular Banganapalli variety on a large scale. The district is also a significant producer of guavas, catering to markets in Hyderabad and neighboring states.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [5, 6],
+            "famous_varieties": ["Banganapalli (Benishan)", "Dasheri", "Himayat"],
+            "health_tags": ["immunity", "vision", "skin_health", "digestion"],
+            "avg_price_per_kg_inr": 70,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Guava",
+            "peak_months": [11, 12, 1],
+            "famous_varieties": ["Allahabad Safeda", "Kohir"],
+            "health_tags": ["immunity", "vitamin_c", "fiber"],
+            "avg_price_per_kg_inr": 55,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      },
+      "Khammam": {
+        "agricultural_significance": "Khammam's fertile lands make it a prime district for mango cultivation, especially the Banganapalli and Totapuri varieties. It is also a key district for banana production within the state.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [4, 5, 6],
+            "famous_varieties": ["Banganapalli", "Totapuri"],
+            "health_tags": ["immunity", "vision", "antioxidants"],
+            "avg_price_per_kg_inr": 60,
+            "estimated_user_rating": 4.4
+          },
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Robusta", "Dwarf Cavendish"],
+            "health_tags": ["energy", "potassium", "heart_health"],
+            "avg_price_per_kg_inr": 30,
+            "estimated_user_rating": 4.3
+          }
+        ]
+      },
+      "Ranga Reddy": {
+        "agricultural_significance": "Being a peri-urban district to Hyderabad, Ranga Reddy is a hub for high-value horticulture, including high-density guava farming. It is also at the forefront of adopting new crops like dragon fruit to cater to the urban consumer base.",
+        "fruits": [
+          {
+            "fruit_name": "Guava",
+            "peak_months": [10, 11, 12, 1],
+            "famous_varieties": ["Taiwan Pink", "Allahabad Safeda", "L-49"],
+            "health_tags": ["immunity", "vitamin_c", "fiber", "digestion"],
+            "avg_price_per_kg_inr": 65,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Papaya",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Red Lady 786"],
+            "health_tags": ["digestion", "skin_health", "immunity"],
+            "avg_price_per_kg_inr": 30,
+            "estimated_user_rating": 4.4
+          },
+          {
+            "fruit_name": "Dragon Fruit (Kamalam)",
+            "peak_months": [7, 8, 9],
+            "famous_varieties": ["Red Flesh"],
+            "health_tags": ["immunity", "antioxidant", "low_calorie", "fiber"],
+            "avg_price_per_kg_inr": 220,
+            "estimated_user_rating": 4.6
+          }
+        ]
+      }
+    }
+  }
+}

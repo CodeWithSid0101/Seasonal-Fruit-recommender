@@ -1,0 +1,78 @@
+{
+  "Mizoram": {
+    "fruit_production_overview": "Mizoram leverages its unique subtropical highland climate to specialize in high-value horticultural crops, making significant strides in commercial fruit farming. The state is a major producer of passion fruit, bananas, and mandarin oranges in the Northeast region. It has also successfully adopted non-traditional fruits like kiwi and dragon fruit, with the GI-tagged Mizo Banana highlighting its unique agricultural biodiversity.",
+    "major_fruit_districts": {
+      "Kolasib": {
+        "agricultural_significance": "Kolasib is a primary district for banana and orange cultivation in Mizoram. It is particularly known for producing the GI-tagged Mizo Banana, a variety prized for its distinct taste and smaller size.",
+        "fruits": [
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Mizo Banana", "Grand Naine"],
+            "health_tags": ["energy", "potassium", "digestion", "heart_health"],
+            "avg_price_per_kg_inr": 65,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Orange",
+            "peak_months": [11, 12, 1],
+            "famous_varieties": ["Khasi Mandarin"],
+            "health_tags": ["vitamin_c", "immunity", "skin_health"],
+            "avg_price_per_kg_inr": 75,
+            "estimated_user_rating": 4.6
+          }
+        ]
+      },
+      "Aizawl": {
+        "agricultural_significance": "The region surrounding the state capital, Aizawl, is a major hub for passion fruit cultivation. The district's farmers have successfully commercialized this fruit, supplying both fresh produce and processed products like juice.",
+        "fruits": [
+          {
+            "fruit_name": "Passion Fruit",
+            "peak_months": [7, 8, 9],
+            "famous_varieties": ["Purple", "Yellow"],
+            "health_tags": ["antioxidant", "fiber", "immunity", "sleep_aid"],
+            "avg_price_per_kg_inr": 130,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Pineapple",
+            "peak_months": [6, 7, 8],
+            "famous_varieties": ["Kew", "Queen"],
+            "health_tags": ["digestion", "anti_inflammatory", "vitamin_c"],
+            "avg_price_per_kg_inr": 55,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      },
+      "Champhai": {
+        "agricultural_significance": "Often called the 'Fruit Bowl of Mizoram', Champhai has pioneered the cultivation of kiwi and grapes in the state. Its unique microclimate and progressive farming community have made it a center for high-value, non-traditional fruits.",
+        "fruits": [
+          {
+            "fruit_name": "Kiwi",
+            "peak_months": [10, 11, 12],
+            "famous_varieties": ["Hayward", "Allison"],
+            "health_tags": ["vitamin_c", "immunity", "digestion", "antioxidant"],
+            "avg_price_per_kg_inr": 280,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Grapes",
+            "peak_months": [4, 5],
+            "famous_varieties": ["Bangalore Blue"],
+            "health_tags": ["heart_health", "antioxidant", "brain_function"],
+            "avg_price_per_kg_inr": 120,
+            "estimated_user_rating": 4.4
+          },
+          {
+            "fruit_name": "Dragon Fruit (Kamalam)",
+            "peak_months": [7, 8, 9, 10],
+            "famous_varieties": ["Red Flesh"],
+            "health_tags": ["immunity", "antioxidant", "low_calorie", "fiber"],
+            "avg_price_per_kg_inr": 250,
+            "estimated_user_rating": 4.6
+          }
+        ]
+      }
+    }
+  }
+}

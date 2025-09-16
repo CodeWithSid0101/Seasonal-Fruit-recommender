@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full dark:bg-gray-900">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seasonal Fruit Recommender - India</title>
+    <!-- Inline favicon to avoid /favicon.ico 404s -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' ry='12' fill='%231f2937'/%3E%3Ccircle cx='32' cy='32' r='18' fill='%23f59e0b'/%3E%3Cpath d='M32 12c4 0 8-4 8-8' stroke='%234ade80' stroke-width='4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <link rel="shortcut icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' ry='12' fill='%231f2937'/%3E%3Ccircle cx='32' cy='32' r='18' fill='%23f59e0b'/%3E%3Cpath d='M32 12c4 0 8-4 8-8' stroke='%234ade80' stroke-width='4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <script>
+        // Apply saved theme ASAP to avoid FOUC and ensure global dark styles
+        try { if (localStorage.getItem('theme') === 'dark') { document.documentElement.classList.add('dark'); } } catch(e) {}
+    </script>
+    <script>
+        // Ensure Tailwind uses class-based dark mode (must be set BEFORE CDN loads)
+        try {
+            window.tailwind = window.tailwind || {};
+            // Tailwind CDN reads global tailwind.config
+            // Use the global name to be safe across CDN versions
+            window.tailwind.config = Object.assign({}, (window.tailwind.config || {}), { darkMode: 'class' });
+            // Also set global variable in case window.tailwind is not used
+            // eslint-disable-next-line no-undef
+            if (typeof tailwind !== 'undefined') { tailwind.config = Object.assign({}, tailwind.config || {}, { darkMode: 'class' }); }
+        } catch (e) {}
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .loader { border-top-color: #3498db; animation: spin 1s linear infinite; }
+        /* Fallback ensure no gradient in dark mode across browsers */
+        html.dark body { background-image: none !important; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        /* Strong dark-mode overrides to enforce full-page dark */
+        html.dark { color-scheme: dark; }
+        html.dark, html.dark body { background-color: #111827 !important; color: #e5e7eb; }
+        html.dark .text-gray-900 { color: #f9fafb !important; }
+        html.dark .text-gray-800 { color: #f3f4f6 !important; }
+        html.dark .text-gray-700 { color: #e5e7eb !important; }
+        html.dark .bg-white { background-color: #1f2937 !important; }
+        html.dark .bg-white\/90 { background-color: rgba(31,41,55,0.9) !important; }
+        html.dark .bg-gray-50 { background-color: #111827 !important; }
+        html.dark .bg-gray-100 { background-color: #1f2937 !important; }
+        html.dark .bg-gray-200 { background-color: #374151 !important; }
+        html.dark .border-gray-100, html.dark .border-gray-200, html.dark .border-gray-300 { border-color: #374151 !important; }
+        /* Ensure the health goals section panel is dark and uniform */
+        html.dark .health-section { background-color: #1f2937 !important; border-color: #374151 !important; }
+        html.dark .health-section label { color: #e5e7eb !important; }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-sky-50 to-white text-gray-800 dark:bg-gray-900 dark:text-gray-100 dark:bg-none">
+
+    <div class="container mx-auto p-4 md:p-8 max-w-6xl">
+
+        <header class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+                <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">Seasonal Fruit Recommender</h1>
+                <p class="text-sm sm:text-base text-gray-600 dark:text-gray-300 mt-1">Discover the best fruits to eat right now, right where you are in India.</p>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="darkToggle" class="px-3 py-2 rounded-lg border border-gray-200 bg-white shadow-sm text-sm hover:shadow-md hover:bg-gray-50 active:shadow-sm transition dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700" title="Toggle dark mode">🌙 Dark</button>
+                <a href="#favorites" class="px-3 py-2 rounded-lg border border-gray-200 bg-white shadow-sm text-sm hover:shadow-md hover:bg-gray-50 active:shadow-sm transition dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">⭐ Favorites</a>
+            </div>
+        </header>
+
+        <main class="bg-white/90 backdrop-blur-sm ring-1 ring-gray-100 dark:ring-0 dark:bg-gray-800 p-6 rounded-2xl shadow-xl">
+            <div class="health-section mb-6 bg-gradient-to-r from-blue-50 to-cyan-50 dark:bg-none dark:from-transparent dark:to-transparent dark:bg-gray-800 p-4 rounded-lg border border-blue-200 dark:border-gray-700">
+                <label class="block text-sm font-medium text-gray-900 dark:text-gray-100 mb-2">Personalize with Health Goals (Optional)</label>
+                <div id="health_focus" class="flex flex-wrap gap-2">
+                    <button data-hf="immunity" class="hf-chip hover:shadow-sm">Immunity</button>
+                    <button data-hf="digestion" class="hf-chip hover:shadow-sm">Digestion</button>
+                    <button data-hf="heart_health" class="hf-chip hover:shadow-sm">Heart</button>
+                    <button data-hf="energy" class="hf-chip hover:shadow-sm">Energy</button>
+                    <button data-hf="skin_health" class="hf-chip hover:shadow-sm">Skin</button>
+                    <button data-hf="hydration" class="hf-chip hover:shadow-sm">Hydration</button>
+                    <button id="hf-clear" class="px-3 py-2 text-xs rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 hover:bg-gray-50 dark:hover:bg-gray-800">Clear</button>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div>
+                    <label for="state" class="block text-sm font-medium text-gray-700 dark:text-gray-200 mb-2">State / Union Territory</label>
+                    <select id="state" class="w-full p-3 border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"></select>
+                </div>
+                <div>
+                    <label for="district" class="block text-sm font-medium text-gray-700 dark:text-gray-200 mb-2">District</label>
+                    <select id="district" class="w-full p-3 border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"></select>
+                </div>
+                <div>
+                    <label for="month" class="block text-sm font-medium text-gray-700 dark:text-gray-200 mb-2">Month</label>
+                    <select id="month" class="w-full p-3 border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"></select>
+                </div>
+            </div>
+
+            <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
+                    <label for="search" class="block text-sm font-medium text-gray-700 dark:text-gray-200 mb-2">Search Fruits</label>
+                    <input id="search" type="text" placeholder="e.g., Mango, Alphonso" class="w-full p-3 border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition" />
+                </div>
+                <div>
+                    <label for="sort_by" class="block text-sm font-medium text-gray-700 dark:text-gray-200 mb-2">Sort By</label>
+                    <select id="sort_by" class="w-full p-3 border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                        <option value="score_desc">Score: High to Low</option>
+                        <option value="score_asc">Score: Low to High</option>
+                        <option value="name_asc">Name: A → Z</option>
+                    </select>
+                </div>
+                <div class="flex items-end">
+                    <button id="refreshBtn" class="w-full p-3 rounded-lg bg-gradient-to-r from-blue-600 to-cyan-600 text-white hover:from-blue-700 hover:to-cyan-700 transition shadow-lg">Refresh Recommendations</button>
+                </div>
+            </div>
+        </main>
+
+        <section id="results" class="mt-8">
+            <div id="recommendation-header" class="hidden">
+                <h2 class="text-2xl font-bold text-center text-gray-900 dark:text-white mb-6">Top Recommendations For You</h2>
+            </div>
+            <div id="loader" class="hidden justify-center items-center py-8">
+                <div class="loader ease-linear rounded-full border-4 border-t-4 border-gray-200 dark:border-gray-700 dark:border-t-gray-500 h-12 w-12"></div>
+                <p class="ml-4 text-gray-600 dark:text-gray-300">Finding the freshest fruits for you...</p>
+            </div>
+            <div id="error" class="hidden text-center p-6 bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-200 dark:border dark:border-red-700 rounded-lg"></div>
+            <div id="recommendations" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+        </section>
+
+        <section id="favorites" class="mt-12">
+            <h3 class="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-200">Your Favorites</h3>
+            <div id="favoritesGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+        </section>
+
+        <footer class="mt-12 text-center text-xs text-gray-500 dark:text-gray-400">
+            <p>Built with ❤️ — Data-driven seasonal picks for India</p>
+        </footer>
+    </div>
+
+    <div id="toast" class="fixed bottom-5 right-5 hidden bg-gray-900 text-white text-sm px-4 py-2 rounded shadow-lg"></div>
+
+    <script>
+        // Dynamic API base URL: handle file://, localhost, and production origins
+        let API_BASE_URL;
+        (function resolveApiBase() {
+            const { protocol, hostname, port, origin } = window.location;
+            if (protocol === 'file:') {
+                API_BASE_URL = 'http://127.0.0.1:5000';
+                return;
+            }
+            if (hostname === 'localhost' || hostname === '127.0.0.1') {
+                API_BASE_URL = (port === '5000') ? origin : 'http://127.0.0.1:5000';
+                return;
+            }
+            API_BASE_URL = origin;
+        })();
+        console.debug('API_BASE_URL =', API_BASE_URL);
+
+        const stateSelect = document.getElementById('state');
+        const districtSelect = document.getElementById('district');
+        const monthSelect = document.getElementById('month');
+        const healthFocusContainer = document.getElementById('health_focus');
+        const recommendationsDiv = document.getElementById('recommendations');
+        const recommendationHeader = document.getElementById('recommendation-header');
+        const loader = document.getElementById('loader');
+        const errorDiv = document.getElementById('error');
+        const searchInput = document.getElementById('search');
+        const sortSelect = document.getElementById('sort_by');
+        const refreshBtn = document.getElementById('refreshBtn');
+        const darkToggle = document.getElementById('darkToggle');
+        const favoritesGrid = document.getElementById('favoritesGrid');
+        const toast = document.getElementById('toast');
+        
+        let locationsData = {};
+        const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        let lastRecommendations = [];
+        let favorites = [];
+
+        document.addEventListener('DOMContentLoaded', initializeApp);
+        
+        function attachEventListeners() {
+            stateSelect.addEventListener('change', onStateChange);
+            [districtSelect, monthSelect].forEach(el => el.addEventListener('change', getRecommendations));
+            healthFocusContainer.addEventListener('click', onHealthFocusClick);
+            [searchInput, sortSelect].forEach(el => el.addEventListener('input', () => displayRecommendations(lastRecommendations)));
+            refreshBtn.addEventListener('click', getRecommendations);
+            darkToggle.addEventListener('click', toggleDarkMode);
+        }
+
+        async function initializeApp() {
+            loadThemePreference();
+            loadFavorites();
+            populateMonths();
+            await loadLocations();
+            loadUserProfile();
+            setDefaultLocation();
+            applyStateFromUrl();
+            attachEventListeners();
+            await getRecommendations();
+            renderFavorites();
+        }
+
+        function onStateChange() {
+            populateDistricts(stateSelect.value);
+            getRecommendations();
+        }
+
+        function populateMonths() {
+            const currentMonthIndex = new Date().getMonth();
+            months.forEach(month => monthSelect.add(new Option(month, month)));
+            monthSelect.value = months[currentMonthIndex];
+        }
+
+        async function loadLocations() {
+            try {
+                const response = await fetch(`${API_BASE_URL}/get_locations`, { cache: 'no-store' });
+                if (!response.ok) {
+                    const txt = await response.text().catch(() => '');
+                    throw new Error(`GET /get_locations ${response.status} ${response.statusText} ${txt}`);
+                }
+                locationsData = await response.json();
+                const states = Object.keys(locationsData).sort();
+                states.forEach(state => stateSelect.add(new Option(state, state)));
+                if (states.length > 0) populateDistricts(states[0]);
+            } catch (error) {
+                showError("Could not connect to the recommendation server. Please ensure the backend is running at " + API_BASE_URL + ".");
+            }
+        }
+        
+        function populateDistricts(state) {
+            districtSelect.innerHTML = '';
+            const districts = locationsData[state] || [];
+            districts.sort().forEach(district => districtSelect.add(new Option(district, district)));
+        }
+        
+        function loadUserProfile() {
+            try {
+                const saved = JSON.parse(localStorage.getItem('userHealthFocusMulti') || '[]');
+                setHealthFocusChips(saved);
+            } catch(e) { /* noop */ }
+        }
+
+        function setDefaultLocation() {
+            const defaultState = "Maharashtra";
+            const defaultDistrict = "Pune";
+            if (locationsData[defaultState]) {
+                stateSelect.value = defaultState;
+                populateDistricts(defaultState);
+                if (locationsData[defaultState].includes(defaultDistrict)) {
+                    districtSelect.value = defaultDistrict;
+                }
+            }
+        }
+
+        async function getRecommendations() {
+            if (!stateSelect.value || !districtSelect.value || !monthSelect.value) return;
+            showLoader(true);
+            recommendationHeader.classList.remove('hidden');
+            const payload = {
+                month: monthSelect.value,
+                state: stateSelect.value,
+                district: districtSelect.value,
+                health_focus: getSelectedHealthFocus()
+            };
+            updateUrlFromState();
+            try {
+                const response = await fetch(`${API_BASE_URL}/recommend`, {
+                    method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload)
+                });
+                if (!response.ok) {
+                    const txt = await response.text().catch(() => '');
+                    throw new Error(`POST /recommend ${response.status} ${response.statusText} ${txt}`);
+                }
+                const data = await response.json();
+                lastRecommendations = Array.isArray(data) ? data : [];
+                displayRecommendations(lastRecommendations);
+            } catch (error) {
+                showError("Failed to get recommendations from " + API_BASE_URL + ". The server might be unavailable.");
+            } finally {
+                showLoader(false);
+            }
+        }
+        
+        // Rendering, sorting, favorites, and UI helpers
+        function getImageUrl(rec) {
+            // Use image_url coming from backend JSON. If missing, fallback to labeled placeholder.
+            const url = (rec && rec.image_url) ? String(rec.image_url) : '';
+            if (url) return url;
+            const text = encodeURIComponent((rec?.fruit_name || 'Fruit'));
+            return `https://placehold.co/600x400/1f2937/ffffff?text=${text}`;
+        }
+        function handleImgError(imgEl) {
+            try {
+                // One-time swap to a labeled placeholder if provided URL fails
+            } catch (e) {}
+            const fruit = (imgEl.dataset.fruit || 'Fruit').trim();
+            const text = encodeURIComponent(fruit);
+            imgEl.onerror = null;
+            imgEl.src = `https://placehold.co/600x400/1f2937/ffffff?text=${text}`;
+        }
+        function displayRecommendations(recs) {
+            recommendationsDiv.innerHTML = '';
+            errorDiv.style.display = 'none';
+
+            if (!recs || recs.length === 0) {
+                showError("No highly-rated seasonal fruits found for your selection. Try a different month or location!");
+                return;
+            }
+
+            const currentFocusList = new Set(getSelectedHealthFocus());
+            const query = (searchInput.value || '').trim().toLowerCase();
+            const sortBy = sortSelect.value;
+
+            let list = recs.slice();
+
+            if (query) {
+                list = list.filter(r => `${r.fruit_name} ${r.variety}`.toLowerCase().includes(query));
+            }
+
+            if (sortBy === 'score_asc') list.sort((a,b) => a.score - b.score);
+            else if (sortBy === 'name_asc') list.sort((a,b) => a.fruit_name.localeCompare(b.fruit_name));
+            else list.sort((a,b) => b.score - a.score);
+
+            list.forEach(rec => {
+                const isFavorite = favorites.some(f => f.key === makeKey(rec));
+                const card = document.createElement('div');
+                card.className = "bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden transform hover:-translate-y-1 transition-transform duration-300 flex flex-col border border-gray-100 dark:border-gray-700";
+
+                const tagsHTML = (rec.health_tags || []).map(tag => {
+                    const isFocused = currentFocusList.has(tag);
+                    const tagClasses = isFocused
+                        ? 'bg-green-200 text-green-900 ring-2 ring-green-500 font-bold'
+                        : 'bg-indigo-100 text-indigo-800 dark:bg-indigo-900/40 dark:text-indigo-200';
+                    return `<span class="${tagClasses} text-xs font-medium mr-2 mb-2 px-2.5 py-0.5 rounded-full">${tag.replace(/_/g, ' ')}</span>`;
+                }).join('');
+
+                let scoreColorClass = 'bg-red-400';
+                if (rec.score > 0.4) scoreColorClass = 'bg-yellow-400';
+                if (rec.score > 0.6) scoreColorClass = 'bg-green-500';
+
+                const imageUrl = getImageUrl(rec);
+                card.innerHTML = `
+                    <div class="relative">
+                        <img src="${imageUrl}" alt="${rec.fruit_name}" class="w-full h-48 object-cover" loading="lazy" decoding="async" referrerpolicy="no-referrer" crossorigin="anonymous" data-fruit="${rec.fruit_name}" onerror="handleImgError(this)">
+                        <button class="absolute top-3 right-3 px-2.5 py-1.5 rounded-md text-xs ${isFavorite ? 'bg-yellow-400 text-black' : 'bg-white/90 dark:bg-gray-900/80 text-gray-900 dark:text-gray-100'} border border-gray-200 dark:border-gray-700 hover:scale-105 transition" data-fav="toggle">${isFavorite ? '★ Saved' : '☆ Save'}</button>
+                    </div>
+                    <div class="p-5 flex flex-col flex-grow">
+                        <div class="flex items-center justify-between gap-3">
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 dark:text-white">${rec.fruit_name}</h3>
+                                <p class="text-sm text-gray-600 dark:text-gray-300 mt-1">${rec.variety}</p>
+                            </div>
+                            <div class="text-right">
+                                <div class="text-xs text-gray-500 dark:text-gray-400">Score</div>
+                                <div class="w-28 bg-gray-200 dark:bg-gray-700 rounded-full h-2.5" title="Score: ${Math.round(rec.score * 100)}%">
+                                    <div class="${scoreColorClass} h-2.5 rounded-full" style="width: ${rec.score * 100}%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-700 dark:text-gray-200 mt-4">${rec.benefits}</p>
+                        <div class="mt-4">
+                            <h4 class="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase mb-2">Health Benefits</h4>
+                            <div class="flex flex-wrap">${tagsHTML}</div>
+                        </div>
+                        <div class="mt-auto pt-4">
+                            <div class="p-3 bg-green-50 dark:bg-green-900/30 rounded-lg border border-green-200 dark:border-green-800">
+                                <p class="text-sm text-green-800 dark:text-green-200"><span class="font-semibold">Why now?</span> ${rec.reason}</p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+
+                const favBtn = card.querySelector('[data-fav="toggle"]');
+                favBtn.addEventListener('click', () => toggleFavorite(rec));
+                recommendationsDiv.appendChild(card);
+            });
+        }
+        function showLoader(isLoading) {
+            loader.style.display = isLoading ? 'flex' : 'none';
+            if(isLoading) {
+                recommendationsDiv.innerHTML = createSkeletonCards(6);
+                errorDiv.style.display = 'none';
+                recommendationHeader.classList.add('hidden');
+            }
+        }
+
+        function showError(message) {
+            recommendationHeader.classList.remove('hidden');
+            recommendationsDiv.innerHTML = '';
+            errorDiv.innerHTML = `${message} <br><span class="text-xs text-gray-500">API: ${API_BASE_URL}</span>`;
+            errorDiv.style.display = 'block';
+        }
+
+        // Health focus chips (multi-select)
+        function onHealthFocusClick(e) {
+            const btn = e.target.closest('[data-hf]');
+            if (btn) {
+                btn.classList.toggle('hf-chip--active');
+                saveHealthFocus();
+                getRecommendations();
+                return;
+            }
+            if (e.target.id === 'hf-clear') {
+                setHealthFocusChips([]);
+                saveHealthFocus();
+                getRecommendations();
+            }
+        }
+        function setHealthFocusChips(values) {
+            const all = Array.from(healthFocusContainer.querySelectorAll('[data-hf]'));
+            const set = new Set(values || []);
+            all.forEach(b => {
+                if (set.has(b.dataset.hf)) b.classList.add('hf-chip--active');
+                else b.classList.remove('hf-chip--active');
+            });
+        }
+        function getSelectedHealthFocus() {
+            return Array.from(healthFocusContainer.querySelectorAll('.hf-chip--active')).map(b => b.dataset.hf);
+        }
+        function saveHealthFocus() {
+            const selected = getSelectedHealthFocus();
+            localStorage.setItem('userHealthFocusMulti', JSON.stringify(selected));
+        }
+
+        // URL sync
+        function updateUrlFromState() {
+            const params = new URLSearchParams();
+            params.set('state', stateSelect.value);
+            params.set('district', districtSelect.value);
+            params.set('month', monthSelect.value);
+            const hf = getSelectedHealthFocus();
+            if (hf.length) params.set('health', hf.join(','));
+            if (searchInput.value) params.set('q', searchInput.value);
+            params.set('sort', sortSelect.value);
+            const newUrl = `${location.pathname}?${params.toString()}`;
+            history.replaceState(null, '', newUrl);
+        }
+        function applyStateFromUrl() {
+            const params = new URLSearchParams(location.search);
+            const s = params.get('state');
+            const d = params.get('district');
+            const m = params.get('month');
+            const q = params.get('q');
+            const sort = params.get('sort');
+            const health = (params.get('health') || '').split(',').filter(Boolean);
+            if (s && locationsData[s]) {
+                stateSelect.value = s;
+                populateDistricts(s);
+                if (d && locationsData[s].includes(d)) districtSelect.value = d;
+            }
+            if (m) monthSelect.value = m;
+            if (q) searchInput.value = q;
+            if (sort) sortSelect.value = sort;
+            if (health.length) setHealthFocusChips(health);
+        }
+
+        // Style for chips
+        document.addEventListener('DOMContentLoaded', () => {
+            const style = document.createElement('style');
+            style.textContent = `
+            .hf-chip { padding: 0.5rem 0.75rem; border-radius: 0.5rem; border: 1px solid rgb(209 213 219); background: white; font-size: 0.875rem; transition: background-color .15s ease, color .15s ease, box-shadow .15s ease; }
+            .dark .hf-chip { background: rgb(17 24 39); border-color: rgb(55 65 81); color: rgb(229 231 235); }
+            .hf-chip:hover { background: rgb(249 250 251); }
+            .dark .hf-chip:hover { background: rgb(31 41 55); }
+            .hf-chip--active { background: rgb(167 243 208); color: rgb(20 83 45); border-color: rgb(16 185 129); box-shadow: inset 0 0 0 2px rgba(16,185,129,0.6); font-weight: 600; }
+            /* High-contrast active chips in dark mode */
+            .dark .hf-chip--active { background: rgb(5 150 105); color: #ffffff; border-color: rgb(16 185 129); box-shadow: inset 0 0 0 2px rgba(16,185,129,0.8); }
+            .dark .hf-chip--active:hover { background: rgb(4 120 87); }
+            .hf-chip:focus-visible, .hf-chip--active:focus-visible { outline: 2px solid rgb(59 130 246); outline-offset: 2px; }
+            `;
+            document.head.appendChild(style);
+        });
+
+        // Theme
+        function loadThemePreference() {
+            const t = localStorage.getItem('theme') || 'light';
+            if (t === 'dark') document.documentElement.classList.add('dark');
+            updateDarkToggle();
+        }
+        function toggleDarkMode() {
+            document.documentElement.classList.toggle('dark');
+            const isDark = document.documentElement.classList.contains('dark');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            updateDarkToggle();
+        }
+        function updateDarkToggle() {
+            const isDark = document.documentElement.classList.contains('dark');
+            darkToggle.textContent = isDark ? '☀️ Light' : '🌙 Dark';
+        }
+
+        // Favorites
+        function makeKey(rec) { return `${rec.fruit_name}::${rec.variety}`; }
+        function loadFavorites() {
+            try { favorites = JSON.parse(localStorage.getItem('favorites') || '[]'); }
+            catch(e) { favorites = []; }
+        }
+        function saveFavorites() {
+            localStorage.setItem('favorites', JSON.stringify(favorites));
+        }
+        function toggleFavorite(rec) {
+            const key = makeKey(rec);
+            const idx = favorites.findIndex(f => f.key === key);
+            if (idx >= 0) {
+                favorites.splice(idx, 1);
+                showToast('Removed from Favorites');
+            } else {
+                favorites.push({ key, ...rec });
+                showToast('Added to Favorites');
+            }
+            saveFavorites();
+            renderFavorites();
+            displayRecommendations(lastRecommendations);
+        }
+        function renderFavorites() {
+            favoritesGrid.innerHTML = '';
+            if (!favorites.length) {
+                favoritesGrid.innerHTML = '<div class="text-sm text-gray-500 dark:text-gray-400">No favorites yet. Click ☆ Save on any card.</div>';
+                return;
+            }
+            favorites.forEach(rec => {
+                const card = document.createElement('div');
+                card.className = 'bg-white dark:bg-gray-800 rounded-2xl shadow border border-gray-100 dark:border-gray-700 overflow-hidden';
+                card.innerHTML = `
+                    <img src="${getImageUrl(rec)}" alt="${rec.fruit_name}" class="w-full h-36 object-cover" loading="lazy" decoding="async" referrerpolicy="no-referrer" crossorigin="anonymous" data-fruit="${rec.fruit_name}" onerror="handleImgError(this)">
+                    <div class="p-4">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <div class="font-semibold">${rec.fruit_name}</div>
+                                <div class="text-xs text-gray-500 dark:text-gray-400">${rec.variety}</div>
+                            </div>
+                            <button class="text-xs px-2 py-1 rounded border border-gray-300 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700" data-remove>Remove</button>
+                        </div>
+                    </div>`;
+                card.querySelector('[data-remove]')?.addEventListener('click', () => toggleFavorite(rec));
+                favoritesGrid.appendChild(card);
+            });
+        }
+
+        // Skeletons and Toasts
+        function createSkeletonCards(n) {
+            let html = '';
+            for (let i=0;i<n;i++) {
+                html += `
+                <div class="animate-pulse bg-white dark:bg-gray-800 rounded-2xl shadow p-4 border border-gray-100 dark:border-gray-700">
+                    <div class="h-40 bg-gray-200 dark:bg-gray-700 rounded mb-4"></div>
+                    <div class="h-4 bg-gray-200 dark:bg-gray-700 rounded w-2/3 mb-2"></div>
+                    <div class="h-3 bg-gray-200 dark:bg-gray-700 rounded w-1/3 mb-4"></div>
+                    <div class="h-2 bg-gray-200 dark:bg-gray-700 rounded w-full mb-1"></div>
+                    <div class="h-2 bg-gray-200 dark:bg-gray-700 rounded w-5/6"></div>
+                </div>`;
+            }
+            return html;
+        }
+        function showToast(msg) {
+            toast.textContent = msg;
+            toast.classList.remove('hidden');
+            clearTimeout(showToast._t);
+            showToast._t = setTimeout(() => toast.classList.add('hidden'), 1500);
+        }
+    </script>
+</body>
+</html>

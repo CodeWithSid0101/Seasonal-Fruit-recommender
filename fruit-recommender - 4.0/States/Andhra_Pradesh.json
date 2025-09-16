@@ -1,0 +1,136 @@
+{
+  "Andhra Pradesh": {
+    "fruit_production_overview": "Often hailed as the 'Fruit Bowl of India', Andhra Pradesh is a national leader in the production of mangoes, bananas, papayas, and sweet limes. The state's fertile river basins, particularly of the Krishna and Godavari, combined with a favorable tropical climate, create an ideal environment for large-scale, commercial horticulture. Many of its fruit varieties, especially the Banganapalli mango, are celebrated across the country and hold GI tags.",
+    "major_fruit_districts": {
+      "Chittoor": {
+        "agricultural_significance": "Chittoor is the epicenter of mango cultivation in Andhra Pradesh, particularly famous for the Totapuri variety, which is a cornerstone of the mango processing industry. The district is also a major producer of papaya and sapota.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [5, 6, 7],
+            "famous_varieties": ["Totapuri", "Banganapalli", "Neelam"],
+            "health_tags": ["immunity", "vision", "digestion", "skin_health"],
+            "avg_price_per_kg_inr": 70,
+            "estimated_user_rating": 4.5
+          },
+          {
+            "fruit_name": "Papaya",
+            "peak_months": [9, 10, 11, 12],
+            "famous_varieties": ["Red Lady", "Coorg Honey Dew"],
+            "health_tags": ["digestion", "vitamin_c", "immunity"],
+            "avg_price_per_kg_inr": 30,
+            "estimated_user_rating": 4.4
+          },
+          {
+            "fruit_name": "Sapota",
+            "peak_months": [1, 2, 9, 10, 11],
+            "famous_varieties": ["Kalipatti", "Pala"],
+            "health_tags": ["energy", "fiber", "minerals"],
+            "avg_price_per_kg_inr": 50,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      },
+      "Anantapur": {
+        "agricultural_significance": "Anantapur is the leading district for sweet lime (Mosambi/Sathgudi) and papaya production in the state. Its semi-arid climate is exceptionally well-suited for cultivating these fruits, resulting in high yields and superior quality.",
+        "fruits": [
+          {
+            "fruit_name": "Sweet Lime",
+            "peak_months": [8, 9, 10, 11],
+            "famous_varieties": ["Sathgudi"],
+            "health_tags": ["hydration", "vitamin_c", "digestion", "cooling"],
+            "avg_price_per_kg_inr": 45,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Papaya",
+            "peak_months": [10, 11, 12, 1],
+            "famous_varieties": ["Red Lady"],
+            "health_tags": ["digestion", "immunity", "skin_health"],
+            "avg_price_per_kg_inr": 25,
+            "estimated_user_rating": 4.3
+          },
+          {
+            "fruit_name": "Pomegranate",
+            "peak_months": [8, 9, 10],
+            "famous_varieties": ["Bhagwa", "Ganesh"],
+            "health_tags": ["heart_health", "antioxidant", "blood_pressure"],
+            "avg_price_per_kg_inr": 120,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      },
+      "Kadapa (YSR District)": {
+        "agricultural_significance": "Kadapa is a powerhouse for banana cultivation, especially in the Godavari river belt, producing varieties suitable for both table and culinary purposes. The district is also a major hub for high-quality sweet lime production.",
+        "fruits": [
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Karpuravalli (Kovvur)", "Dwarf Cavendish", "Robusta"],
+            "health_tags": ["energy", "potassium", "heart_health", "digestion"],
+            "avg_price_per_kg_inr": 25,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Sweet Lime",
+            "peak_months": [9, 10, 11, 12],
+            "famous_varieties": ["Sathgudi"],
+            "health_tags": ["hydration", "vitamin_c", "cooling"],
+            "avg_price_per_kg_inr": 40,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      },
+      "Krishna": {
+        "agricultural_significance": "This district is the native home of the world-famous, GI-tagged Banganapalli mango, cherished for its unique sweetness and fiber-free pulp. The fertile deltaic soils also make it a prime location for guava cultivation.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [4, 5, 6],
+            "famous_varieties": ["Banganapalli (Benishan)", "Rasalu"],
+            "health_tags": ["immunity", "vision", "antioxidants"],
+            "avg_price_per_kg_inr": 90,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Guava",
+            "peak_months": [10, 11, 12, 1],
+            "famous_varieties": ["Allahabad Safeda", "Taiwan Pink"],
+            "health_tags": ["vitamin_c", "immunity", "fiber", "digestion"],
+            "avg_price_per_kg_inr": 60,
+            "estimated_user_rating": 4.6
+          }
+        ]
+      },
+      "Vizianagaram": {
+        "agricultural_significance": "Located in the North Coastal zone, Vizianagaram is known for its distinctive mango varieties like Suvarnarekha. It is also a significant producer of jackfruit and cashews, benefiting from its unique coastal climate.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [4, 5],
+            "famous_varieties": ["Suvarnarekha", "Collector"],
+            "health_tags": ["immunity", "vision", "skin_health"],
+            "avg_price_per_kg_inr": 80,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Jackfruit",
+            "peak_months": [5, 6, 7],
+            "famous_varieties": ["Local Varieties"],
+            "health_tags": ["fiber", "energy", "potassium"],
+            "avg_price_per_kg_inr": 40,
+            "estimated_user_rating": 4.3
+          },
+          {
+            "fruit_name": "Cashew Apple",
+            "peak_months": [3, 4, 5],
+            "famous_varieties": ["BPP-8"],
+            "health_tags": ["antioxidant", "immunity", "vitamin_c"],
+            "avg_price_per_kg_inr": 70,
+            "estimated_user_rating": 4.1
+          }
+        ]
+      }
+    }
+  }
+}

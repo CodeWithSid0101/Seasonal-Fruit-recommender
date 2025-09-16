@@ -1,0 +1,138 @@
+{
+  "Maharashtra": {
+    "fruit_production_overview": "Maharashtra is a powerhouse in Indian horticulture, leading the nation in the production of grapes, pomegranates, bananas, and mangoes. The state's diverse agro-climatic zones, from the coastal Konkan belt to the Deccan plateau, support a rich variety of fruits, several of which, like the Alphonso Mango and Nashik Grapes, hold prestigious Geographical Indication (GI) tags and are major export commodities.",
+    "major_fruit_districts": {
+      "Ratnagiri": {
+        "agricultural_significance": "Globally renowned as the heartland of the GI-tagged Alphonso mango, Ratnagiri's lateritic soil and coastal climate provide ideal conditions for mango and cashew cultivation.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [4, 5, 6],
+            "famous_varieties": ["Alphonso (Hapus)", "Payri"],
+            "health_tags": ["immunity", "vision", "skin_health", "digestion"],
+            "avg_price_per_kg_inr": 350,
+            "estimated_user_rating": 4.9
+          },
+          {
+            "fruit_name": "Cashew Apple",
+            "peak_months": [3, 4, 5],
+            "famous_varieties": ["Vengurla-4", "Vengurla-7"],
+            "health_tags": ["antioxidant", "immunity", "vitamin_c"],
+            "avg_price_per_kg_inr": 80,
+            "estimated_user_rating": 4.2
+          }
+        ]
+      },
+      "Nashik": {
+        "agricultural_significance": "Known as the 'Grape Capital of India', Nashik accounts for the majority of India's grape production and export. The district's climate is also highly conducive to growing high-quality pomegranates and strawberries.",
+        "fruits": [
+          {
+            "fruit_name": "Grapes",
+            "peak_months": [1, 2, 3, 4],
+            "famous_varieties": ["Thompson Seedless", "Sonaka", "Sharad Seedless"],
+            "health_tags": ["heart_health", "antioxidant", "brain_function"],
+            "avg_price_per_kg_inr": 100,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Pomegranate",
+            "peak_months": [7, 8, 9, 10],
+            "famous_varieties": ["Bhagwa", "Ganesh", "Arakta"],
+            "health_tags": ["heart_health", "antioxidant", "blood_pressure"],
+            "avg_price_per_kg_inr": 150,
+            "estimated_user_rating": 4.7
+          }
+        ]
+      },
+      "Jalgaon": {
+        "agricultural_significance": "Jalgaon is famously titled the 'Banana Capital of India', contributing significantly to the country's banana production. The region's rich, deep soil and favorable climate support year-round cultivation of high-quality bananas.",
+        "fruits": [
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Grand Naine", "Shrimanti"],
+            "health_tags": ["energy", "potassium", "heart_health", "digestion"],
+            "avg_price_per_kg_inr": 30,
+            "estimated_user_rating": 4.6
+          }
+        ]
+      },
+      "Nagpur": {
+        "agricultural_significance": "Nagpur is synonymous with oranges, lending its name to the famous GI-tagged 'Nagpur Santra'. The unique acidic soil and dry climate of the Vidarbha region give the oranges their characteristic sweet and tangy flavor.",
+        "fruits": [
+          {
+            "fruit_name": "Orange",
+            "peak_months": [12, 1, 2, 3],
+            "famous_varieties": ["Nagpur Mandarin"],
+            "health_tags": ["vitamin_c", "immunity", "skin_health", "hydration"],
+            "avg_price_per_kg_inr": 70,
+            "estimated_user_rating": 4.7
+          }
+        ]
+      },
+      "Pune": {
+        "agricultural_significance": "The Purandar taluka of Pune district is famous for its high-quality figs (Anjeer), which have also received a GI tag. The region's dry climate is perfect for developing the fruit's sweetness and texture.",
+        "fruits": [
+          {
+            "fruit_name": "Fig (Anjeer)",
+            "peak_months": [2, 3, 6, 7],
+            "famous_varieties": ["Poona Red", "Dinkar"],
+            "health_tags": ["fiber", "bone_health", "digestion", "blood_pressure"],
+            "avg_price_per_kg_inr": 400,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Custard Apple (Sitaphal)",
+            "peak_months": [9, 10, 11],
+            "famous_varieties": ["Balanagar", "Annona-2"],
+            "health_tags": ["energy", "minerals", "immunity", "vision"],
+            "avg_price_per_kg_inr": 120,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      },
+      "Satara": {
+        "agricultural_significance": "The hilly terrains of Mahabaleshwar and Wai in Satara district are the strawberry heartland of India. The cool climate and red soil are ideal for cultivating juicy, flavorful strawberries and other berries.",
+        "fruits": [
+          {
+            "fruit_name": "Strawberry",
+            "peak_months": [12, 1, 2],
+            "famous_varieties": ["Sweet Charlie", "Camarosa", "Nabila"],
+            "health_tags": ["antioxidant", "heart_health", "vitamin_c", "brain_function"],
+            "avg_price_per_kg_inr": 250,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Raspberry",
+            "peak_months": [12, 1, 2],
+            "famous_varieties": ["Tulameen"],
+            "health_tags": ["fiber", "antioxidant", "low_calorie"],
+            "avg_price_per_kg_inr": 500,
+            "estimated_user_rating": 4.4
+          }
+        ]
+      },
+      "Solapur": {
+        "agricultural_significance": "Solapur is a major contributor to Maharashtra's title as the leading pomegranate producer. The district's arid and semi-arid conditions are optimal for developing pomegranates with a rich color and high sugar content.",
+        "fruits": [
+          {
+            "fruit_name": "Pomegranate",
+            "peak_months": [8, 9, 10, 11],
+            "famous_varieties": ["Bhagwa", "Solapur Lal"],
+            "health_tags": ["heart_health", "antioxidant", "anti_inflammatory"],
+            "avg_price_per_kg_inr": 140,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Jujube (Ber)",
+            "peak_months": [1, 2, 12],
+            "famous_varieties": ["Umran", "Gola"],
+            "health_tags": ["bone_health", "digestion", "immunity"],
+            "avg_price_per_kg_inr": 60,
+            "estimated_user_rating": 4.3
+          }
+        ]
+      }
+    }
+  }
+}

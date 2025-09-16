@@ -1,0 +1,70 @@
+{
+  "Sikkim": {
+    "fruit_production_overview": "As India's first and only 100% organic state, Sikkim's horticultural produce holds a unique premium in the market. Its pristine Himalayan ecosystem, with altitudes ranging from subtropical to temperate, is ideal for cultivating high-quality fruits like the famous Sikkim Mandarin orange, passion fruit, and kiwi. The state's focus is on sustainable, low-volume, high-value fruit crops that are in growing demand nationally and internationally.",
+    "major_fruit_districts": {
+      "Namchi": {
+        "agricultural_significance": "Namchi, in South Sikkim, is the heartland of Sikkim Mandarin cultivation, with its gentle slopes and favorable climate producing some of the best oranges in the region. The district is also a significant producer of passion fruit and has large areas under organic cultivation.",
+        "fruits": [
+          {
+            "fruit_name": "Mandarin Orange",
+            "peak_months": [11, 12, 1],
+            "famous_varieties": ["Sikkim Mandarin"],
+            "health_tags": ["vitamin_c", "immunity", "skin_health", "hydration"],
+            "avg_price_per_kg_inr": 100,
+            "estimated_user_rating": 4.9
+          },
+          {
+            "fruit_name": "Passion Fruit",
+            "peak_months": [7, 8, 9],
+            "famous_varieties": ["Purple", "Yellow"],
+            "health_tags": ["antioxidant", "fiber", "immunity", "sleep_aid"],
+            "avg_price_per_kg_inr": 150,
+            "estimated_user_rating": 4.7
+          }
+        ]
+      },
+      "Gyalshing": {
+        "agricultural_significance": "Gyalshing, in West Sikkim, is a major hub for passion fruit cultivation, leveraging its suitable climate for this high-value crop. The district also has a significant area dedicated to growing pears and other temperate fruits.",
+        "fruits": [
+          {
+            "fruit_name": "Passion Fruit",
+            "peak_months": [8, 9, 10],
+            "famous_varieties": ["Purple"],
+            "health_tags": ["antioxidant", "fiber", "vision"],
+            "avg_price_per_kg_inr": 140,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Pear",
+            "peak_months": [8, 9],
+            "famous_varieties": ["Local Varieties"],
+            "health_tags": ["fiber", "digestion", "hydration", "low_calorie"],
+            "avg_price_per_kg_inr": 120,
+            "estimated_user_rating": 4.4
+          }
+        ]
+      },
+      "Gangtok": {
+        "agricultural_significance": "The region around the capital, Gangtok, is at the forefront of kiwi cultivation in Sikkim, with farmers increasingly adopting this lucrative fruit. The district's higher altitudes are also suitable for temperate stone fruits like plums.",
+        "fruits": [
+          {
+            "fruit_name": "Kiwi",
+            "peak_months": [10, 11, 12],
+            "famous_varieties": ["Hayward", "Allison", "Bruno"],
+            "health_tags": ["vitamin_c", "immunity", "digestion", "antioxidant"],
+            "avg_price_per_kg_inr": 320,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Plum",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Santaroja", "Mariposa"],
+            "health_tags": ["antioxidant", "digestion", "bone_health"],
+            "avg_price_per_kg_inr": 180,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      }
+    }
+  }
+}

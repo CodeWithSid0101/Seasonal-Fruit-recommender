@@ -1,0 +1,44 @@
+{
+  "Delhi": {
+    "fruit_production_overview": "The National Capital Territory of Delhi, being a metropolis, has very limited commercial fruit production within its administrative boundaries. Its horticultural significance lies in being one of Asia's largest wholesale and consumption markets, with produce arriving from all over India. The fruits locally available are primarily sourced from its immediate agricultural hinterland in Haryana and Uttar Pradesh, reflecting the produce of the North Indian plains.",
+    "major_fruit_districts": {
+      "Delhi-NCR Periphery": {
+        "agricultural_significance": "This represents the rural pockets of Delhi and the surrounding agricultural belts of Haryana and Uttar Pradesh that directly supply the city. While not large-scale orchards, these areas cultivate seasonal fruits like guava, mango, and ber suited to the region's climate.",
+        "fruits": [
+          {
+            "fruit_name": "Guava",
+            "peak_months": [11, 12, 1, 2],
+            "famous_varieties": ["Allahabad Safeda", "Sardar (L-49)"],
+            "health_tags": ["immunity", "vitamin_c", "fiber", "digestion"],
+            "avg_price_per_kg_inr": 70,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Mango",
+            "peak_months": [6, 7, 8],
+            "famous_varieties": ["Chausa", "Dasheri", "Langra"],
+            "health_tags": ["immunity", "vision", "skin_health"],
+            "avg_price_per_kg_inr": 90,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Jujube (Ber)",
+            "peak_months": [1, 2, 12],
+            "famous_varieties": ["Gola", "Umran"],
+            "health_tags": ["bone_health", "digestion", "sleep_aid"],
+            "avg_price_per_kg_inr": 55,
+            "estimated_user_rating": 4.3
+          },
+          {
+            "fruit_name": "Jamun (Java Plum)",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Local Varieties"],
+            "health_tags": ["diabetes_friendly", "digestion", "blood_purifier"],
+            "avg_price_per_kg_inr": 120,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      }
+    }
+  }
+}

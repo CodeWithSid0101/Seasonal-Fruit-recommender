@@ -1,0 +1,91 @@
+{
+  "Uttarakhand": {
+    "fruit_production_overview": "Uttarakhand, aptly known as the 'Fruit Bowl of the Himalayas', leverages its diverse agro-climatic zones to cultivate a wide range of fruits. Its sub-montane and Terai plains are renowned for subtropical fruits like litchis and mangoes, while the mid to high-altitude hills are famous for temperate fruits such as apples, pears, peaches, and apricots. The state's produce is highly valued for its distinct flavor and quality, which is attributed to the unique mountain environment.",
+    "major_fruit_districts": {
+      "Nainital": {
+        "agricultural_significance": "The Ramgarh-Mukteshwar belt in Nainital is famously called the 'Fruit Bowl of Kumaon'. This region is a major hub for temperate fruits, particularly high-quality peaches, apricots, and plums that thrive in its ideal climate.",
+        "fruits": [
+          {
+            "fruit_name": "Peach",
+            "peak_months": [5, 6, 7],
+            "famous_varieties": ["Redhaven", "Paradelux", "Crawford's Early"],
+            "health_tags": ["vision", "skin_health", "immunity", "digestion"],
+            "avg_price_per_kg_inr": 130,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Apricot",
+            "peak_months": [5, 6],
+            "famous_varieties": ["Halman", "Lucknowi", "New Castle"],
+            "health_tags": ["vision", "skin_health", "antioxidant", "iron"],
+            "avg_price_per_kg_inr": 170,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Apple",
+            "peak_months": [8, 9],
+            "famous_varieties": ["Royal Delicious", "Red Delicious"],
+            "health_tags": ["fiber", "heart_health", "weight_management"],
+            "avg_price_per_kg_inr": 110,
+            "estimated_user_rating": 4.6
+          }
+        ]
+      },
+      "Dehradun": {
+        "agricultural_significance": "The Doon Valley is celebrated for its premium litchis, with the 'Dehraduni Litchi' being a prized variety known for its juicy pulp and unique flavor. The district is also a significant producer of pears and guavas.",
+        "fruits": [
+          {
+            "fruit_name": "Litchi",
+            "peak_months": [5, 6],
+            "famous_varieties": ["Dehraduni", "Rose Scented", "Calcutta"],
+            "health_tags": ["vitamin_c", "antioxidant", "hydration", "immunity"],
+            "avg_price_per_kg_inr": 180,
+            "estimated_user_rating": 4.9
+          },
+          {
+            "fruit_name": "Pear",
+            "peak_months": [7, 8],
+            "famous_varieties": ["Gola", "Patharnakh", "Victoria"],
+            "health_tags": ["fiber", "digestion", "hydration", "low_calorie"],
+            "avg_price_per_kg_inr": 80,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      },
+      "Almora": {
+        "agricultural_significance": "Almora is a key district in the Kumaon region for the production of apples and walnuts. Its temperate climate and terraced farms are ideal for cultivating high-quality apples and other temperate fruits.",
+        "fruits": [
+          {
+            "fruit_name": "Apple",
+            "peak_months": [8, 9],
+            "famous_varieties": ["Golden Delicious", "Red Fuji", "Rymer"],
+            "health_tags": ["fiber", "heart_health", "brain_function"],
+            "avg_price_per_kg_inr": 120,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Walnut",
+            "peak_months": [9, 10],
+            "famous_varieties": ["Chakrata Selection", "Local Kagazi"],
+            "health_tags": ["brain_health", "omega_3", "heart_health", "antioxidant"],
+            "avg_price_per_kg_inr": 550,
+            "estimated_user_rating": 4.6
+          }
+        ]
+      },
+      "Uttarkashi": {
+        "agricultural_significance": "This high-altitude district is renowned for its premium 'Harsil Apples', a local brand that commands a high price for its exceptional sweetness and crispiness. The cold climate of the region is perfect for producing high-quality, late-season apples.",
+        "fruits": [
+          {
+            "fruit_name": "Apple",
+            "peak_months": [8, 9, 10],
+            "famous_varieties": ["Harsil Apple (Wilson)", "Royal Delicious", "Red Chief"],
+            "health_tags": ["fiber", "heart_health", "weight_management"],
+            "avg_price_per_kg_inr": 200,
+            "estimated_user_rating": 4.9
+          }
+        ]
+      }
+    }
+  }
+}

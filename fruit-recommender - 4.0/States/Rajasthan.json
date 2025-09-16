@@ -1,0 +1,75 @@
+{
+  "Rajasthan": {
+    "fruit_production_overview": "Rajasthan has adeptly transformed its arid and semi-arid climate into a horticultural advantage, emerging as a leading Indian state for producing drought-tolerant fruits like Ber, Amla, and Pomegranate. The state's canal-irrigated northern districts form a major citrus belt, specializing in Kinnow and Malta oranges. Through modern agricultural practices, even the western desert regions are becoming significant hubs for date and pomegranate cultivation.",
+    "major_fruit_districts": {
+      "Sri Ganganagar": {
+        "agricultural_significance": "Known as the 'Food Basket of Rajasthan' due to canal irrigation, Sri Ganganagar is the state's primary citrus hub. It is the largest producer of Kinnow and Malta (sweet orange) in Rajasthan, benefiting from its fertile alluvial soil.",
+        "fruits": [
+          {
+            "fruit_name": "Kinnow",
+            "peak_months": [12, 1, 2],
+            "famous_varieties": ["Kinnow"],
+            "health_tags": ["vitamin_c", "immunity", "hydration", "skin_health"],
+            "avg_price_per_kg_inr": 40,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Sweet Orange (Malta)",
+            "peak_months": [12, 1, 2],
+            "famous_varieties": ["Blood Red", "Jaffa"],
+            "health_tags": ["immunity", "antioxidant", "fiber"],
+            "avg_price_per_kg_inr": 55,
+            "estimated_user_rating": 4.4
+          }
+        ]
+      },
+      "Jhalawar": {
+        "agricultural_significance": "Often called 'Chhota Nagpur' of Rajasthan, Jhalawar is the state's leading producer of Mandarin oranges (Santra). The region's black soil and unique microclimate are highly conducive to producing high-quality, juicy oranges.",
+        "fruits": [
+          {
+            "fruit_name": "Orange",
+            "peak_months": [12, 1, 2],
+            "famous_varieties": ["Jhalawari Santra (Mandarin)"],
+            "health_tags": ["vitamin_c", "immunity", "skin_health", "hydration"],
+            "avg_price_per_kg_inr": 50,
+            "estimated_user_rating": 4.7
+          }
+        ]
+      },
+      "Sawai Madhopur": {
+        "agricultural_significance": "This district is famous for its high-quality guavas, which are supplied to markets across North India. The fertile soil of the Banas river basin provides ideal conditions for growing large, sweet, and flavorful guavas.",
+        "fruits": [
+          {
+            "fruit_name": "Guava",
+            "peak_months": [11, 12, 1],
+            "famous_varieties": ["Allahabad Safeda", "Lalit", "Sawai Madhopur Special"],
+            "health_tags": ["immunity", "vitamin_c", "fiber", "digestion"],
+            "avg_price_per_kg_inr": 70,
+            "estimated_user_rating": 4.8
+          }
+        ]
+      },
+      "Jaipur": {
+        "agricultural_significance": "The Jaipur region is a major hub for arid horticulture, excelling in the production of Ber (Jujube) and Amla. The district's semi-arid climate is perfect for these hardy, nutritious, and commercially important fruit crops.",
+        "fruits": [
+          {
+            "fruit_name": "Jujube (Ber)",
+            "peak_months": [1, 2, 12],
+            "famous_varieties": ["Gola", "Seb", "Mundia"],
+            "health_tags": ["bone_health", "digestion", "sleep_aid", "immunity"],
+            "avg_price_per_kg_inr": 60,
+            "estimated_user_rating": 4.5
+          },
+          {
+            "fruit_name": "Amla (Indian Gooseberry)",
+            "peak_months": [11, 12, 1],
+            "famous_varieties": ["NA-7", "Chakaiya"],
+            "health_tags": ["vitamin_c", "hair_health", "immunity", "antioxidant"],
+            "avg_price_per_kg_inr": 45,
+            "estimated_user_rating": 4.4
+          }
+        ]
+      }
+    }
+  }
+}

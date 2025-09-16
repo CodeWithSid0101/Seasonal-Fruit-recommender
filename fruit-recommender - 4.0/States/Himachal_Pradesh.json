@@ -1,0 +1,99 @@
+{
+  "Himachal Pradesh": {
+    "fruit_production_overview": "Widely acclaimed as the 'Fruit Bowl of India', Himachal Pradesh's economy is profoundly driven by its temperate horticulture. The state is the country's leading producer of apples, which form the backbone of its agricultural identity. Beyond apples, it cultivates a rich diversity of other temperate fruits, including high-quality stone fruits like plums, peaches, apricots, and cherries, which thrive in its mountainous terrain.",
+    "major_fruit_districts": {
+      "Shimla": {
+        "agricultural_significance": "Shimla is the largest apple-producing district, often considered the heartland of India's apple revolution. The region, particularly areas like Kotgarh and Rohru, also cultivates premium quality cherries and pears.",
+        "fruits": [
+          {
+            "fruit_name": "Apple",
+            "peak_months": [8, 9, 10],
+            "famous_varieties": ["Royal Delicious", "Red Delicious", "Golden Delicious"],
+            "health_tags": ["fiber", "heart_health", "weight_management", "digestion"],
+            "avg_price_per_kg_inr": 120,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Cherry",
+            "peak_months": [5, 6],
+            "famous_varieties": ["Merchant", "Stella", "Van"],
+            "health_tags": ["antioxidant", "anti_inflammatory", "sleep_aid"],
+            "avg_price_per_kg_inr": 600,
+            "estimated_user_rating": 4.9
+          }
+        ]
+      },
+      "Kullu": {
+        "agricultural_significance": "The Kullu Valley is another major horticultural hub, famous for its apple orchards that produce varieties like Gala and Fuji. It's also a significant producer of pears and plums, benefiting from the fertile soil along the Beas River.",
+        "fruits": [
+          {
+            "fruit_name": "Apple",
+            "peak_months": [8, 9],
+            "famous_varieties": ["Gala", "Fuji", "Granny Smith"],
+            "health_tags": ["fiber", "heart_health", "brain_function"],
+            "avg_price_per_kg_inr": 130,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Pear",
+            "peak_months": [8, 9],
+            "famous_varieties": ["Bartlett", "Max Red Bartlett"],
+            "health_tags": ["fiber", "digestion", "hydration", "low_calorie"],
+            "avg_price_per_kg_inr": 100,
+            "estimated_user_rating": 4.5
+          },
+          {
+            "fruit_name": "Plum",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Santa Rosa", "Mariposa"],
+            "health_tags": ["antioxidant", "digestion", "bone_health"],
+            "avg_price_per_kg_inr": 150,
+            "estimated_user_rating": 4.6
+          }
+        ]
+      },
+      "Solan": {
+        "agricultural_significance": "Solan is the leading district for stone fruit cultivation in Himachal Pradesh, particularly peaches and apricots. In recent years, it has also emerged as a major center for Kiwi production due to its suitable mid-hill climate.",
+        "fruits": [
+          {
+            "fruit_name": "Peach",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Redhaven", "July Elberta"],
+            "health_tags": ["vision", "skin_health", "immunity", "digestion"],
+            "avg_price_per_kg_inr": 140,
+            "estimated_user_rating": 4.5
+          },
+          {
+            "fruit_name": "Apricot",
+            "peak_months": [6, 7],
+            "famous_varieties": ["New Castle", "Halman"],
+            "health_tags": ["vision", "skin_health", "antioxidant", "iron"],
+            "avg_price_per_kg_inr": 180,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Kiwi",
+            "peak_months": [10, 11],
+            "famous_varieties": ["Hayward", "Allison"],
+            "health_tags": ["vitamin_c", "immunity", "digestion", "sleep_aid"],
+            "avg_price_per_kg_inr": 220,
+            "estimated_user_rating": 4.7
+          }
+        ]
+      },
+      "Kinnaur": {
+        "agricultural_significance": "Kinnaur is renowned for producing some of the highest quality apples in the world, which are harvested late in the season and fetch premium prices. The district's high-altitude, cold, and dry climate imparts a unique sweetness, color, and long shelf life to its apples.",
+        "fruits": [
+          {
+            "fruit_name": "Apple",
+            "peak_months": [9, 10, 11],
+            "famous_varieties": ["Kinnauri Apple (Royal Delicious)", "Golden Delicious", "Red Chief"],
+            "health_tags": ["fiber", "heart_health", "weight_management"],
+            "avg_price_per_kg_inr": 180,
+            "estimated_user_rating": 4.9
+          }
+        ]
+      }
+    }
+  }
+}

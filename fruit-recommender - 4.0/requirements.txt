@@ -1,0 +1,12 @@
+Flask==3.0.3
+Flask-Cors==4.0.1
+pandas==2.2.2
+scikit-learn==1.5.1
+gunicorn==22.0.0
+flask==3.0.3           # Web framework
+flask-cors==4.0.1      # CORS support for Flask
+joblib==1.4.2          # Model serialization utilities
+scikit-learn==1.4.2    # ML utilities (align with training env)
+xgboost==2.1.1         # Gradient boosting library
+pandas==2.2.2          # Data manipulation
+numpy==1.26.4          # Numerical computing

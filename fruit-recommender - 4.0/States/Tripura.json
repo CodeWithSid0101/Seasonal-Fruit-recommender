@@ -1,0 +1,78 @@
+{
+  "Tripura": {
+    "fruit_production_overview": "Tripura holds a distinguished place in Indian horticulture, renowned for being one of the country's largest pineapple producers, with its GI-tagged 'Queen' variety celebrated for exceptional sweetness and aroma. The state's humid subtropical climate and undulating terrain are also ideal for the large-scale cultivation of jackfruit, which is a staple food. Oranges, litchis, and a variety of lemons are other significant fruit crops that thrive in this region.",
+    "major_fruit_districts": {
+      "North Tripura": {
+        "agricultural_significance": "North Tripura is a major horticultural hub, excelling in the production of both oranges and pineapples. The district's sub-divisional towns like Kanchanpur are particularly famous for their sweet, high-quality Khasi Mandarin oranges.",
+        "fruits": [
+          {
+            "fruit_name": "Orange",
+            "peak_months": [11, 12, 1],
+            "famous_varieties": ["Khasi Mandarin"],
+            "health_tags": ["vitamin_c", "immunity", "skin_health", "hydration"],
+            "avg_price_per_kg_inr": 70,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Pineapple",
+            "peak_months": [6, 7, 8],
+            "famous_varieties": ["Queen", "Kew"],
+            "health_tags": ["digestion", "immunity", "anti_inflammatory"],
+            "avg_price_per_kg_inr": 45,
+            "estimated_user_rating": 4.8
+          }
+        ]
+      },
+      "Dhalai": {
+        "agricultural_significance": "Dhalai is a leading district for jackfruit and pineapple cultivation, leveraging its vast green cover and favorable climate. The district is a key contributor to Tripura's status as a top producer of these two commercially important fruits.",
+        "fruits": [
+          {
+            "fruit_name": "Jackfruit",
+            "peak_months": [6, 7, 8],
+            "famous_varieties": ["Local Varieties"],
+            "health_tags": ["fiber", "energy", "potassium", "immunity"],
+            "avg_price_per_kg_inr": 25,
+            "estimated_user_rating": 4.5
+          },
+          {
+            "fruit_name": "Pineapple",
+            "peak_months": [7, 8],
+            "famous_varieties": ["Queen"],
+            "health_tags": ["digestion", "vitamin_c", "anti_inflammatory"],
+            "avg_price_per_kg_inr": 50,
+            "estimated_user_rating": 4.9
+          }
+        ]
+      },
+      "Sepahijala": {
+        "agricultural_significance": "This district is renowned for its diverse fruit cultivation, including jackfruit, litchi, and various aromatic lemons. The region's proximity to major markets in Agartala makes it an important center for fresh fruit supply.",
+        "fruits": [
+          {
+            "fruit_name": "Jackfruit",
+            "peak_months": [5, 6, 7],
+            "famous_varieties": ["Local Soft & Hard varieties"],
+            "health_tags": ["fiber", "energy", "potassium"],
+            "avg_price_per_kg_inr": 30,
+            "estimated_user_rating": 4.4
+          },
+          {
+            "fruit_name": "Lemon",
+            "peak_months": [7, 8, 9, 10],
+            "famous_varieties": ["Gondhoraj Lebu", "Assam Lemon"],
+            "health_tags": ["vitamin_c", "immunity", "detox", "digestion"],
+            "avg_price_per_kg_inr": 90,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Litchi",
+            "peak_months": [5, 6],
+            "famous_varieties": ["Local Varieties", "Bombai"],
+            "health_tags": ["vitamin_c", "antioxidant", "hydration"],
+            "avg_price_per_kg_inr": 140,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      }
+    }
+  }
+}

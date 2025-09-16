@@ -1,0 +1,49 @@
+{
+  "Ladakh": {
+    "fruit_production_overview": "Ladakh's horticulture is a remarkable example of cultivation in a high-altitude cold desert, focusing on highly nutritious and adapted fruits. The Union Territory is renowned as the primary producer of high-quality apricots in India, a fruit deeply embedded in its culture and economy. Furthermore, Ladakh is the native home of Sea Buckthorn, a superfood berry that is gaining global recognition for its immense health benefits.",
+    "major_fruit_districts": {
+      "Leh": {
+        "agricultural_significance": "Leh district is the epicenter of Sea Buckthorn (Leh Berry) cultivation and processing, leveraging the wild groves that grow along the Indus and other river valleys. The district also has significant apricot orchards, contributing to the region's fruit basket.",
+        "fruits": [
+          {
+            "fruit_name": "Sea Buckthorn",
+            "peak_months": [8, 9],
+            "famous_varieties": ["Local Wild Selections"],
+            "health_tags": ["vitamin_c", "omega_fatty_acids", "immunity", "skin_health"],
+            "avg_price_per_kg_inr": 400,
+            "estimated_user_rating": 4.9
+          },
+          {
+            "fruit_name": "Apricot",
+            "peak_months": [8, 9],
+            "famous_varieties": ["Halman"],
+            "health_tags": ["vision", "skin_health", "antioxidant", "fiber"],
+            "avg_price_per_kg_inr": 250,
+            "estimated_user_rating": 4.7
+          }
+        ]
+      },
+      "Kargil": {
+        "agricultural_significance": "Kargil is the apricot heartland of Ladakh, with its valleys like Sham and Drass producing some of the sweetest apricots in the world. The district is particularly famous for its unique local varieties like 'Raktsey Karpo'.",
+        "fruits": [
+          {
+            "fruit_name": "Apricot",
+            "peak_months": [8, 9],
+            "famous_varieties": ["Raktsey Karpo", "Halman", "Shakarpara"],
+            "health_tags": ["vision", "iron", "fiber", "potassium"],
+            "avg_price_per_kg_inr": 280,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Apple",
+            "peak_months": [9, 10],
+            "famous_varieties": ["Red Delicious", "Golden Delicious"],
+            "health_tags": ["fiber", "heart_health", "weight_management"],
+            "avg_price_per_kg_inr": 150,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      }
+    }
+  }
+}

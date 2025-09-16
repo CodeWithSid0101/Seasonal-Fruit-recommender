@@ -1,0 +1,78 @@
+{
+  "Puducherry": {
+    "fruit_production_overview": "The horticulture of Puducherry is unique, with its agricultural landscape mirroring that of the larger states surrounding its four non-contiguous districts. The tropical enclaves of Puducherry and Karaikal are significant for mango, jackfruit, and cashew, reflecting Tamil Nadu's agriculture. The coastal districts of Mahe and Yanam are dominated by coconut and banana cultivation, similar to their respective neighbors, Kerala and Andhra Pradesh.",
+    "major_fruit_districts": {
+      "Puducherry & Karaikal": {
+        "agricultural_significance": "These two districts, surrounded by Tamil Nadu, form the agricultural core of the UT. They are known for tropical fruits, with mango, jackfruit, and cashew being the most prominent commercial crops.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [5, 6, 7],
+            "famous_varieties": ["Banganapalli", "Totapuri", "Neelam"],
+            "health_tags": ["immunity", "vision", "skin_health", "digestion"],
+            "avg_price_per_kg_inr": 65,
+            "estimated_user_rating": 4.4
+          },
+          {
+            "fruit_name": "Jackfruit",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Local Varieties"],
+            "health_tags": ["fiber", "energy", "potassium", "immunity"],
+            "avg_price_per_kg_inr": 35,
+            "estimated_user_rating": 4.5
+          },
+          {
+            "fruit_name": "Cashew Apple",
+            "peak_months": [4, 5],
+            "famous_varieties": ["VRI-3"],
+            "health_tags": ["antioxidant", "immunity", "vitamin_c"],
+            "avg_price_per_kg_inr": 50,
+            "estimated_user_rating": 4.2
+          }
+        ]
+      },
+      "Mahe": {
+        "agricultural_significance": "Located on the Malabar Coast and surrounded by Kerala, Mahe's horticulture is dominated by coconut and banana plantations. The produce and cultivation practices are identical to those found in the North Malabar region of Kerala.",
+        "fruits": [
+          {
+            "fruit_name": "Coconut",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["West Coast Tall", "Chowghat Orange Dwarf"],
+            "health_tags": ["hydration", "electrolytes", "healthy_fats"],
+            "avg_price_per_kg_inr": 45,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Nendran", "Palayankodan"],
+            "health_tags": ["energy", "potassium", "digestion"],
+            "avg_price_per_kg_inr": 55,
+            "estimated_user_rating": 4.7
+          }
+        ]
+      },
+      "Yanam": {
+        "agricultural_significance": "Situated in the Godavari Delta and surrounded by Andhra Pradesh, Yanam's agriculture is centered on coconut plantations and banana cultivation. The fertile deltaic soil supports high yields for these key tropical crops.",
+        "fruits": [
+          {
+            "fruit_name": "Coconut",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["East Coast Tall", "Kovvur Tall"],
+            "health_tags": ["hydration", "electrolytes", "minerals"],
+            "avg_price_per_kg_inr": 40,
+            "estimated_user_rating": 4.5
+          },
+          {
+            "fruit_name": "Mango",
+            "peak_months": [4, 5, 6],
+            "famous_varieties": ["Banganapalli", "Suvarnarekha"],
+            "health_tags": ["immunity", "vision", "antioxidants"],
+            "avg_price_per_kg_inr": 70,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      }
+    }
+  }
+}

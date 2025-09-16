@@ -1,0 +1,44 @@
+{
+  "Chandigarh": {
+    "fruit_production_overview": "Chandigarh, as a planned city and union territory, is almost entirely urban and does not have any commercial fruit production districts of its own. Its horticultural landscape is defined by its role as a major consumption and trading hub for fresh produce from the surrounding states of Punjab, Haryana, and Himachal Pradesh. Therefore, the fruits available are representative of the produce from these neighboring regions, particularly mangoes, kinnows, pears, and guavas.",
+    "major_fruit_districts": {
+      "Chandigarh Capital Region": {
+        "agricultural_significance": "This region represents the agricultural periphery of Chandigarh, primarily in the districts of Mohali (Punjab) and Panchkula (Haryana). While not large-scale, kitchen gardens and small orchards in this area cultivate seasonal fruits, and it serves as the immediate catchment area for the city's fruit markets.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [6, 7, 8],
+            "famous_varieties": ["Dasheri", "Langra", "Chausa"],
+            "health_tags": ["immunity", "vision", "skin_health", "digestion"],
+            "avg_price_per_kg_inr": 85,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Kinnow",
+            "peak_months": [12, 1, 2],
+            "famous_varieties": ["Kinnow"],
+            "health_tags": ["vitamin_c", "immunity", "hydration"],
+            "avg_price_per_kg_inr": 40,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Pear",
+            "peak_months": [8, 9],
+            "famous_varieties": ["Patharnakh"],
+            "health_tags": ["fiber", "digestion", "hydration", "low_calorie"],
+            "avg_price_per_kg_inr": 75,
+            "estimated_user_rating": 4.4
+          },
+          {
+            "fruit_name": "Guava",
+            "peak_months": [11, 12, 1],
+            "famous_varieties": ["Sardar (L-49)", "Allahabad Safeda"],
+            "health_tags": ["immunity", "vitamin_c", "fiber"],
+            "avg_price_per_kg_inr": 65,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      }
+    }
+  }
+}

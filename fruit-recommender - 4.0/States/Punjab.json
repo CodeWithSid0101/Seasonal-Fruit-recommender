@@ -1,0 +1,83 @@
+{
+  "Punjab": {
+    "fruit_production_overview": "While renowned for its grain production, Punjab has a robust horticultural sector, distinguished by its leadership in citrus cultivation, particularly Kinnow. The state's fertile plains and subtropical climate are highly conducive to growing this mandarin hybrid, making it the largest producer in India. As part of crop diversification, Punjab also has significant areas dedicated to pears, guavas, mangoes, and litchis, especially in its sub-montane regions.",
+    "major_fruit_districts": {
+      "Fazilka": {
+        "agricultural_significance": "The Abohar-Fazilka belt is the undisputed 'Kinnow Capital of India'. The region's unique climate, with its hot summers and cool winters, provides the ideal conditions for developing the fruit's characteristic sweet and tangy taste.",
+        "fruits": [
+          {
+            "fruit_name": "Kinnow",
+            "peak_months": [12, 1, 2],
+            "famous_varieties": ["Kinnow"],
+            "health_tags": ["vitamin_c", "immunity", "hydration", "skin_health"],
+            "avg_price_per_kg_inr": 35,
+            "estimated_user_rating": 4.7
+          }
+        ]
+      },
+      "Hoshiarpur": {
+        "agricultural_significance": "Located in the state's sub-montane 'Kandi' belt, Hoshiarpur is the leading district for mango and litchi cultivation. The region's undulating terrain and loamy soil are perfect for these subtropical fruit orchards.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [6, 7, 8],
+            "famous_varieties": ["Dasheri", "Langra", "Chausa"],
+            "health_tags": ["immunity", "vision", "skin_health", "digestion"],
+            "avg_price_per_kg_inr": 80,
+            "estimated_user_rating": 4.5
+          },
+          {
+            "fruit_name": "Litchi",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Dehradun", "Calcutta"],
+            "health_tags": ["vitamin_c", "antioxidant", "hydration"],
+            "avg_price_per_kg_inr": 170,
+            "estimated_user_rating": 4.6
+          }
+        ]
+      },
+      "Ludhiana": {
+        "agricultural_significance": "Ludhiana is a major producer of pears, especially the hardy 'Patharnakh' variety, which is well-suited to the local climate. The district also has significant guava orchards, supported by research from the Punjab Agricultural University.",
+        "fruits": [
+          {
+            "fruit_name": "Pear",
+            "peak_months": [8, 9],
+            "famous_varieties": ["Patharnakh", "Punjab Beauty"],
+            "health_tags": ["fiber", "digestion", "hydration", "low_calorie"],
+            "avg_price_per_kg_inr": 70,
+            "estimated_user_rating": 4.4
+          },
+          {
+            "fruit_name": "Guava",
+            "peak_months": [11, 12, 1],
+            "famous_varieties": ["Sardar (L-49)"],
+            "health_tags": ["immunity", "vitamin_c", "fiber"],
+            "avg_price_per_kg_inr": 60,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      },
+      "Patiala": {
+        "agricultural_significance": "Patiala is renowned for its high-quality guava orchards, with a focus on varieties like 'Sardar' and 'Allahabad Safeda'. The district is also a notable producer of Ber (Jujube), a traditional and hardy fruit crop of the region.",
+        "fruits": [
+          {
+            "fruit_name": "Guava",
+            "peak_months": [11, 12, 1],
+            "famous_varieties": ["Sardar (L-49)", "Allahabad Safeda", "Shweta"],
+            "health_tags": ["immunity", "vitamin_c", "fiber", "digestion"],
+            "avg_price_per_kg_inr": 65,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Jujube (Ber)",
+            "peak_months": [1, 2],
+            "famous_varieties": ["Umran", "Sanaur-2"],
+            "health_tags": ["bone_health", "digestion", "sleep_aid"],
+            "avg_price_per_kg_inr": 50,
+            "estimated_user_rating": 4.3
+          }
+        ]
+      }
+    }
+  }
+}

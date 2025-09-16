@@ -1,0 +1,91 @@
+{
+  "Tamil Nadu": {
+    "fruit_production_overview": "Tamil Nadu is a horticultural behemoth in India, holding the top position in banana production and being a major hub for mango cultivation, especially processing varieties. The state's diverse agro-climatic zones, from the tropical coastal plains to the temperate hills of the Western Ghats, support a rich variety of fruits. It is also a significant producer of grapes, guava, and jackfruit, with many unique local varieties holding cultural and economic importance.",
+    "major_fruit_districts": {
+      "Theni": {
+        "agricultural_significance": "Theni is famously known as the 'Grape Capital of South India', particularly for its cultivation of Panneer Drakshai (Muscat Hamburg grapes) in the Cumbum Valley. The district is also a major producer of bananas and mangoes.",
+        "fruits": [
+          {
+            "fruit_name": "Grapes",
+            "peak_months": [1, 2, 3, 4, 8, 9],
+            "famous_varieties": ["Panneer Drakshai (Muscat Hamburg)", "Thompson Seedless"],
+            "health_tags": ["heart_health", "antioxidant", "brain_function"],
+            "avg_price_per_kg_inr": 70,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Nendran", "Poovan"],
+            "health_tags": ["energy", "potassium", "digestion"],
+            "avg_price_per_kg_inr": 45,
+            "estimated_user_rating": 4.6
+          }
+        ]
+      },
+      "Krishnagiri": {
+        "agricultural_significance": "Krishnagiri, along with neighboring Dharmapuri, forms the 'Mango Belt' of Tamil Nadu and is one of the largest mango processing hubs in Asia. The district is particularly dominant in the cultivation of the Totapuri mango variety.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [5, 6, 7],
+            "famous_varieties": ["Totapuri", "Banganapalli", "Neelam", "Alphonso"],
+            "health_tags": ["immunity", "vision", "skin_health", "digestion"],
+            "avg_price_per_kg_inr": 55,
+            "estimated_user_rating": 4.3
+          }
+        ]
+      },
+      "Tiruchirappalli": {
+        "agricultural_significance": "Tiruchirappalli (Trichy) is at the heart of the state's banana belt, cultivating a wide range of commercial and traditional varieties. The fertile Cauvery delta region provides the ideal conditions for year-round banana production.",
+        "fruits": [
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Poovan", "Karpooravalli", "Rasthali", "Monthan"],
+            "health_tags": ["energy", "potassium", "heart_health", "digestion"],
+            "avg_price_per_kg_inr": 40,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Sapota",
+            "peak_months": [9, 10, 11],
+            "famous_varieties": ["Kalipatti", "Pala"],
+            "health_tags": ["energy", "fiber", "minerals"],
+            "avg_price_per_kg_inr": 50,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      },
+      "Dindigul": {
+        "agricultural_significance": "Dindigul is renowned for its high-quality guavas and the unique 'Sirumalai' hill banana, prized for its medicinal properties and flavor. The district's Kodaikanal hills are also famous for temperate fruits like plums and pears.",
+        "fruits": [
+          {
+            "fruit_name": "Guava",
+            "peak_months": [3, 4, 9, 10, 11],
+            "famous_varieties": ["Lucknow-49 (Sardar)", "Allahabad Safeda"],
+            "health_tags": ["immunity", "vitamin_c", "fiber", "digestion"],
+            "avg_price_per_kg_inr": 60,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Banana",
+            "peak_months": [11, 12, 1],
+            "famous_varieties": ["Sirumalai Pazham"],
+            "health_tags": ["energy", "digestion", "minerals"],
+            "avg_price_per_kg_inr": 100,
+            "estimated_user_rating": 4.9
+          },
+          {
+            "fruit_name": "Plum",
+            "peak_months": [5, 6],
+            "famous_varieties": ["Kodaikanal Local"],
+            "health_tags": ["antioxidant", "digestion", "bone_health"],
+            "avg_price_per_kg_inr": 150,
+            "estimated_user_rating": 4.4
+          }
+        ]
+      }
+    }
+  }
+}

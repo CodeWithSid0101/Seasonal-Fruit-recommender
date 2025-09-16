@@ -1,0 +1,112 @@
+{
+  "Haryana": {
+    "fruit_production_overview": "Haryana has emerged as a significant fruit-producing state, with a primary focus on citrus fruits, particularly Kinnow, making it a key player in the national supply. The state's agricultural policies have successfully promoted diversification into other remunerative fruit crops like guava, ber, and amla. Modern horticultural practices are widely adopted, especially in the Indo-Gangetic plains region of the state.",
+    "major_fruit_districts": {
+      "Sirsa": {
+        "agricultural_significance": "Sirsa is the heart of Haryana's citrus belt and is the largest producer of Kinnow in the state. The district's semi-arid climate and fertile soil provide the perfect conditions for high-quality citrus fruit cultivation.",
+        "fruits": [
+          {
+            "fruit_name": "Kinnow",
+            "peak_months": [1, 2, 11, 12],
+            "famous_varieties": ["Kinnow"],
+            "health_tags": ["vitamin_c", "immunity", "hydration", "skin_health"],
+            "avg_price_per_kg_inr": 40,
+            "estimated_user_rating": 4.5
+          },
+          {
+            "fruit_name": "Sweet Orange",
+            "peak_months": [12, 1, 2],
+            "famous_varieties": ["Jaffa", "Blood Red"],
+            "health_tags": ["immunity", "antioxidant", "fiber"],
+            "avg_price_per_kg_inr": 60,
+            "estimated_user_rating": 4.3
+          }
+        ]
+      },
+      "Sonipat": {
+        "agricultural_significance": "Sonipat is renowned for its high-quality guava production, with several progressive orchards cultivating popular varieties. The district is also a major hub for Ber (Jujube) cultivation, supplying to markets across North India.",
+        "fruits": [
+          {
+            "fruit_name": "Guava",
+            "peak_months": [1, 2, 11, 12],
+            "famous_varieties": ["Hisar Safeda", "Allahabad Safeda", "Hisar Surkha"],
+            "health_tags": ["vitamin_c", "immunity", "digestion", "fiber"],
+            "avg_price_per_kg_inr": 70,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Jujube (Ber)",
+            "peak_months": [1, 2, 3, 12],
+            "famous_varieties": ["Umran", "Gola", "Kaithli"],
+            "health_tags": ["bone_health", "digestion", "sleep_aid"],
+            "avg_price_per_kg_inr": 55,
+            "estimated_user_rating": 4.4
+          }
+        ]
+      },
+      "Yamunanagar": {
+        "agricultural_significance": "Located in the state's sub-montane zone, Yamunanagar is the leading district for mango cultivation in Haryana. Its climate also supports the growth of other deciduous fruits like pears and peaches.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [6, 7, 8],
+            "famous_varieties": ["Chausa", "Dasheri", "Langra"],
+            "health_tags": ["immunity", "vision", "skin_health"],
+            "avg_price_per_kg_inr": 90,
+            "estimated_user_rating": 4.4
+          },
+          {
+            "fruit_name": "Pear",
+            "peak_months": [8, 9],
+            "famous_varieties": ["Patharnakh", "Le Conte"],
+            "health_tags": ["fiber", "digestion", "hydration", "low_calorie"],
+            "avg_price_per_kg_inr": 80,
+            "estimated_user_rating": 4.2
+          }
+        ]
+      },
+      "Hisar": {
+        "agricultural_significance": "Hisar is a center for arid horticulture, supported by research from Chaudhary Charan Singh Haryana Agricultural University. The district excels in the production of Ber and Amla, with several improved varieties developed locally.",
+        "fruits": [
+          {
+            "fruit_name": "Jujube (Ber)",
+            "peak_months": [1, 2, 12],
+            "famous_varieties": ["Gola", "Umran", "Seb"],
+            "health_tags": ["digestion", "calcium", "immunity"],
+            "avg_price_per_kg_inr": 50,
+            "estimated_user_rating": 4.3
+          },
+          {
+            "fruit_name": "Amla (Indian Gooseberry)",
+            "peak_months": [11, 12, 1],
+            "famous_varieties": ["Chakaiya", "NA-7", "Kanchan"],
+            "health_tags": ["vitamin_c", "hair_health", "immunity", "antioxidant"],
+            "avg_price_per_kg_inr": 45,
+            "estimated_user_rating": 4.1
+          }
+        ]
+      },
+      "Fatehabad": {
+        "agricultural_significance": "Similar to neighboring Sirsa, Fatehabad is a significant contributor to Haryana's citrus production. In recent years, it has also become a prominent district for strawberry cultivation due to farmer innovation.",
+        "fruits": [
+          {
+            "fruit_name": "Kinnow",
+            "peak_months": [1, 2, 11, 12],
+            "famous_varieties": ["Kinnow"],
+            "health_tags": ["vitamin_c", "immunity", "hydration"],
+            "avg_price_per_kg_inr": 45,
+            "estimated_user_rating": 4.4
+          },
+          {
+            "fruit_name": "Strawberry",
+            "peak_months": [12, 1, 2],
+            "famous_varieties": ["Chandler", "Sweet Charlie"],
+            "health_tags": ["antioxidant", "heart_health", "vitamin_c"],
+            "avg_price_per_kg_inr": 300,
+            "estimated_user_rating": 4.7
+          }
+        ]
+      }
+    }
+  }
+}

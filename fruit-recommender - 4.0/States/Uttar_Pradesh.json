@@ -1,0 +1,83 @@
+{
+  "Uttar Pradesh": {
+    "fruit_production_overview": "Uttar Pradesh is a horticultural powerhouse, standing as India's largest producer of mangoes and guavas. The state's fertile Gangetic plains provide an ideal environment for a wide variety of subtropical fruits, with several varieties like the Dasheri mango and Allahabadi guava gaining global recognition. Furthermore, Uttar Pradesh is the leading producer of Amla (Indian Gooseberry) in the country, showcasing its diverse and significant contribution to India's fruit basket.",
+    "major_fruit_districts": {
+      "Lucknow": {
+        "agricultural_significance": "The Malihabad-Kakori belt in Lucknow district is the heartland of mango cultivation, globally renowned for the GI-tagged 'Dasheri' mango. This region's orchards produce a significant portion of the state's premium table-variety mangoes.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Dasheri", "Lucknow Safeda", "Chausa"],
+            "health_tags": ["immunity", "vision", "skin_health", "digestion"],
+            "avg_price_per_kg_inr": 100,
+            "estimated_user_rating": 4.9
+          }
+        ]
+      },
+      "Saharanpur": {
+        "agricultural_significance": "Saharanpur, in Western UP, is another major mango-producing district, particularly famous for the late-maturing 'Chausa' and the flavorful 'Langra' varieties. The district's produce supplies markets across North India late into the mango season.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [7, 8],
+            "famous_varieties": ["Chausa", "Langra"],
+            "health_tags": ["immunity", "vision", "antioxidants"],
+            "avg_price_per_kg_inr": 90,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Pear",
+            "peak_months": [8, 9],
+            "famous_varieties": ["Patharnakh"],
+            "health_tags": ["fiber", "digestion", "hydration"],
+            "avg_price_per_kg_inr": 85,
+            "estimated_user_rating": 4.3
+          }
+        ]
+      },
+      "Prayagraj": {
+        "agricultural_significance": "Prayagraj (formerly Allahabad) is world-famous for its superior quality guavas, especially the 'Allahabad Safeda' and the red-fleshed 'Surkha'. The unique taste and texture of these guavas are attributed to the specific soil and climatic conditions of the region.",
+        "fruits": [
+          {
+            "fruit_name": "Guava",
+            "peak_months": [11, 12, 1, 2],
+            "famous_varieties": ["Allahabad Safeda", "Surkha (Red Fleshed)", "Lalit"],
+            "health_tags": ["immunity", "vitamin_c", "fiber", "digestion"],
+            "avg_price_per_kg_inr": 80,
+            "estimated_user_rating": 4.9
+          },
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Robusta", "Dwarf Cavendish"],
+            "health_tags": ["energy", "potassium", "heart_health"],
+            "avg_price_per_kg_inr": 35,
+            "estimated_user_rating": 4.3
+          }
+        ]
+      },
+      "Pratapgarh": {
+        "agricultural_significance": "Pratapgarh is famously known as the 'Amla City of India', as it is the single largest producer of Amla (Indian Gooseberry) in the country. The district's economy is heavily reliant on amla cultivation and its value-added products.",
+        "fruits": [
+          {
+            "fruit_name": "Amla (Indian Gooseberry)",
+            "peak_months": [11, 12, 1],
+            "famous_varieties": ["Chakaiya", "NA-7", "Kanchan", "Krishna"],
+            "health_tags": ["vitamin_c", "hair_health", "immunity", "antioxidant"],
+            "avg_price_per_kg_inr": 50,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Jujube (Ber)",
+            "peak_months": [1, 2, 12],
+            "famous_varieties": ["Banarasi Karaka", "Gola"],
+            "health_tags": ["bone_health", "digestion", "sleep_aid"],
+            "avg_price_per_kg_inr": 45,
+            "estimated_user_rating": 4.2
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "Goa": {
+    "fruit_production_overview": "Goa's horticultural landscape is dominated by coastal plantation crops, with cashew being paramount to its economy, followed closely by coconut and mango. The state boasts several unique indigenous fruit varieties, most notably the highly prized Mankurad mango, which thrives in its lateritic soils. Fruits like kokum and jackfruit are also integral to Goan cuisine and local culture, cultivated traditionally across small holdings.",
+    "major_fruit_districts": {
+      "North Goa": {
+        "agricultural_significance": "North Goa, particularly talukas like Ponda and Pernem, is a major center for cashew cultivation and processing. The region also cultivates prized mango varieties like Mankurad and various types of pineapples in its interior areas.",
+        "fruits": [
+          {
+            "fruit_name": "Cashew Apple",
+            "peak_months": [3, 4, 5],
+            "famous_varieties": ["Vengurla-4", "Goa Selection-1"],
+            "health_tags": ["antioxidant", "immunity", "vitamin_c"],
+            "avg_price_per_kg_inr": 60,
+            "estimated_user_rating": 4.3
+          },
+          {
+            "fruit_name": "Mango",
+            "peak_months": [4, 5, 6],
+            "famous_varieties": ["Mankurad", "Hilario", "Musarat"],
+            "health_tags": ["immunity", "vision", "skin_health", "digestion"],
+            "avg_price_per_kg_inr": 300,
+            "estimated_user_rating": 4.9
+          },
+          {
+            "fruit_name": "Pineapple",
+            "peak_months": [6, 7, 8],
+            "famous_varieties": ["Kew", "Local Giant"],
+            "health_tags": ["digestion", "anti_inflammatory", "immunity"],
+            "avg_price_per_kg_inr": 50,
+            "estimated_user_rating": 4.4
+          }
+        ]
+      },
+      "South Goa": {
+        "agricultural_significance": "South Goa is characterized by extensive coconut plantations along its coastline and significant cultivation of jackfruit and kokum in its hinterlands. The district shares in the cultivation of Goa's famous mango varieties, contributing to the state's rich fruit diversity.",
+        "fruits": [
+          {
+            "fruit_name": "Coconut",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Benaulim", "West Coast Tall", "Calangute"],
+            "health_tags": ["hydration", "electrolytes", "healthy_fats", "fiber"],
+            "avg_price_per_kg_inr": 40,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Kokum",
+            "peak_months": [4, 5],
+            "famous_varieties": ["Local Varieties"],
+            "health_tags": ["digestion","anti_acidity", "cooling_agent", "antioxidant"],
+            "avg_price_per_kg_inr": 250,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Jackfruit",
+            "peak_months": [5, 6, 7],
+            "famous_varieties": ["Kapo (firm flesh)", "Barka (soft flesh)"],
+            "health_tags": ["fiber", "energy", "potassium", "vitamin_c"],
+            "avg_price_per_kg_inr": 35,
+            "estimated_user_rating": 4.3
+          }
+        ]
+      }
+    }
+  }
+}

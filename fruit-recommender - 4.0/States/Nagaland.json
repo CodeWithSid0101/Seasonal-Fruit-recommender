@@ -1,0 +1,78 @@
+{
+  "Nagaland": {
+    "fruit_production_overview": "Nagaland's horticulture is defined by its organic-by-default cultivation practices and a focus on high-value subtropical and temperate fruits suited to its mountainous terrain. The state is particularly renowned for its exceptionally sweet pineapples and is rapidly emerging as a significant producer of passion fruit and kiwi. This focus on niche, high-demand fruits is a cornerstone of the state's strategy for agricultural growth and economic self-sufficiency.",
+    "major_fruit_districts": {
+      "Dimapur": {
+        "agricultural_significance": "As the commercial hub located in the plains, Dimapur is a major center for pineapple and banana cultivation. The district's connectivity makes it a crucial aggregation point for distributing fresh produce from across the state.",
+        "fruits": [
+          {
+            "fruit_name": "Pineapple",
+            "peak_months": [7, 8],
+            "famous_varieties": ["Queen", "Kew"],
+            "health_tags": ["digestion", "immunity", "anti_inflammatory", "vitamin_c"],
+            "avg_price_per_kg_inr": 40,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Jahaji", "Amritsagar"],
+            "health_tags": ["energy", "potassium", "heart_health"],
+            "avg_price_per_kg_inr": 45,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      },
+      "Mokokchung": {
+        "agricultural_significance": "Mokokchung's mid-altitude hills provide an ideal climate for growing high-quality passion fruit and mandarin oranges. The district is a key contributor to the state's growing reputation as a supplier of exotic fruits.",
+        "fruits": [
+          {
+            "fruit_name": "Passion Fruit",
+            "peak_months": [7, 8, 9],
+            "famous_varieties": ["Purple"],
+            "health_tags": ["antioxidant", "fiber", "immunity", "sleep_aid"],
+            "avg_price_per_kg_inr": 125,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Orange",
+            "peak_months": [11, 12, 1],
+            "famous_varieties": ["Khasi Mandarin"],
+            "health_tags": ["vitamin_c", "immunity", "skin_health"],
+            "avg_price_per_kg_inr": 85,
+            "estimated_user_rating": 4.7
+          }
+        ]
+      },
+      "Kohima": {
+        "agricultural_significance": "The high-altitude region around Kohima is at the forefront of kiwi and temperate fruit cultivation in Nagaland. The district is also known for the unique Naga Tree Tomato (Tamarillo), a local delicacy.",
+        "fruits": [
+          {
+            "fruit_name": "Kiwi",
+            "peak_months": [10, 11, 12],
+            "famous_varieties": ["Allison", "Hayward"],
+            "health_tags": ["vitamin_c", "immunity", "digestion", "antioxidant"],
+            "avg_price_per_kg_inr": 300,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Naga Tree Tomato (Tamarillo)",
+            "peak_months": [9, 10],
+            "famous_varieties": ["Local Red"],
+            "health_tags": ["vision", "immunity", "antioxidant", "low_calorie"],
+            "avg_price_per_kg_inr": 150,
+            "estimated_user_rating": 4.5
+          },
+          {
+            "fruit_name": "Plum",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Local Varieties"],
+            "health_tags": ["antioxidant", "digestion", "bone_health"],
+            "avg_price_per_kg_inr": 150,
+            "estimated_user_rating": 4.3
+          }
+        ]
+      }
+    }
+  }
+}

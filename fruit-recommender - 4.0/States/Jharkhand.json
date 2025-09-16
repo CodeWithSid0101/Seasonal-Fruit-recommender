@@ -1,0 +1,91 @@
+{
+  "Jharkhand": {
+    "fruit_production_overview": "Jharkhand is leveraging its unique topography and agro-climatic conditions of the Chotanagpur Plateau to become a significant fruit-producing state. While traditionally strong in mango and jackfruit cultivation, the state has made remarkable strides in expanding its fruit basket to include litchi, guava, and papaya. Government initiatives are actively promoting high-value fruit cultivation like pears and strawberries to utilize wastelands and boost the rural economy.",
+    "major_fruit_districts": {
+      "Ranchi": {
+        "agricultural_significance": "As the state capital located on the Chotanagpur plateau, Ranchi's climate is highly favorable for litchi and guava cultivation. The district is a major hub for high-quality litchis and serves as a primary supplier for urban markets.",
+        "fruits": [
+          {
+            "fruit_name": "Litchi",
+            "peak_months": [5, 6],
+            "famous_varieties": ["Shahi", "China"],
+            "health_tags": ["vitamin_c", "immunity", "hydration", "antioxidant"],
+            "avg_price_per_kg_inr": 170,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Guava",
+            "peak_months": [11, 12, 1],
+            "famous_varieties": ["Allahabad Safeda", "Sardar (L-49)"],
+            "health_tags": ["immunity", "vitamin_c", "fiber", "digestion"],
+            "avg_price_per_kg_inr": 55,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      },
+      "Gumla": {
+        "agricultural_significance": "Gumla is one of the leading districts in Jharkhand for mango production, with vast orchards cultivating popular commercial varieties. It is also a significant producer of guava, benefiting from its well-drained soil.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [5, 6, 7],
+            "famous_varieties": ["Amrapali", "Mallika", "Langra"],
+            "health_tags": ["immunity", "vision", "skin_health", "digestion"],
+            "avg_price_per_kg_inr": 65,
+            "estimated_user_rating": 4.4
+          },
+          {
+            "fruit_name": "Guava",
+            "peak_months": [11, 12, 1, 2],
+            "famous_varieties": ["Allahabad Safeda"],
+            "health_tags": ["vitamin_c", "fiber", "blood_sugar_control"],
+            "avg_price_per_kg_inr": 50,
+            "estimated_user_rating": 4.4
+          }
+        ]
+      },
+      "Hazaribagh": {
+        "agricultural_significance": "Hazaribagh has traditionally been a stronghold for mango and jackfruit cultivation. The district's undulating terrain and climatic conditions are ideal for these hardy, rain-fed fruit crops.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Chausa", "Langra", "Fazli"],
+            "health_tags": ["immunity", "vision", "antioxidants"],
+            "avg_price_per_kg_inr": 70,
+            "estimated_user_rating": 4.3
+          },
+          {
+            "fruit_name": "Jackfruit",
+            "peak_months": [6, 7, 8],
+            "famous_varieties": ["Local Varieties"],
+            "health_tags": ["fiber", "energy", "potassium", "immunity"],
+            "avg_price_per_kg_inr": 30,
+            "estimated_user_rating": 4.2
+          }
+        ]
+      },
+      "Lohardaga": {
+        "agricultural_significance": "Lohardaga is emerging as a successful center for non-traditional fruit cultivation in Jharkhand, particularly pears. The state government has promoted pear farming in this district, which has shown excellent results and high returns for farmers.",
+        "fruits": [
+          {
+            "fruit_name": "Pear",
+            "peak_months": [8, 9],
+            "famous_varieties": ["Patharnakh", "Nashpati"],
+            "health_tags": ["fiber", "digestion", "hydration", "low_calorie"],
+            "avg_price_per_kg_inr": 100,
+            "estimated_user_rating": 4.4
+          },
+          {
+            "fruit_name": "Papaya",
+            "peak_months": [9, 10, 11],
+            "famous_varieties": ["Pusa Nanha", "Red Lady"],
+            "health_tags": ["digestion", "skin_health", "immunity", "vitamin_c"],
+            "avg_price_per_kg_inr": 35,
+            "estimated_user_rating": 4.2
+          }
+        ]
+      }
+    }
+  }
+}

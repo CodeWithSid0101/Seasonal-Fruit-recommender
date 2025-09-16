@@ -1,0 +1,44 @@
+{
+  "Lakshadweep": {
+    "fruit_production_overview": "The horticulture of Lakshadweep, an archipelago of coral atolls, is almost entirely defined by the coconut palm, which dominates the landscape, culture, and economy. This monocrop system is supplemented by the cultivation of other tropical fruits like bananas and breadfruit in homestead gardens. These secondary crops are crucial for local food security and thrive in the sandy, coralline soil and humid climate.",
+    "major_fruit_districts": {
+      "Lakshadweep Islands": {
+        "agricultural_significance": "As a single-district Union Territory, the entire archipelago functions as one agricultural zone. The economy is inextricably linked to coconut cultivation for copra, coir, and coconut oil, while bananas and breadfruit are the most important subsidiary food crops.",
+        "fruits": [
+          {
+            "fruit_name": "Coconut",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Laccadive Ordinary", "Laccadive Micro Tall"],
+            "health_tags": ["hydration", "electrolytes", "healthy_fats", "fiber"],
+            "avg_price_per_kg_inr": 50,
+            "estimated_user_rating": 4.9
+          },
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Local Varieties (Mysore poovan)", "Nendran"],
+            "health_tags": ["energy", "potassium", "digestion", "heart_health"],
+            "avg_price_per_kg_inr": 70,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Breadfruit",
+            "peak_months": [7, 8, 9],
+            "famous_varieties": ["Local Varieties"],
+            "health_tags": ["carbohydrates", "fiber", "energy", "potassium"],
+            "avg_price_per_kg_inr": 60,
+            "estimated_user_rating": 4.4
+          },
+          {
+            "fruit_name": "Papaya",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Local Red", "CO-2"],
+            "health_tags": ["digestion", "immunity", "skin_health"],
+            "avg_price_per_kg_inr": 45,
+            "estimated_user_rating": 4.3
+          }
+        ]
+      }
+    }
+  }
+}

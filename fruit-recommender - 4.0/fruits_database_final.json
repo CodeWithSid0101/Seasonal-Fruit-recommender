@@ -1,0 +1,4247 @@
+{
+    "Mango": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to antioxidants, digestion, immunity, skin_health, vision.",
+        "health_tags": [
+            "antioxidants",
+            "digestion",
+            "immunity",
+            "skin_health",
+            "vision"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 125,
+        "user_rating": 4.6,
+        "varieties": {
+            "Totapuri": {
+                "peak_states": [
+                    "Andhra Pradesh",
+                    "Karnataka",
+                    "Puducherry",
+                    "Tamil Nadu",
+                    "Telangana"
+                ],
+                "peak_months": [
+                    4,
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Banganapalli": {
+                "peak_states": [
+                    "Andaman and Nicobar Islands",
+                    "Andhra Pradesh",
+                    "Karnataka",
+                    "Odisha",
+                    "Puducherry",
+                    "Tamil Nadu",
+                    "Telangana"
+                ],
+                "peak_months": [
+                    4,
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Neelam": {
+                "peak_states": [
+                    "Andhra Pradesh",
+                    "Kerala",
+                    "Puducherry",
+                    "Tamil Nadu"
+                ],
+                "peak_months": [
+                    4,
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Banganapalli (Benishan)": {
+                "peak_states": [
+                    "Andhra Pradesh",
+                    "Telangana"
+                ],
+                "peak_months": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            "Rasalu": {
+                "peak_states": [
+                    "Andhra Pradesh"
+                ],
+                "peak_months": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            "Suvarnarekha": {
+                "peak_states": [
+                    "Andhra Pradesh",
+                    "Puducherry"
+                ],
+                "peak_months": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            "Collector": {
+                "peak_states": [
+                    "Andhra Pradesh"
+                ],
+                "peak_months": [
+                    4,
+                    5
+                ]
+            },
+            "Langra": {
+                "peak_states": [
+                    "Bihar",
+                    "Chandigarh",
+                    "Chhattisgarh",
+                    "Delhi",
+                    "Gujarat",
+                    "Haryana",
+                    "Jammu and Kashmir",
+                    "Jharkhand",
+                    "Odisha",
+                    "Punjab",
+                    "Uttar Pradesh"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7,
+                    8
+                ]
+            },
+            "Dasheri": {
+                "peak_states": [
+                    "Bihar",
+                    "Chandigarh",
+                    "Chhattisgarh",
+                    "Delhi",
+                    "Haryana",
+                    "Jammu and Kashmir",
+                    "Odisha",
+                    "Punjab",
+                    "Telangana",
+                    "Uttar Pradesh"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7,
+                    8
+                ]
+            },
+            "Jardalu": {
+                "peak_states": [
+                    "Bihar"
+                ],
+                "peak_months": [
+                    6,
+                    7
+                ]
+            },
+            "Malda": {
+                "peak_states": [
+                    "Bihar"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Amrapali": {
+                "peak_states": [
+                    "Bihar",
+                    "Jharkhand",
+                    "Odisha"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Bastar Special (local)": {
+                "peak_states": [
+                    "Chhattisgarh"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Mankurad": {
+                "peak_states": [
+                    "Goa"
+                ],
+                "peak_months": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            "Hilario": {
+                "peak_states": [
+                    "Goa"
+                ],
+                "peak_months": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            "Musarat": {
+                "peak_states": [
+                    "Goa"
+                ],
+                "peak_months": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            "Gir Kesar": {
+                "peak_states": [
+                    "Gujarat"
+                ],
+                "peak_months": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            "Rajapuri": {
+                "peak_states": [
+                    "Gujarat"
+                ],
+                "peak_months": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            "Valsadi Hafoos": {
+                "peak_states": [
+                    "Gujarat"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Kesar": {
+                "peak_states": [
+                    "Dadra and Nagar Haveli and Daman and Diu",
+                    "Gujarat",
+                    "Madhya Pradesh"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Chausa": {
+                "peak_states": [
+                    "Chandigarh",
+                    "Delhi",
+                    "Haryana",
+                    "Jharkhand",
+                    "Punjab",
+                    "Uttar Pradesh"
+                ],
+                "peak_months": [
+                    6,
+                    7,
+                    8
+                ]
+            },
+            "Mallika": {
+                "peak_states": [
+                    "Jharkhand",
+                    "Karnataka",
+                    "Odisha"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Fazli": {
+                "peak_states": [
+                    "Jharkhand",
+                    "West Bengal"
+                ],
+                "peak_months": [
+                    6,
+                    7
+                ]
+            },
+            "Raspuri": {
+                "peak_states": [
+                    "Karnataka"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Priyoor": {
+                "peak_states": [
+                    "Kerala"
+                ],
+                "peak_months": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            "Kilichundan": {
+                "peak_states": [
+                    "Kerala"
+                ],
+                "peak_months": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            "Sundarja": {
+                "peak_states": [
+                    "Madhya Pradesh"
+                ],
+                "peak_months": [
+                    6,
+                    7
+                ]
+            },
+            "Noorjahan": {
+                "peak_states": [
+                    "Madhya Pradesh"
+                ],
+                "peak_months": [
+                    6,
+                    7
+                ]
+            },
+            "Alphonso (Hapus)": {
+                "peak_states": [
+                    "Maharashtra"
+                ],
+                "peak_months": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            "Payri": {
+                "peak_states": [
+                    "Maharashtra"
+                ],
+                "peak_months": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            "Alphonso": {
+                "peak_states": [
+                    "Tamil Nadu"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Himayat": {
+                "peak_states": [
+                    "Telangana"
+                ],
+                "peak_months": [
+                    5,
+                    6
+                ]
+            },
+            "Lucknow Safeda": {
+                "peak_states": [
+                    "Uttar Pradesh"
+                ],
+                "peak_months": [
+                    6,
+                    7
+                ]
+            },
+            "Himsagar": {
+                "peak_states": [
+                    "West Bengal"
+                ],
+                "peak_months": [
+                    6,
+                    7
+                ]
+            },
+            "Laxmanbhog": {
+                "peak_states": [
+                    "West Bengal"
+                ],
+                "peak_months": [
+                    6,
+                    7
+                ]
+            },
+            "Gopalbhog": {
+                "peak_states": [
+                    "West Bengal"
+                ],
+                "peak_months": [
+                    6,
+                    7
+                ]
+            },
+            "Lyngra": {
+                "peak_states": [
+                    "West Bengal"
+                ],
+                "peak_months": [
+                    6,
+                    7
+                ]
+            },
+            "Local Varieties": {
+                "peak_states": [
+                    "Andaman and Nicobar Islands"
+                ],
+                "peak_months": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            "Valsadi Hafoos (Alphonso)": {
+                "peak_states": [
+                    "Dadra and Nagar Haveli and Daman and Diu"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Sindhuri": {
+                "peak_states": [
+                    "Jammu and Kashmir"
+                ],
+                "peak_months": [
+                    6,
+                    7
+                ]
+            }
+        }
+    },
+    "Papaya": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to digestion, immunity, skin_health, vitamin_c.",
+        "health_tags": [
+            "digestion",
+            "immunity",
+            "skin_health",
+            "vitamin_c"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 34,
+        "user_rating": 4.3,
+        "varieties": {
+            "Red Lady": {
+                "peak_states": [
+                    "Andhra Pradesh",
+                    "Jharkhand",
+                    "Karnataka",
+                    "Kerala"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Coorg Honey Dew": {
+                "peak_states": [
+                    "Andaman and Nicobar Islands",
+                    "Andhra Pradesh"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Red Lady 786": {
+                "peak_states": [
+                    "Chhattisgarh",
+                    "Gujarat",
+                    "Telangana"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Pusa Nanha": {
+                "peak_states": [
+                    "Chhattisgarh",
+                    "Jharkhand"
+                ],
+                "peak_months": [
+                    9,
+                    10,
+                    11
+                ]
+            },
+            "Pusa Dwarf": {
+                "peak_states": [
+                    "Gujarat"
+                ],
+                "peak_months": [
+                    2,
+                    3,
+                    9,
+                    10,
+                    11
+                ]
+            },
+            "Local Red": {
+                "peak_states": [
+                    "Andaman and Nicobar Islands",
+                    "Lakshadweep"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "CO-2": {
+                "peak_states": [
+                    "Lakshadweep"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            }
+        }
+    },
+    "Sapota": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to digestion, energy, fiber, minerals.",
+        "health_tags": [
+            "digestion",
+            "energy",
+            "fiber",
+            "minerals"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 52,
+        "user_rating": 4.6,
+        "varieties": {
+            "Kalipatti": {
+                "peak_states": [
+                    "Andhra Pradesh",
+                    "Gujarat",
+                    "Karnataka",
+                    "Tamil Nadu"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Pala": {
+                "peak_states": [
+                    "Andhra Pradesh",
+                    "Tamil Nadu"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    9,
+                    10,
+                    11
+                ]
+            },
+            "Cricket Ball": {
+                "peak_states": [
+                    "Gujarat",
+                    "Karnataka"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            }
+        }
+    },
+    "Sweet Lime": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to cooling, digestion, hydration, vitamin_c.",
+        "health_tags": [
+            "cooling",
+            "digestion",
+            "hydration",
+            "vitamin_c"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 42,
+        "user_rating": 4.6,
+        "varieties": {
+            "Sathgudi": {
+                "peak_states": [
+                    "Andhra Pradesh"
+                ],
+                "peak_months": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            }
+        }
+    },
+    "Pomegranate": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to anti_inflammatory, antioxidant, blood_pressure, heart_health.",
+        "health_tags": [
+            "anti_inflammatory",
+            "antioxidant",
+            "blood_pressure",
+            "heart_health"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 135,
+        "user_rating": 4.6,
+        "varieties": {
+            "Bhagwa": {
+                "peak_states": [
+                    "Andhra Pradesh",
+                    "Gujarat",
+                    "Karnataka",
+                    "Maharashtra"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                ]
+            },
+            "Ganesh": {
+                "peak_states": [
+                    "Andhra Pradesh",
+                    "Gujarat",
+                    "Karnataka",
+                    "Maharashtra"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                ]
+            },
+            "Sindhuri": {
+                "peak_states": [
+                    "Gujarat"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    8,
+                    9,
+                    10
+                ]
+            },
+            "Arakta": {
+                "peak_states": [
+                    "Karnataka",
+                    "Maharashtra"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    7,
+                    8,
+                    9,
+                    10
+                ]
+            },
+            "Solapur Lal": {
+                "peak_states": [
+                    "Maharashtra"
+                ],
+                "peak_months": [
+                    8,
+                    9,
+                    10,
+                    11
+                ]
+            }
+        }
+    },
+    "Banana": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to digestion, energy, heart_health, minerals, potassium.",
+        "health_tags": [
+            "digestion",
+            "energy",
+            "heart_health",
+            "minerals",
+            "potassium"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 49,
+        "user_rating": 4.6,
+        "varieties": {
+            "Karpuravalli (Kovvur)": {
+                "peak_states": [
+                    "Andhra Pradesh"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Dwarf Cavendish": {
+                "peak_states": [
+                    "Andaman and Nicobar Islands",
+                    "Andhra Pradesh",
+                    "Odisha",
+                    "Telangana",
+                    "Uttar Pradesh"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Robusta": {
+                "peak_states": [
+                    "Andaman and Nicobar Islands",
+                    "Andhra Pradesh",
+                    "Gujarat",
+                    "Karnataka",
+                    "Kerala",
+                    "Odisha",
+                    "Telangana",
+                    "Uttar Pradesh"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Malbhog": {
+                "peak_states": [
+                    "Assam",
+                    "Bihar"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Jahaji": {
+                "peak_states": [
+                    "Assam",
+                    "Meghalaya",
+                    "Nagaland"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Chini Champa": {
+                "peak_states": [
+                    "Assam"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Kaskol": {
+                "peak_states": [
+                    "Assam"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Chinia Kela": {
+                "peak_states": [
+                    "Bihar"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Alpan": {
+                "peak_states": [
+                    "Bihar"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Grand Naine": {
+                "peak_states": [
+                    "Chhattisgarh",
+                    "Dadra and Nagar Haveli and Daman and Diu",
+                    "Gujarat",
+                    "Madhya Pradesh",
+                    "Maharashtra",
+                    "Mizoram"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Nanjangud Rasabale": {
+                "peak_states": [
+                    "Karnataka"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Yelakki": {
+                "peak_states": [
+                    "Karnataka"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Nendran": {
+                "peak_states": [
+                    "Andaman and Nicobar Islands",
+                    "Kerala",
+                    "Lakshadweep",
+                    "Puducherry",
+                    "Tamil Nadu"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Palayankodan": {
+                "peak_states": [
+                    "Kerala",
+                    "Puducherry"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Shrimanti": {
+                "peak_states": [
+                    "Maharashtra"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Local Hill Banana": {
+                "peak_states": [
+                    "Manipur"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "G-9": {
+                "peak_states": [
+                    "Manipur"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Local Varieties": {
+                "peak_states": [
+                    "Meghalaya"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Mizo Banana": {
+                "peak_states": [
+                    "Mizoram"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Amritsagar": {
+                "peak_states": [
+                    "Nagaland"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Poovan": {
+                "peak_states": [
+                    "Tamil Nadu"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Karpooravalli": {
+                "peak_states": [
+                    "Tamil Nadu"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Rasthali": {
+                "peak_states": [
+                    "Tamil Nadu"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Monthan": {
+                "peak_states": [
+                    "Tamil Nadu"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Sirumalai Pazham": {
+                "peak_states": [
+                    "Tamil Nadu"
+                ],
+                "peak_months": [
+                    1,
+                    11,
+                    12
+                ]
+            },
+            "Mortoman": {
+                "peak_states": [
+                    "West Bengal"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Champa": {
+                "peak_states": [
+                    "West Bengal"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Kanthali": {
+                "peak_states": [
+                    "West Bengal"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Red Banana": {
+                "peak_states": [
+                    "Andaman and Nicobar Islands"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Local Varieties (Mysore poovan)": {
+                "peak_states": [
+                    "Lakshadweep"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            }
+        }
+    },
+    "Guava": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to blood_sugar_control, digestion, fiber, immunity, vitamin_c.",
+        "health_tags": [
+            "blood_sugar_control",
+            "digestion",
+            "fiber",
+            "immunity",
+            "vitamin_c"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 64,
+        "user_rating": 4.6,
+        "varieties": {
+            "Allahabad Safeda": {
+                "peak_states": [
+                    "Andhra Pradesh",
+                    "Bihar",
+                    "Chandigarh",
+                    "Chhattisgarh",
+                    "Delhi",
+                    "Gujarat",
+                    "Haryana",
+                    "Jharkhand",
+                    "Madhya Pradesh",
+                    "Punjab",
+                    "Rajasthan",
+                    "Tamil Nadu",
+                    "Telangana",
+                    "Uttar Pradesh"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Taiwan Pink": {
+                "peak_states": [
+                    "Andhra Pradesh",
+                    "Telangana"
+                ],
+                "peak_months": [
+                    1,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "L-49": {
+                "peak_states": [
+                    "Bihar",
+                    "Gujarat",
+                    "Telangana"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "L-49 (Sardar)": {
+                "peak_states": [
+                    "Chhattisgarh"
+                ],
+                "peak_months": [
+                    1,
+                    11,
+                    12
+                ]
+            },
+            "Hisar Safeda": {
+                "peak_states": [
+                    "Haryana"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    11,
+                    12
+                ]
+            },
+            "Hisar Surkha": {
+                "peak_states": [
+                    "Haryana"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    11,
+                    12
+                ]
+            },
+            "Sardar (L-49)": {
+                "peak_states": [
+                    "Chandigarh",
+                    "Delhi",
+                    "Jharkhand",
+                    "Punjab"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    11,
+                    12
+                ]
+            },
+            "Lalit (Red Flesh)": {
+                "peak_states": [
+                    "Madhya Pradesh"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    11,
+                    12
+                ]
+            },
+            "VNR-Bihi": {
+                "peak_states": [
+                    "Madhya Pradesh"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    11,
+                    12
+                ]
+            },
+            "Shweta": {
+                "peak_states": [
+                    "Punjab"
+                ],
+                "peak_months": [
+                    1,
+                    11,
+                    12
+                ]
+            },
+            "Lalit": {
+                "peak_states": [
+                    "Rajasthan",
+                    "Uttar Pradesh"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    11,
+                    12
+                ]
+            },
+            "Sawai Madhopur Special": {
+                "peak_states": [
+                    "Rajasthan"
+                ],
+                "peak_months": [
+                    1,
+                    11,
+                    12
+                ]
+            },
+            "Lucknow-49 (Sardar)": {
+                "peak_states": [
+                    "Tamil Nadu"
+                ],
+                "peak_months": [
+                    3,
+                    4,
+                    9,
+                    10,
+                    11
+                ]
+            },
+            "Kohir": {
+                "peak_states": [
+                    "Telangana"
+                ],
+                "peak_months": [
+                    1,
+                    11,
+                    12
+                ]
+            },
+            "Surkha (Red Fleshed)": {
+                "peak_states": [
+                    "Uttar Pradesh"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    11,
+                    12
+                ]
+            }
+        }
+    },
+    "Jackfruit": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to energy, fiber, immunity, potassium, vitamin_c.",
+        "health_tags": [
+            "energy",
+            "fiber",
+            "immunity",
+            "potassium",
+            "vitamin_c"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 32,
+        "user_rating": 4.4,
+        "varieties": {
+            "Local Varieties": {
+                "peak_states": [
+                    "Andaman and Nicobar Islands",
+                    "Andhra Pradesh",
+                    "Assam",
+                    "Jharkhand",
+                    "Meghalaya",
+                    "Puducherry",
+                    "Tripura",
+                    "West Bengal"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7,
+                    8
+                ]
+            },
+            "Kapo (firm flesh)": {
+                "peak_states": [
+                    "Goa"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Barka (soft flesh)": {
+                "peak_states": [
+                    "Goa"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Varikka (firm flesh)": {
+                "peak_states": [
+                    "Kerala"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Koozha (soft flesh)": {
+                "peak_states": [
+                    "Kerala"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Local Soft & Hard varieties": {
+                "peak_states": [
+                    "Tripura"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            }
+        }
+    },
+    "Cashew Apple": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to antioxidant, immunity, vitamin_c.",
+        "health_tags": [
+            "antioxidant",
+            "immunity",
+            "vitamin_c"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 63,
+        "user_rating": 4.2,
+        "varieties": {
+            "BPP-8": {
+                "peak_states": [
+                    "Andhra Pradesh"
+                ],
+                "peak_months": [
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "Vengurla-4": {
+                "peak_states": [
+                    "Goa",
+                    "Maharashtra",
+                    "Odisha"
+                ],
+                "peak_months": [
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "Goa Selection-1": {
+                "peak_states": [
+                    "Goa"
+                ],
+                "peak_months": [
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "Vengurla-7": {
+                "peak_states": [
+                    "Maharashtra"
+                ],
+                "peak_months": [
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "VRI-3": {
+                "peak_states": [
+                    "Odisha",
+                    "Puducherry"
+                ],
+                "peak_months": [
+                    4,
+                    5
+                ]
+            }
+        }
+    },
+    "Kiwi": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to antioxidant, digestion, immunity, sleep_aid, vitamin_c.",
+        "health_tags": [
+            "antioxidant",
+            "digestion",
+            "immunity",
+            "sleep_aid",
+            "vitamin_c"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 274,
+        "user_rating": 4.8,
+        "varieties": {
+            "Hayward": {
+                "peak_states": [
+                    "Arunachal Pradesh",
+                    "Himachal Pradesh",
+                    "Mizoram",
+                    "Nagaland",
+                    "Sikkim"
+                ],
+                "peak_months": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Allison": {
+                "peak_states": [
+                    "Arunachal Pradesh",
+                    "Himachal Pradesh",
+                    "Mizoram",
+                    "Nagaland",
+                    "Sikkim"
+                ],
+                "peak_months": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Bruno": {
+                "peak_states": [
+                    "Arunachal Pradesh",
+                    "Sikkim"
+                ],
+                "peak_months": [
+                    10,
+                    11,
+                    12
+                ]
+            }
+        }
+    },
+    "Peach": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to antioxidant, digestion, immunity, skin_health, vision.",
+        "health_tags": [
+            "antioxidant",
+            "digestion",
+            "immunity",
+            "skin_health",
+            "vision"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 150,
+        "user_rating": 4.5,
+        "varieties": {
+            "Flordasun": {
+                "peak_states": [
+                    "Arunachal Pradesh"
+                ],
+                "peak_months": [
+                    5,
+                    6
+                ]
+            },
+            "Sharbati": {
+                "peak_states": [
+                    "Arunachal Pradesh"
+                ],
+                "peak_months": [
+                    5,
+                    6
+                ]
+            },
+            "Redhaven": {
+                "peak_states": [
+                    "Himachal Pradesh",
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "July Elberta": {
+                "peak_states": [
+                    "Himachal Pradesh"
+                ],
+                "peak_months": [
+                    6,
+                    7
+                ]
+            },
+            "Paradelux": {
+                "peak_states": [
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Crawford's Early": {
+                "peak_states": [
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            }
+        }
+    },
+    "Apple": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to brain_function, digestion, fiber, heart_health, weight_management.",
+        "health_tags": [
+            "brain_function",
+            "digestion",
+            "fiber",
+            "heart_health",
+            "weight_management"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 147,
+        "user_rating": 4.7,
+        "varieties": {
+            "Royal Delicious": {
+                "peak_states": [
+                    "Arunachal Pradesh",
+                    "Himachal Pradesh",
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    8,
+                    9,
+                    10,
+                    11
+                ]
+            },
+            "Golden Delicious": {
+                "peak_states": [
+                    "Arunachal Pradesh",
+                    "Himachal Pradesh",
+                    "Ladakh",
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    8,
+                    9,
+                    10,
+                    11
+                ]
+            },
+            "Red Gold": {
+                "peak_states": [
+                    "Arunachal Pradesh"
+                ],
+                "peak_months": [
+                    9,
+                    10
+                ]
+            },
+            "Granny Smith": {
+                "peak_states": [
+                    "Arunachal Pradesh",
+                    "Himachal Pradesh"
+                ],
+                "peak_months": [
+                    8,
+                    9,
+                    10,
+                    11
+                ]
+            },
+            "Red Delicious": {
+                "peak_states": [
+                    "Himachal Pradesh",
+                    "Ladakh",
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    8,
+                    9,
+                    10
+                ]
+            },
+            "Gala": {
+                "peak_states": [
+                    "Himachal Pradesh"
+                ],
+                "peak_months": [
+                    8,
+                    9
+                ]
+            },
+            "Fuji": {
+                "peak_states": [
+                    "Himachal Pradesh"
+                ],
+                "peak_months": [
+                    8,
+                    9
+                ]
+            },
+            "Kinnauri Apple (Royal Delicious)": {
+                "peak_states": [
+                    "Himachal Pradesh"
+                ],
+                "peak_months": [
+                    9,
+                    10,
+                    11
+                ]
+            },
+            "Red Chief": {
+                "peak_states": [
+                    "Himachal Pradesh",
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    8,
+                    9,
+                    10,
+                    11
+                ]
+            },
+            "Red Fuji": {
+                "peak_states": [
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    8,
+                    9
+                ]
+            },
+            "Rymer": {
+                "peak_states": [
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    8,
+                    9
+                ]
+            },
+            "Harsil Apple (Wilson)": {
+                "peak_states": [
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    8,
+                    9,
+                    10
+                ]
+            },
+            "Delicious (Red, Royal, Golden)": {
+                "peak_states": [
+                    "Jammu and Kashmir"
+                ],
+                "peak_months": [
+                    8,
+                    9,
+                    10
+                ]
+            },
+            "Ambri": {
+                "peak_states": [
+                    "Jammu and Kashmir"
+                ],
+                "peak_months": [
+                    8,
+                    9,
+                    10
+                ]
+            },
+            "American Trel": {
+                "peak_states": [
+                    "Jammu and Kashmir"
+                ],
+                "peak_months": [
+                    8,
+                    9,
+                    10
+                ]
+            },
+            "Delicious": {
+                "peak_states": [
+                    "Jammu and Kashmir"
+                ],
+                "peak_months": [
+                    8,
+                    9
+                ]
+            },
+            "Maharaji": {
+                "peak_states": [
+                    "Jammu and Kashmir"
+                ],
+                "peak_months": [
+                    8,
+                    9
+                ]
+            },
+            "Kullu Delicious": {
+                "peak_states": [
+                    "Jammu and Kashmir"
+                ],
+                "peak_months": [
+                    8,
+                    9
+                ]
+            }
+        }
+    },
+    "Orange": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to hydration, immunity, skin_health, vitamin_c.",
+        "health_tags": [
+            "hydration",
+            "immunity",
+            "skin_health",
+            "vitamin_c"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 79,
+        "user_rating": 4.7,
+        "varieties": {
+            "Mandarin Orange": {
+                "peak_states": [
+                    "Arunachal Pradesh"
+                ],
+                "peak_months": [
+                    1,
+                    11,
+                    12
+                ]
+            },
+            "Khasi Mandarin": {
+                "peak_states": [
+                    "Arunachal Pradesh",
+                    "Meghalaya",
+                    "Mizoram",
+                    "Nagaland",
+                    "Tripura"
+                ],
+                "peak_months": [
+                    1,
+                    11,
+                    12
+                ]
+            },
+            "Coorg Mandarin": {
+                "peak_states": [
+                    "Karnataka"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    12
+                ]
+            },
+            "Mandarin Orange (Santra)": {
+                "peak_states": [
+                    "Madhya Pradesh"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    12
+                ]
+            },
+            "Kinnow": {
+                "peak_states": [
+                    "Madhya Pradesh"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    12
+                ]
+            },
+            "Nagpur Mandarin": {
+                "peak_states": [
+                    "Maharashtra"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    12
+                ]
+            },
+            "Tamenglong Mandarin Orange": {
+                "peak_states": [
+                    "Manipur"
+                ],
+                "peak_months": [
+                    1,
+                    11,
+                    12
+                ]
+            },
+            "Jhalawari Santra (Mandarin)": {
+                "peak_states": [
+                    "Rajasthan"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    12
+                ]
+            },
+            "Darjeeling Mandarin": {
+                "peak_states": [
+                    "West Bengal"
+                ],
+                "peak_months": [
+                    1,
+                    11,
+                    12
+                ]
+            }
+        }
+    },
+    "Pineapple": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to anti_inflammatory, digestion, immunity, vitamin_c.",
+        "health_tags": [
+            "anti_inflammatory",
+            "digestion",
+            "immunity",
+            "vitamin_c"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 48,
+        "user_rating": 4.7,
+        "varieties": {
+            "Kew": {
+                "peak_states": [
+                    "Andaman and Nicobar Islands",
+                    "Arunachal Pradesh",
+                    "Assam",
+                    "Goa",
+                    "Kerala",
+                    "Manipur",
+                    "Meghalaya",
+                    "Mizoram",
+                    "Nagaland",
+                    "Tripura"
+                ],
+                "peak_months": [
+                    1,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    12
+                ]
+            },
+            "Queen": {
+                "peak_states": [
+                    "Andaman and Nicobar Islands",
+                    "Arunachal Pradesh",
+                    "Assam",
+                    "Manipur",
+                    "Mizoram",
+                    "Nagaland",
+                    "Tripura"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7,
+                    8
+                ]
+            },
+            "Local Giant": {
+                "peak_states": [
+                    "Goa"
+                ],
+                "peak_months": [
+                    6,
+                    7,
+                    8
+                ]
+            },
+            "Vazhakkulam Pineapple (Mauritius)": {
+                "peak_states": [
+                    "Kerala"
+                ],
+                "peak_months": [
+                    1,
+                    5,
+                    6,
+                    7,
+                    12
+                ]
+            },
+            "Giant": {
+                "peak_states": [
+                    "Meghalaya"
+                ],
+                "peak_months": [
+                    7,
+                    8,
+                    9
+                ]
+            },
+            "Ranchi": {
+                "peak_states": [
+                    "Andaman and Nicobar Islands"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            }
+        }
+    },
+    "Walnut": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to antioxidant, brain_health, heart_health, omega_3.",
+        "health_tags": [
+            "antioxidant",
+            "brain_health",
+            "heart_health",
+            "omega_3"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 583,
+        "user_rating": 4.6,
+        "varieties": {
+            "Local Selections": {
+                "peak_states": [
+                    "Arunachal Pradesh"
+                ],
+                "peak_months": [
+                    10,
+                    11
+                ]
+            },
+            "Chakrata Selection": {
+                "peak_states": [
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    9,
+                    10
+                ]
+            },
+            "Local Kagazi": {
+                "peak_states": [
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    9,
+                    10
+                ]
+            },
+            "Kagzi": {
+                "peak_states": [
+                    "Jammu and Kashmir"
+                ],
+                "peak_months": [
+                    9,
+                    10
+                ]
+            },
+            "Burzul": {
+                "peak_states": [
+                    "Jammu and Kashmir"
+                ],
+                "peak_months": [
+                    9,
+                    10
+                ]
+            },
+            "Suleiman": {
+                "peak_states": [
+                    "Jammu and Kashmir"
+                ],
+                "peak_months": [
+                    9,
+                    10
+                ]
+            }
+        }
+    },
+    "Litchi": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to antioxidant, hydration, immunity, vitamin_c.",
+        "health_tags": [
+            "antioxidant",
+            "hydration",
+            "immunity",
+            "vitamin_c"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 165,
+        "user_rating": 4.7,
+        "varieties": {
+            "Tezpur Litchi": {
+                "peak_states": [
+                    "Assam"
+                ],
+                "peak_months": [
+                    5,
+                    6
+                ]
+            },
+            "Shahi": {
+                "peak_states": [
+                    "Assam",
+                    "Bihar",
+                    "Chhattisgarh",
+                    "Jharkhand",
+                    "Odisha"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Bombai": {
+                "peak_states": [
+                    "Assam",
+                    "Tripura",
+                    "West Bengal"
+                ],
+                "peak_months": [
+                    5,
+                    6
+                ]
+            },
+            "China": {
+                "peak_states": [
+                    "Bihar",
+                    "Chhattisgarh",
+                    "Jharkhand",
+                    "Odisha",
+                    "West Bengal"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Early Muzaffarpur": {
+                "peak_states": [
+                    "Chhattisgarh"
+                ],
+                "peak_months": [
+                    6,
+                    7
+                ]
+            },
+            "Dehradun": {
+                "peak_states": [
+                    "Punjab"
+                ],
+                "peak_months": [
+                    6,
+                    7
+                ]
+            },
+            "Calcutta": {
+                "peak_states": [
+                    "Jammu and Kashmir",
+                    "Punjab",
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Local Varieties": {
+                "peak_states": [
+                    "Tripura"
+                ],
+                "peak_months": [
+                    5,
+                    6
+                ]
+            },
+            "Dehraduni": {
+                "peak_states": [
+                    "Jammu and Kashmir",
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Rose Scented": {
+                "peak_states": [
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    5,
+                    6
+                ]
+            },
+            "Muzaffarpuri": {
+                "peak_states": [
+                    "West Bengal"
+                ],
+                "peak_months": [
+                    5,
+                    6
+                ]
+            }
+        }
+    },
+    "Assam Lemon (Kaji Nemu)": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to detox, digestion, immunity, vitamin_c.",
+        "health_tags": [
+            "detox",
+            "digestion",
+            "immunity",
+            "vitamin_c"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 90,
+        "user_rating": 4.9,
+        "varieties": {
+            "Kaji Nemu": {
+                "peak_states": [
+                    "Assam"
+                ],
+                "peak_months": [
+                    1,
+                    7,
+                    8,
+                    9,
+                    12
+                ]
+            }
+        }
+    },
+    "Pomelo (Robab Tenga)": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to antioxidant, heart_health, hydration, vitamin_c.",
+        "health_tags": [
+            "antioxidant",
+            "heart_health",
+            "hydration",
+            "vitamin_c"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 60,
+        "user_rating": 4.4,
+        "varieties": {
+            "Local Pink Flesh": {
+                "peak_states": [
+                    "Assam"
+                ],
+                "peak_months": [
+                    9,
+                    10,
+                    11
+                ]
+            },
+            "Local White Flesh": {
+                "peak_states": [
+                    "Assam"
+                ],
+                "peak_months": [
+                    9,
+                    10,
+                    11
+                ]
+            }
+        }
+    },
+    "Fox Nut (Makhana)": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to bone_health, diabetes_friendly, low_calorie, protein.",
+        "health_tags": [
+            "bone_health",
+            "diabetes_friendly",
+            "low_calorie",
+            "protein"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 700,
+        "user_rating": 4.8,
+        "varieties": {
+            "Local Varieties": {
+                "peak_states": [
+                    "Bihar"
+                ],
+                "peak_months": [
+                    9,
+                    10
+                ]
+            }
+        }
+    },
+    "Cashew": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to bone_health, healthy_fats, heart_health.",
+        "health_tags": [
+            "bone_health",
+            "healthy_fats",
+            "heart_health"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 750,
+        "user_rating": 4.3,
+        "varieties": {
+            "VRI-3": {
+                "peak_states": [
+                    "Chhattisgarh",
+                    "Odisha"
+                ],
+                "peak_months": [
+                    4,
+                    5
+                ]
+            },
+            "Ullal-3": {
+                "peak_states": [
+                    "Chhattisgarh"
+                ],
+                "peak_months": [
+                    4,
+                    5
+                ]
+            },
+            "Local Selections": {
+                "peak_states": [
+                    "Meghalaya"
+                ],
+                "peak_months": [
+                    4,
+                    5
+                ]
+            },
+            "Jagannath": {
+                "peak_states": [
+                    "Odisha"
+                ],
+                "peak_months": [
+                    4,
+                    5
+                ]
+            }
+        }
+    },
+    "Custard Apple (Sitaphal)": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to energy, immunity, minerals, vision.",
+        "health_tags": [
+            "energy",
+            "immunity",
+            "minerals",
+            "vision"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 103,
+        "user_rating": 4.5,
+        "varieties": {
+            "Local Forest Varieties": {
+                "peak_states": [
+                    "Chhattisgarh"
+                ],
+                "peak_months": [
+                    9,
+                    10,
+                    11
+                ]
+            },
+            "Local Varieties": {
+                "peak_states": [
+                    "Madhya Pradesh"
+                ],
+                "peak_months": [
+                    9,
+                    10
+                ]
+            },
+            "Balanagar": {
+                "peak_states": [
+                    "Maharashtra"
+                ],
+                "peak_months": [
+                    9,
+                    10,
+                    11
+                ]
+            },
+            "Annona-2": {
+                "peak_states": [
+                    "Maharashtra"
+                ],
+                "peak_months": [
+                    9,
+                    10,
+                    11
+                ]
+            }
+        }
+    },
+    "Pear": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to digestion, fiber, hydration, low_calorie.",
+        "health_tags": [
+            "digestion",
+            "fiber",
+            "hydration",
+            "low_calorie"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 90,
+        "user_rating": 4.4,
+        "varieties": {
+            "Patharnakh": {
+                "peak_states": [
+                    "Chandigarh",
+                    "Chhattisgarh",
+                    "Haryana",
+                    "Jharkhand",
+                    "Punjab",
+                    "Uttar Pradesh",
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    7,
+                    8,
+                    9
+                ]
+            },
+            "Gola Pear": {
+                "peak_states": [
+                    "Chhattisgarh"
+                ],
+                "peak_months": [
+                    7,
+                    8
+                ]
+            },
+            "Le Conte": {
+                "peak_states": [
+                    "Haryana"
+                ],
+                "peak_months": [
+                    8,
+                    9
+                ]
+            },
+            "Bartlett": {
+                "peak_states": [
+                    "Himachal Pradesh"
+                ],
+                "peak_months": [
+                    8,
+                    9
+                ]
+            },
+            "Max Red Bartlett": {
+                "peak_states": [
+                    "Himachal Pradesh"
+                ],
+                "peak_months": [
+                    8,
+                    9
+                ]
+            },
+            "Nashpati": {
+                "peak_states": [
+                    "Jharkhand"
+                ],
+                "peak_months": [
+                    8,
+                    9
+                ]
+            },
+            "Punjab Beauty": {
+                "peak_states": [
+                    "Punjab"
+                ],
+                "peak_months": [
+                    8,
+                    9
+                ]
+            },
+            "Local Varieties": {
+                "peak_states": [
+                    "Sikkim"
+                ],
+                "peak_months": [
+                    8,
+                    9
+                ]
+            },
+            "Gola": {
+                "peak_states": [
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    7,
+                    8
+                ]
+            },
+            "Victoria": {
+                "peak_states": [
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    7,
+                    8
+                ]
+            },
+            "William Bartlett": {
+                "peak_states": [
+                    "Jammu and Kashmir"
+                ],
+                "peak_months": [
+                    8,
+                    9
+                ]
+            },
+            "Kashmiri Nakh": {
+                "peak_states": [
+                    "Jammu and Kashmir"
+                ],
+                "peak_months": [
+                    8,
+                    9
+                ]
+            }
+        }
+    },
+    "Coconut": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to electrolytes, fiber, healthy_fats, hydration, minerals.",
+        "health_tags": [
+            "electrolytes",
+            "fiber",
+            "healthy_fats",
+            "hydration",
+            "minerals"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 43,
+        "user_rating": 4.6,
+        "varieties": {
+            "Benaulim": {
+                "peak_states": [
+                    "Goa"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "West Coast Tall": {
+                "peak_states": [
+                    "Dadra and Nagar Haveli and Daman and Diu",
+                    "Goa",
+                    "Gujarat",
+                    "Kerala",
+                    "Puducherry"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Calangute": {
+                "peak_states": [
+                    "Goa"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "D-Tall": {
+                "peak_states": [
+                    "Gujarat"
+                ],
+                "peak_months": [
+                    1,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Chowghat Orange Dwarf": {
+                "peak_states": [
+                    "Kerala",
+                    "Puducherry"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "East Coast Tall": {
+                "peak_states": [
+                    "Andaman and Nicobar Islands",
+                    "Puducherry"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Andaman Giant": {
+                "peak_states": [
+                    "Andaman and Nicobar Islands"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Nicobar Tall": {
+                "peak_states": [
+                    "Andaman and Nicobar Islands"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Kappadam": {
+                "peak_states": [
+                    "Andaman and Nicobar Islands"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Daman Tall": {
+                "peak_states": [
+                    "Dadra and Nagar Haveli and Daman and Diu"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Diu Tall": {
+                "peak_states": [
+                    "Dadra and Nagar Haveli and Daman and Diu"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Laccadive Ordinary": {
+                "peak_states": [
+                    "Lakshadweep"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Laccadive Micro Tall": {
+                "peak_states": [
+                    "Lakshadweep"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Kovvur Tall": {
+                "peak_states": [
+                    "Puducherry"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            }
+        }
+    },
+    "Kokum": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to anti_acidity, antioxidant, cooling_agent, digestion.",
+        "health_tags": [
+            "anti_acidity",
+            "antioxidant",
+            "cooling_agent",
+            "digestion"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 250,
+        "user_rating": 4.7,
+        "varieties": {
+            "Local Varieties": {
+                "peak_states": [
+                    "Goa"
+                ],
+                "peak_months": [
+                    4,
+                    5
+                ]
+            }
+        }
+    },
+    "Dates": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to bone_health, energy, fiber, iron.",
+        "health_tags": [
+            "bone_health",
+            "energy",
+            "fiber",
+            "iron"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 350,
+        "user_rating": 4.8,
+        "varieties": {
+            "Barhi": {
+                "peak_states": [
+                    "Gujarat"
+                ],
+                "peak_months": [
+                    7,
+                    8
+                ]
+            },
+            "Medjool": {
+                "peak_states": [
+                    "Gujarat"
+                ],
+                "peak_months": [
+                    7,
+                    8
+                ]
+            }
+        }
+    },
+    "Dragon Fruit (Kamalam)": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to antioxidant, fiber, immunity, low_calorie.",
+        "health_tags": [
+            "antioxidant",
+            "fiber",
+            "immunity",
+            "low_calorie"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 223,
+        "user_rating": 4.6,
+        "varieties": {
+            "White Flesh": {
+                "peak_states": [
+                    "Gujarat"
+                ],
+                "peak_months": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                ]
+            },
+            "Red Flesh": {
+                "peak_states": [
+                    "Gujarat",
+                    "Mizoram",
+                    "Telangana"
+                ],
+                "peak_months": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                ]
+            }
+        }
+    },
+    "Jujube (Ber)": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to bone_health, calcium, digestion, immunity, sleep_aid.",
+        "health_tags": [
+            "bone_health",
+            "calcium",
+            "digestion",
+            "immunity",
+            "sleep_aid"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 53,
+        "user_rating": 4.3,
+        "varieties": {
+            "Gola": {
+                "peak_states": [
+                    "Delhi",
+                    "Gujarat",
+                    "Haryana",
+                    "Maharashtra",
+                    "Rajasthan",
+                    "Uttar Pradesh"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    12
+                ]
+            },
+            "Meherun": {
+                "peak_states": [
+                    "Gujarat"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    12
+                ]
+            },
+            "Umran": {
+                "peak_states": [
+                    "Delhi",
+                    "Haryana",
+                    "Maharashtra",
+                    "Punjab"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    12
+                ]
+            },
+            "Kaithli": {
+                "peak_states": [
+                    "Haryana"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    12
+                ]
+            },
+            "Seb": {
+                "peak_states": [
+                    "Haryana",
+                    "Rajasthan"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    12
+                ]
+            },
+            "Sanaur-2": {
+                "peak_states": [
+                    "Punjab"
+                ],
+                "peak_months": [
+                    1,
+                    2
+                ]
+            },
+            "Mundia": {
+                "peak_states": [
+                    "Rajasthan"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    12
+                ]
+            },
+            "Banarasi Karaka": {
+                "peak_states": [
+                    "Uttar Pradesh"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    12
+                ]
+            }
+        }
+    },
+    "Kinnow": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to hydration, immunity, skin_health, vitamin_c.",
+        "health_tags": [
+            "hydration",
+            "immunity",
+            "skin_health",
+            "vitamin_c"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 40,
+        "user_rating": 4.6,
+        "varieties": {
+            "Kinnow": {
+                "peak_states": [
+                    "Chandigarh",
+                    "Haryana",
+                    "Punjab",
+                    "Rajasthan"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    11,
+                    12
+                ]
+            }
+        }
+    },
+    "Sweet Orange": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to antioxidant, fiber, immunity.",
+        "health_tags": [
+            "antioxidant",
+            "fiber",
+            "immunity"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 60,
+        "user_rating": 4.3,
+        "varieties": {
+            "Jaffa": {
+                "peak_states": [
+                    "Haryana"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    12
+                ]
+            },
+            "Blood Red": {
+                "peak_states": [
+                    "Haryana"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    12
+                ]
+            }
+        }
+    },
+    "Amla (Indian Gooseberry)": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to antioxidant, hair_health, immunity, vitamin_c.",
+        "health_tags": [
+            "antioxidant",
+            "hair_health",
+            "immunity",
+            "vitamin_c"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 46,
+        "user_rating": 4.4,
+        "varieties": {
+            "Chakaiya": {
+                "peak_states": [
+                    "Haryana",
+                    "Rajasthan",
+                    "Uttar Pradesh"
+                ],
+                "peak_months": [
+                    1,
+                    11,
+                    12
+                ]
+            },
+            "NA-7": {
+                "peak_states": [
+                    "Haryana",
+                    "Rajasthan",
+                    "Uttar Pradesh"
+                ],
+                "peak_months": [
+                    1,
+                    11,
+                    12
+                ]
+            },
+            "Kanchan": {
+                "peak_states": [
+                    "Haryana",
+                    "Uttar Pradesh"
+                ],
+                "peak_months": [
+                    1,
+                    11,
+                    12
+                ]
+            },
+            "Krishna": {
+                "peak_states": [
+                    "Uttar Pradesh"
+                ],
+                "peak_months": [
+                    1,
+                    11,
+                    12
+                ]
+            }
+        }
+    },
+    "Strawberry": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to antioxidant, brain_function, heart_health, vitamin_c.",
+        "health_tags": [
+            "antioxidant",
+            "brain_function",
+            "heart_health",
+            "vitamin_c"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 300,
+        "user_rating": 4.8,
+        "varieties": {
+            "Chandler": {
+                "peak_states": [
+                    "Haryana"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    12
+                ]
+            },
+            "Sweet Charlie": {
+                "peak_states": [
+                    "Haryana",
+                    "Maharashtra",
+                    "Meghalaya"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    12
+                ]
+            },
+            "Camarosa": {
+                "peak_states": [
+                    "Maharashtra",
+                    "Meghalaya",
+                    "Odisha"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    12
+                ]
+            },
+            "Nabila": {
+                "peak_states": [
+                    "Maharashtra",
+                    "Meghalaya",
+                    "Odisha"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    12
+                ]
+            },
+            "Winter Dawn": {
+                "peak_states": [
+                    "Odisha"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    12
+                ]
+            }
+        }
+    },
+    "Cherry": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to anti_inflammatory, antioxidant, gout_relief, sleep_aid.",
+        "health_tags": [
+            "anti_inflammatory",
+            "antioxidant",
+            "gout_relief",
+            "sleep_aid"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 650,
+        "user_rating": 4.9,
+        "varieties": {
+            "Merchant": {
+                "peak_states": [
+                    "Himachal Pradesh"
+                ],
+                "peak_months": [
+                    5,
+                    6
+                ]
+            },
+            "Stella": {
+                "peak_states": [
+                    "Himachal Pradesh"
+                ],
+                "peak_months": [
+                    5,
+                    6
+                ]
+            },
+            "Van": {
+                "peak_states": [
+                    "Himachal Pradesh"
+                ],
+                "peak_months": [
+                    5,
+                    6
+                ]
+            },
+            "Mishri": {
+                "peak_states": [
+                    "Jammu and Kashmir"
+                ],
+                "peak_months": [
+                    5,
+                    6
+                ]
+            },
+            "Double": {
+                "peak_states": [
+                    "Jammu and Kashmir"
+                ],
+                "peak_months": [
+                    5,
+                    6
+                ]
+            },
+            "Makhmali": {
+                "peak_states": [
+                    "Jammu and Kashmir"
+                ],
+                "peak_months": [
+                    5,
+                    6
+                ]
+            }
+        }
+    },
+    "Plum": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to antioxidant, bone_health, digestion.",
+        "health_tags": [
+            "antioxidant",
+            "bone_health",
+            "digestion"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 156,
+        "user_rating": 4.4,
+        "varieties": {
+            "Santa Rosa": {
+                "peak_states": [
+                    "Himachal Pradesh"
+                ],
+                "peak_months": [
+                    6,
+                    7
+                ]
+            },
+            "Mariposa": {
+                "peak_states": [
+                    "Himachal Pradesh",
+                    "Sikkim"
+                ],
+                "peak_months": [
+                    6,
+                    7
+                ]
+            },
+            "Santaroja": {
+                "peak_states": [
+                    "Meghalaya",
+                    "Sikkim"
+                ],
+                "peak_months": [
+                    6,
+                    7
+                ]
+            },
+            "Local Varieties": {
+                "peak_states": [
+                    "Meghalaya",
+                    "Nagaland"
+                ],
+                "peak_months": [
+                    6,
+                    7
+                ]
+            },
+            "Kodaikanal Local": {
+                "peak_states": [
+                    "Tamil Nadu"
+                ],
+                "peak_months": [
+                    5,
+                    6
+                ]
+            },
+            "Local Himalayan Varieties": {
+                "peak_states": [
+                    "West Bengal"
+                ],
+                "peak_months": [
+                    6,
+                    7
+                ]
+            }
+        }
+    },
+    "Apricot": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to antioxidant, fiber, iron, potassium, skin_health, vision.",
+        "health_tags": [
+            "antioxidant",
+            "fiber",
+            "iron",
+            "potassium",
+            "skin_health",
+            "vision"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 220,
+        "user_rating": 4.7,
+        "varieties": {
+            "New Castle": {
+                "peak_states": [
+                    "Himachal Pradesh",
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Halman": {
+                "peak_states": [
+                    "Himachal Pradesh",
+                    "Ladakh",
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
+            },
+            "Lucknowi": {
+                "peak_states": [
+                    "Uttarakhand"
+                ],
+                "peak_months": [
+                    5,
+                    6
+                ]
+            },
+            "Raktsey Karpo": {
+                "peak_states": [
+                    "Ladakh"
+                ],
+                "peak_months": [
+                    8,
+                    9
+                ]
+            },
+            "Shakarpara": {
+                "peak_states": [
+                    "Ladakh"
+                ],
+                "peak_months": [
+                    8,
+                    9
+                ]
+            }
+        }
+    },
+    "Grapes": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to antioxidant, bone_health, brain_function, energy, heart_health.",
+        "health_tags": [
+            "antioxidant",
+            "bone_health",
+            "brain_function",
+            "energy",
+            "heart_health"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 92,
+        "user_rating": 4.6,
+        "varieties": {
+            "Bangalore Blue": {
+                "peak_states": [
+                    "Karnataka",
+                    "Mizoram"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "Thompson Seedless": {
+                "peak_states": [
+                    "Karnataka",
+                    "Maharashtra",
+                    "Tamil Nadu"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    8,
+                    9,
+                    12
+                ]
+            },
+            "Sonaka": {
+                "peak_states": [
+                    "Karnataka",
+                    "Maharashtra"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    12
+                ]
+            },
+            "Sharad Seedless": {
+                "peak_states": [
+                    "Maharashtra"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "Panneer Drakshai (Muscat Hamburg)": {
+                "peak_states": [
+                    "Tamil Nadu"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    8,
+                    9
+                ]
+            }
+        }
+    },
+    "Fig": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to blood_pressure, bone_health, fiber.",
+        "health_tags": [
+            "blood_pressure",
+            "bone_health",
+            "fiber"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 350,
+        "user_rating": 4.5,
+        "varieties": {
+            "Poona Red": {
+                "peak_states": [
+                    "Karnataka"
+                ],
+                "peak_months": [
+                    2,
+                    3,
+                    6,
+                    7
+                ]
+            },
+            "Dinkar": {
+                "peak_states": [
+                    "Karnataka"
+                ],
+                "peak_months": [
+                    2,
+                    3,
+                    6,
+                    7
+                ]
+            }
+        }
+    },
+    "Passion Fruit": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to antioxidant, fiber, immunity, sleep_aid, vision.",
+        "health_tags": [
+            "antioxidant",
+            "fiber",
+            "immunity",
+            "sleep_aid",
+            "vision"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 136,
+        "user_rating": 4.6,
+        "varieties": {
+            "Kaveri (Hybrid)": {
+                "peak_states": [
+                    "Karnataka"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "Purple": {
+                "peak_states": [
+                    "Kerala",
+                    "Manipur",
+                    "Mizoram",
+                    "Nagaland",
+                    "Sikkim"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                ]
+            },
+            "Yellow": {
+                "peak_states": [
+                    "Kerala",
+                    "Mizoram",
+                    "Sikkim"
+                ],
+                "peak_months": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                ]
+            }
+        }
+    },
+    "Mangosteen": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to anti_inflammatory, antioxidant, skin_health.",
+        "health_tags": [
+            "anti_inflammatory",
+            "antioxidant",
+            "skin_health"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 350,
+        "user_rating": 4.9,
+        "varieties": {
+            "Local Varieties": {
+                "peak_states": [
+                    "Kerala"
+                ],
+                "peak_months": [
+                    6,
+                    7,
+                    8
+                ]
+            }
+        }
+    },
+    "Rambutan": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to energy, immunity, iron.",
+        "health_tags": [
+            "energy",
+            "immunity",
+            "iron"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 300,
+        "user_rating": 4.8,
+        "varieties": {
+            "N18": {
+                "peak_states": [
+                    "Kerala"
+                ],
+                "peak_months": [
+                    6,
+                    7,
+                    8
+                ]
+            },
+            "Local Red": {
+                "peak_states": [
+                    "Kerala"
+                ],
+                "peak_months": [
+                    6,
+                    7,
+                    8
+                ]
+            }
+        }
+    },
+    "Fig (Anjeer)": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to blood_pressure, bone_health, digestion, fiber.",
+        "health_tags": [
+            "blood_pressure",
+            "bone_health",
+            "digestion",
+            "fiber"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 400,
+        "user_rating": 4.6,
+        "varieties": {
+            "Poona Red": {
+                "peak_states": [
+                    "Maharashtra"
+                ],
+                "peak_months": [
+                    2,
+                    3,
+                    6,
+                    7
+                ]
+            },
+            "Dinkar": {
+                "peak_states": [
+                    "Maharashtra"
+                ],
+                "peak_months": [
+                    2,
+                    3,
+                    6,
+                    7
+                ]
+            }
+        }
+    },
+    "Raspberry": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to antioxidant, fiber, low_calorie.",
+        "health_tags": [
+            "antioxidant",
+            "fiber",
+            "low_calorie"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 500,
+        "user_rating": 4.4,
+        "varieties": {
+            "Tulameen": {
+                "peak_states": [
+                    "Maharashtra"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    12
+                ]
+            }
+        }
+    },
+    "Kachai Lemon": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to detox, digestion, immunity, vitamin_c.",
+        "health_tags": [
+            "detox",
+            "digestion",
+            "immunity",
+            "vitamin_c"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 100,
+        "user_rating": 4.9,
+        "varieties": {
+            "Kachai Lemon": {
+                "peak_states": [
+                    "Manipur"
+                ],
+                "peak_months": [
+                    10,
+                    11,
+                    12
+                ]
+            }
+        }
+    },
+    "Naga Tree Tomato (Tamarillo)": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to antioxidant, immunity, low_calorie, vision.",
+        "health_tags": [
+            "antioxidant",
+            "immunity",
+            "low_calorie",
+            "vision"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 150,
+        "user_rating": 4.5,
+        "varieties": {
+            "Local Red": {
+                "peak_states": [
+                    "Nagaland"
+                ],
+                "peak_months": [
+                    9,
+                    10
+                ]
+            }
+        }
+    },
+    "Sweet Orange (Malta)": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to antioxidant, fiber, immunity.",
+        "health_tags": [
+            "antioxidant",
+            "fiber",
+            "immunity"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 55,
+        "user_rating": 4.4,
+        "varieties": {
+            "Blood Red": {
+                "peak_states": [
+                    "Rajasthan"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    12
+                ]
+            },
+            "Jaffa": {
+                "peak_states": [
+                    "Rajasthan"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    12
+                ]
+            }
+        }
+    },
+    "Mandarin Orange": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to hydration, immunity, skin_health, vitamin_c.",
+        "health_tags": [
+            "hydration",
+            "immunity",
+            "skin_health",
+            "vitamin_c"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 100,
+        "user_rating": 4.9,
+        "varieties": {
+            "Sikkim Mandarin": {
+                "peak_states": [
+                    "Sikkim"
+                ],
+                "peak_months": [
+                    1,
+                    11,
+                    12
+                ]
+            }
+        }
+    },
+    "Sweet Lime (Mosambi)": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to cooling, digestion, hydration, vitamin_c.",
+        "health_tags": [
+            "cooling",
+            "digestion",
+            "hydration",
+            "vitamin_c"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 40,
+        "user_rating": 4.8,
+        "varieties": {
+            "Sathgudi": {
+                "peak_states": [
+                    "Telangana"
+                ],
+                "peak_months": [
+                    3,
+                    4,
+                    8,
+                    9,
+                    10
+                ]
+            }
+        }
+    },
+    "Lemon": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to detox, digestion, immunity, vitamin_c.",
+        "health_tags": [
+            "detox",
+            "digestion",
+            "immunity",
+            "vitamin_c"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 90,
+        "user_rating": 4.7,
+        "varieties": {
+            "Gondhoraj Lebu": {
+                "peak_states": [
+                    "Tripura"
+                ],
+                "peak_months": [
+                    7,
+                    8,
+                    9,
+                    10
+                ]
+            },
+            "Assam Lemon": {
+                "peak_states": [
+                    "Tripura"
+                ],
+                "peak_months": [
+                    7,
+                    8,
+                    9,
+                    10
+                ]
+            }
+        }
+    },
+    "Pandanus (Nicobar Breadfruit)": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to carbohydrates, energy, fiber.",
+        "health_tags": [
+            "carbohydrates",
+            "energy",
+            "fiber"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 60,
+        "user_rating": 4.2,
+        "varieties": {
+            "Local wild varieties": {
+                "peak_states": [
+                    "Andaman and Nicobar Islands"
+                ],
+                "peak_months": [
+                    6,
+                    7,
+                    8
+                ]
+            }
+        }
+    },
+    "Sapota (Chikoo)": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to digestion, energy, fiber, minerals.",
+        "health_tags": [
+            "digestion",
+            "energy",
+            "fiber",
+            "minerals"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 67,
+        "user_rating": 4.6,
+        "varieties": {
+            "Kalipatti": {
+                "peak_states": [
+                    "Dadra and Nagar Haveli and Daman and Diu"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Cricket Ball": {
+                "peak_states": [
+                    "Dadra and Nagar Haveli and Daman and Diu"
+                ],
+                "peak_months": [
+                    1,
+                    2,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            }
+        }
+    },
+    "Hoka Palm Fruit": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to energy, fiber, minerals.",
+        "health_tags": [
+            "energy",
+            "fiber",
+            "minerals"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 100,
+        "user_rating": 4.1,
+        "varieties": {
+            "Local Hoka": {
+                "peak_states": [
+                    "Dadra and Nagar Haveli and Daman and Diu"
+                ],
+                "peak_months": [
+                    9,
+                    10
+                ]
+            }
+        }
+    },
+    "Jamun (Java Plum)": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to blood_purifier, diabetes_friendly, digestion.",
+        "health_tags": [
+            "blood_purifier",
+            "diabetes_friendly",
+            "digestion"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 120,
+        "user_rating": 4.5,
+        "varieties": {
+            "Local Varieties": {
+                "peak_states": [
+                    "Delhi"
+                ],
+                "peak_months": [
+                    6,
+                    7
+                ]
+            }
+        }
+    },
+    "Sea Buckthorn": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to immunity, omega_fatty_acids, skin_health, vitamin_c.",
+        "health_tags": [
+            "immunity",
+            "omega_fatty_acids",
+            "skin_health",
+            "vitamin_c"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 400,
+        "user_rating": 4.9,
+        "varieties": {
+            "Local Wild Selections": {
+                "peak_states": [
+                    "Ladakh"
+                ],
+                "peak_months": [
+                    8,
+                    9
+                ]
+            }
+        }
+    },
+    "Breadfruit": {
+        "benefits": "A popular fruit known for its delicious taste and health benefits related to carbohydrates, energy, fiber, potassium.",
+        "health_tags": [
+            "carbohydrates",
+            "energy",
+            "fiber",
+            "potassium"
+        ],
+        "availability_score": 8,
+        "avg_price_per_kg": 60,
+        "user_rating": 4.4,
+        "varieties": {
+            "Local Varieties": {
+                "peak_states": [
+                    "Lakshadweep"
+                ],
+                "peak_months": [
+                    7,
+                    8,
+                    9
+                ]
+            }
+        }
+    }
+}

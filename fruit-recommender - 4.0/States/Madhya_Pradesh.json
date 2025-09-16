@@ -1,0 +1,88 @@
+{
+  "Madhya Pradesh": {
+    "fruit_production_overview": "Madhya Pradesh is a leading horticultural state, particularly renowned for being one of India's largest producers of oranges and guavas. The state's diverse agro-climatic zones support a wide array of fruits, including unique GI-tagged mango varieties like the Sundarja. Significant production of bananas in the Nimar region and custard apples in the tribal belts further solidifies its position as a major fruit supplier in the country.",
+    "major_fruit_districts": {
+      "Chhindwara": {
+        "agricultural_significance": "Chhindwara, part of the Satpura plateau, is the heart of orange cultivation in Madhya Pradesh. The region's black soil and climate are ideal for growing high-quality Mandarin oranges, contributing significantly to India's citrus basket.",
+        "fruits": [
+          {
+            "fruit_name": "Orange",
+            "peak_months": [12, 1, 2],
+            "famous_varieties": ["Mandarin Orange (Santra)", "Kinnow"],
+            "health_tags": ["vitamin_c", "immunity", "skin_health", "hydration"],
+            "avg_price_per_kg_inr": 60,
+            "estimated_user_rating": 4.7
+          }
+        ]
+      },
+      "Rewa": {
+        "agricultural_significance": "Rewa district, located in the Vindhya region, is famous for the GI-tagged 'Sundarja' mango. This unique, fiberless mango variety is known for its distinct aroma and sweetness, making the district a specialty mango hub.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Sundarja"],
+            "health_tags": ["immunity", "vision", "antioxidants", "digestion"],
+            "avg_price_per_kg_inr": 150,
+            "estimated_user_rating": 4.9
+          },
+          {
+            "fruit_name": "Guava",
+            "peak_months": [11, 12, 1],
+            "famous_varieties": ["Allahabad Safeda"],
+            "health_tags": ["immunity", "vitamin_c", "fiber"],
+            "avg_price_per_kg_inr": 65,
+            "estimated_user_rating": 4.4
+          }
+        ]
+      },
+      "Burhanpur": {
+        "agricultural_significance": "Burhanpur is the 'Banana Capital' of Madhya Pradesh, with the largest area and production of the fruit in the state. The district's location on the banks of the Tapti river provides fertile soil and ideal conditions for year-round banana cultivation.",
+        "fruits": [
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Grand Naine"],
+            "health_tags": ["energy", "potassium", "heart_health", "digestion"],
+            "avg_price_per_kg_inr": 30,
+            "estimated_user_rating": 4.6
+          }
+        ]
+      },
+      "Shajapur": {
+        "agricultural_significance": "Shajapur is a premier district for guava cultivation in Madhya Pradesh, renowned for its high-quality produce. The region is particularly noted for growing red-fleshed guava varieties which are in high demand.",
+        "fruits": [
+          {
+            "fruit_name": "Guava",
+            "peak_months": [11, 12, 1, 2],
+            "famous_varieties": ["Lalit (Red Flesh)", "Allahabad Safeda", "VNR-Bihi"],
+            "health_tags": ["immunity", "vitamin_c", "fiber", "blood_sugar_control"],
+            "avg_price_per_kg_inr": 70,
+            "estimated_user_rating": 4.7
+          }
+        ]
+      },
+      "Alirajpur": {
+        "agricultural_significance": "The tribal district of Alirajpur is famous for cultivating the 'Noorjahan' mango, an exceptionally large and rare variety. It is also a significant producer of custard apples, which grow abundantly in the region's hilly terrain.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Noorjahan", "Kesar"],
+            "health_tags": ["immunity", "vision", "skin_health"],
+            "avg_price_per_kg_inr": 500,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Custard Apple (Sitaphal)",
+            "peak_months": [9, 10],
+            "famous_varieties": ["Local Varieties"],
+            "health_tags": ["energy", "minerals", "immunity", "vision"],
+            "avg_price_per_kg_inr": 90,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      }
+    }
+  }
+}

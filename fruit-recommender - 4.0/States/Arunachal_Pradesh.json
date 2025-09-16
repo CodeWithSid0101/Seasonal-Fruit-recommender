@@ -1,0 +1,91 @@
+{
+  "Arunachal Pradesh": {
+    "fruit_production_overview": "Arunachal Pradesh, with its diverse agro-climatic conditions ranging from tropical to alpine, is a treasure trove of temperate and sub-tropical fruits. The state is a pioneer in organic fruit production and has emerged as the leading producer of Kiwi in India. It is also renowned for its high-quality Mandarin oranges and apples, which are cultivated across its hilly terrains.",
+    "major_fruit_districts": {
+      "Lower Subansiri": {
+        "agricultural_significance": "This district, particularly the Ziro Valley, is famously known as the 'Kiwi Bowl of India'. It was the first in the country to obtain organic certification for Kiwi cultivation, producing high-quality, flavorful fruit.",
+        "fruits": [
+          {
+            "fruit_name": "Kiwi",
+            "peak_months": [10, 11, 12],
+            "famous_varieties": ["Hayward", "Allison", "Bruno"],
+            "health_tags": ["vitamin_c", "immunity", "digestion", "sleep_aid"],
+            "avg_price_per_kg_inr": 250,
+            "estimated_user_rating": 4.9
+          },
+          {
+            "fruit_name": "Peach",
+            "peak_months": [5, 6],
+            "famous_varieties": ["Flordasun", "Sharbati"],
+            "health_tags": ["vision", "skin_health", "antioxidant"],
+            "avg_price_per_kg_inr": 180,
+            "estimated_user_rating": 4.4
+          }
+        ]
+      },
+      "West Kameng": {
+        "agricultural_significance": "West Kameng is the primary apple-producing district in the state, with numerous orchards in areas like Dirang. The temperate climate is also ideal for the cultivation of Mandarin oranges and walnuts.",
+        "fruits": [
+          {
+            "fruit_name": "Apple",
+            "peak_months": [9, 10],
+            "famous_varieties": ["Royal Delicious", "Golden Delicious", "Red Gold"],
+            "health_tags": ["fiber", "heart_health", "weight_management"],
+            "avg_price_per_kg_inr": 160,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Orange",
+            "peak_months": [11, 12, 1],
+            "famous_varieties": ["Mandarin Orange", "Khasi Mandarin"],
+            "health_tags": ["vitamin_c", "immunity", "hydration"],
+            "avg_price_per_kg_inr": 80,
+            "estimated_user_rating": 4.7
+          }
+        ]
+      },
+      "East Siang": {
+        "agricultural_significance": "With Pasighat as its center, East Siang is a major hub for subtropical fruits in Arunachal Pradesh. It is particularly known for its large-scale cultivation of sweet Mandarin oranges and juicy pineapples.",
+        "fruits": [
+          {
+            "fruit_name": "Orange",
+            "peak_months": [11, 12, 1],
+            "famous_varieties": ["Mandarin Orange"],
+            "health_tags": ["immunity", "skin_health", "vitamin_c"],
+            "avg_price_per_kg_inr": 70,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Pineapple",
+            "peak_months": [6, 7, 8],
+            "famous_varieties": ["Kew", "Queen"],
+            "health_tags": ["digestion", "anti_inflammatory", "immunity"],
+            "avg_price_per_kg_inr": 60,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      },
+      "Tawang": {
+        "agricultural_significance": "Located at a high altitude, Tawang provides a unique microclimate for producing crisp and flavorful apples. The district's cold, temperate conditions are also suitable for walnuts and other high-altitude fruits.",
+        "fruits": [
+          {
+            "fruit_name": "Apple",
+            "peak_months": [9, 10, 11],
+            "famous_varieties": ["Royal Delicious", "Granny Smith"],
+            "health_tags": ["fiber", "heart_health", "brain_function"],
+            "avg_price_per_kg_inr": 180,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Walnut",
+            "peak_months": [10, 11],
+            "famous_varieties": ["Local Selections"],
+            "health_tags": ["brain_health", "omega_3", "heart_health", "antioxidant"],
+            "avg_price_per_kg_inr": 600,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      }
+    }
+  }
+}

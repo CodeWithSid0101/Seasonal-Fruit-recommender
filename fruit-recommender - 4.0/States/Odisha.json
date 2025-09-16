@@ -1,0 +1,91 @@
+{
+  "Odisha": {
+    "fruit_production_overview": "Odisha possesses a diverse horticultural landscape, ranging from its coastal plains to the Eastern Ghats, making it a significant producer of mangoes, bananas, and cashews. The state is actively promoting fruit cultivation to diversify its agrarian economy, with a special focus on its tribal districts. High-altitude regions like Koraput are emerging as successful hubs for non-traditional, high-value crops like strawberries and litchis.",
+    "major_fruit_districts": {
+      "Mayurbhanj": {
+        "agricultural_significance": "Mayurbhanj is a major horticultural district, known for its extensive mango orchards and cashew plantations. The district's climate and soil are highly suitable for these crops, making it a key supplier for both fresh consumption and processing.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [5, 6],
+            "famous_varieties": ["Amrapali", "Dasheri", "Langra"],
+            "health_tags": ["immunity", "vision", "skin_health"],
+            "avg_price_per_kg_inr": 60,
+            "estimated_user_rating": 4.4
+          },
+          {
+            "fruit_name": "Cashew",
+            "peak_months": [4, 5],
+            "famous_varieties": ["VRI-3", "Jagannath"],
+            "health_tags": ["heart_health", "healthy_fats", "bone_health"],
+            "avg_price_per_kg_inr": 700,
+            "estimated_user_rating": 4.3
+          }
+        ]
+      },
+      "Dhenkanal": {
+        "agricultural_significance": "Dhenkanal is renowned in central Odisha for its high-quality mangoes, particularly the Banganapalli and Amrapali varieties. The district is also an important center for litchi cultivation, benefiting from the fertile river plains.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [5, 6, 7],
+            "famous_varieties": ["Banganapalli", "Amrapali", "Mallika"],
+            "health_tags": ["immunity", "vision", "digestion", "antioxidants"],
+            "avg_price_per_kg_inr": 65,
+            "estimated_user_rating": 4.5
+          },
+          {
+            "fruit_name": "Litchi",
+            "peak_months": [5, 6],
+            "famous_varieties": ["Shahi", "China"],
+            "health_tags": ["vitamin_c", "immunity", "hydration"],
+            "avg_price_per_kg_inr": 150,
+            "estimated_user_rating": 4.6
+          }
+        ]
+      },
+      "Ganjam": {
+        "agricultural_significance": "Located on the coast, Ganjam is a leading district for cashew production in Odisha, with its produce being a key commercial crop. The district also has a significant area dedicated to banana and coconut plantations.",
+        "fruits": [
+          {
+            "fruit_name": "Cashew Apple",
+            "peak_months": [4, 5],
+            "famous_varieties": ["VRI-3", "Vengurla-4"],
+            "health_tags": ["antioxidant", "immunity", "vitamin_c"],
+            "avg_price_per_kg_inr": 55,
+            "estimated_user_rating": 4.2
+          },
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Robusta", "Dwarf Cavendish"],
+            "health_tags": ["energy", "potassium", "heart_health"],
+            "avg_price_per_kg_inr": 35,
+            "estimated_user_rating": 4.3
+          }
+        ]
+      },
+      "Koraput": {
+        "agricultural_significance": "Koraput, a tribal district in the Eastern Ghats, has a unique cool climate that has made it a success story for strawberry cultivation in Eastern India. The high altitude is also favorable for growing high-quality litchis that ripen later than in the plains.",
+        "fruits": [
+          {
+            "fruit_name": "Strawberry",
+            "peak_months": [12, 1, 2],
+            "famous_varieties": ["Camarosa", "Nabila", "Winter Dawn"],
+            "health_tags": ["antioxidant", "heart_health", "vitamin_c", "brain_function"],
+            "avg_price_per_kg_inr": 300,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Litchi",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Shahi"],
+            "health_tags": ["vitamin_c", "hydration", "antioxidant"],
+            "avg_price_per_kg_inr": 160,
+            "estimated_user_rating": 4.7
+          }
+        ]
+      }
+    }
+  }
+}

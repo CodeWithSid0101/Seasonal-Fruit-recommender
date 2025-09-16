@@ -1,0 +1,62 @@
+{
+  "Manipur": {
+    "fruit_production_overview": "Manipur's horticulture is characterized by a unique blend of subtropical and temperate fruits, thriving in its hilly terrain and fertile valleys. The state is particularly renowned for its high-quality pineapples and two GI-tagged citrus fruits: the Tamenglong Mandarin Orange and the Kachai Lemon. Fruit cultivation, often organic by default, is deeply integrated into the local culture, celebrated through dedicated festivals for oranges and pineapples.",
+    "major_fruit_districts": {
+      "Churachandpur": {
+        "agricultural_significance": "Churachandpur is the pineapple heartland of Manipur, famous for producing exceptionally sweet and juicy pineapples of the Queen and Kew varieties. The district is a focal point for the Manipur Pineapple Festival, showcasing the importance of the fruit to the local economy.",
+        "fruits": [
+          {
+            "fruit_name": "Pineapple",
+            "peak_months": [7, 8],
+            "famous_varieties": ["Queen", "Kew"],
+            "health_tags": ["digestion", "immunity", "anti_inflammatory", "vitamin_c"],
+            "avg_price_per_kg_inr": 50,
+            "estimated_user_rating": 4.8
+          }
+        ]
+      },
+      "Ukhrul": {
+        "agricultural_significance": "Ukhrul is the native home of the GI-tagged 'Kachai Lemon', a unique lemon variety known for its high juice content and distinct aroma. The district's cooler climate is also ideal for the cultivation of passion fruit.",
+        "fruits": [
+          {
+            "fruit_name": "Kachai Lemon",
+            "peak_months": [10, 11, 12],
+            "famous_varieties": ["Kachai Lemon"],
+            "health_tags": ["vitamin_c", "immunity", "detox", "digestion"],
+            "avg_price_per_kg_inr": 100,
+            "estimated_user_rating": 4.9
+          },
+          {
+            "fruit_name": "Passion Fruit",
+            "peak_months": [7, 8, 9],
+            "famous_varieties": ["Purple"],
+            "health_tags": ["antioxidant", "fiber", "immunity", "sleep_aid"],
+            "avg_price_per_kg_inr": 140,
+            "estimated_user_rating": 4.6
+          }
+        ]
+      },
+      "Tamenglong": {
+        "agricultural_significance": "This district is synonymous with the GI-tagged 'Tamenglong Mandarin Orange', celebrated for its perfect blend of sweet and acidic taste. An annual Orange Festival is hosted here to promote this major horticultural produce of the state.",
+        "fruits": [
+          {
+            "fruit_name": "Orange",
+            "peak_months": [11, 12, 1],
+            "famous_varieties": ["Tamenglong Mandarin Orange"],
+            "health_tags": ["vitamin_c", "immunity", "skin_health", "hydration"],
+            "avg_price_per_kg_inr": 90,
+            "estimated_user_rating": 4.9
+          },
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Local Hill Banana", "G-9"],
+            "health_tags": ["energy", "potassium", "heart_health"],
+            "avg_price_per_kg_inr": 60,
+            "estimated_user_rating": 4.4
+          }
+        ]
+      }
+    }
+  }
+}

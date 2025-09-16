@@ -1,0 +1,83 @@
+{
+  "Bihar": {
+    "fruit_production_overview": "Bihar holds a distinguished position in India's horticultural map, renowned globally for its Shahi Litchi and Jardalu Mango, both of which possess GI tags. The state is the largest producer of litchis and Makhana (Fox Nut) in the country, leveraging its fertile Gangetic alluvial soil. The cultivation of high-quality bananas, guavas, and various mango varieties also contributes significantly to its agricultural economy.",
+    "major_fruit_districts": {
+      "Muzaffarpur": {
+        "agricultural_significance": "Known as the 'Litchi Kingdom of India', Muzaffarpur is the heartland of litchi production, famous for the GI-tagged Shahi Litchi, which is prized for its unique aroma, flavor, and juicy pulp.",
+        "fruits": [
+          {
+            "fruit_name": "Litchi",
+            "peak_months": [5, 6],
+            "famous_varieties": ["Shahi", "China"],
+            "health_tags": ["vitamin_c", "immunity", "hydration", "antioxidant"],
+            "avg_price_per_kg_inr": 200,
+            "estimated_user_rating": 4.9
+          },
+          {
+            "fruit_name": "Mango",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Langra", "Dasheri"],
+            "health_tags": ["immunity", "vision", "skin_health"],
+            "avg_price_per_kg_inr": 80,
+            "estimated_user_rating": 4.4
+          }
+        ]
+      },
+      "Bhagalpur": {
+        "agricultural_significance": "Bhagalpur is celebrated for its unique Jardalu mango, a GI-tagged variety known for its light yellow skin, special aroma, and sweet taste. The district's specific soil and climatic conditions are crucial for this variety's distinctive qualities.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Jardalu", "Malda"],
+            "health_tags": ["immunity", "vision", "digestion", "antioxidants"],
+            "avg_price_per_kg_inr": 120,
+            "estimated_user_rating": 4.8
+          }
+        ]
+      },
+      "Vaishali": {
+        "agricultural_significance": "The Hajipur region of Vaishali district is legendary for its banana cultivation, particularly the 'Chinia' variety. The high potassium content in the soil contributes to the unique taste and quality of the bananas grown here.",
+        "fruits": [
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Chinia Kela", "Malbhog", "Alpan"],
+            "health_tags": ["energy", "potassium", "heart_health", "digestion"],
+            "avg_price_per_kg_inr": 40,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Mango",
+            "peak_months": [5, 6, 7],
+            "famous_varieties": ["Amrapali", "Malda"],
+            "health_tags": ["immunity", "vision", "skin_health"],
+            "avg_price_per_kg_inr": 75,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      },
+      "Darbhanga": {
+        "agricultural_significance": "Darbhanga, along with the entire Mithila region, is the global hub for Makhana (Fox Nut) production. The numerous ponds and wetlands in the district provide the ideal aquatic ecosystem for cultivating this highly nutritious crop.",
+        "fruits": [
+          {
+            "fruit_name": "Fox Nut (Makhana)",
+            "peak_months": [9, 10],
+            "famous_varieties": ["Local Varieties"],
+            "health_tags": ["protein", "low_calorie", "bone_health", "diabetes_friendly"],
+            "avg_price_per_kg_inr": 700,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Guava",
+            "peak_months": [1, 2, 11, 12],
+            "famous_varieties": ["Allahabad Safeda", "L-49"],
+            "health_tags": ["immunity", "vitamin_c", "fiber", "digestion"],
+            "avg_price_per_kg_inr": 65,
+            "estimated_user_rating": 4.4
+          }
+        ]
+      }
+    }
+  }
+}

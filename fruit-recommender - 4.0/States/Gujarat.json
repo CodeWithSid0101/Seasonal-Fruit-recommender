@@ -1,0 +1,128 @@
+{
+  "Gujarat": {
+    "fruit_production_overview": "Gujarat is a leading state in Indian horticulture, renowned for its large-scale production of mangoes, bananas, and sapota (chikoo). The state's diverse agro-climatic zones, from the coastal belts of Saurashtra to the arid regions of Kutch, allow for the cultivation of a wide variety of fruits, including unique regional specialties like dates.",
+    "major_fruit_districts": {
+      "Gir Somnath": {
+        "agricultural_significance": "Globally famous as the cradle of the 'Gir Kesar' mango, which holds a Geographical Indication (GI) tag. The region's unique soil and climate impart an unparalleled aroma, flavor, and color to the fruit.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [4, 5, 6],
+            "famous_varieties": ["Gir Kesar", "Rajapuri"],
+            "health_tags": ["immunity", "vision", "skin_health", "digestion"],
+            "avg_price_per_kg_inr": 250,
+            "estimated_user_rating": 4.9
+          },
+          {
+            "fruit_name": "Coconut",
+            "peak_months": [8, 9, 10, 11, 12, 1],
+            "famous_varieties": ["D-Tall", "West Coast Tall"],
+            "health_tags": ["hydration", "electrolytes", "healthy_fats"],
+            "avg_price_per_kg_inr": 50,
+            "estimated_user_rating": 4.6
+          }
+        ]
+      },
+      "Valsad": {
+        "agricultural_significance": "Valsad is a primary hub for Sapota (Chikoo) cultivation in India and is also renowned for its variety of mangoes, particularly the Valsadi Hafoos (Alphonso). The fertile soil and high humidity are ideal for these crops.",
+        "fruits": [
+          {
+            "fruit_name": "Sapota",
+            "peak_months": [1, 2, 9, 10, 11, 12],
+            "famous_varieties": ["Kalipatti", "Cricket Ball"],
+            "health_tags": ["energy", "fiber", "digestion", "minerals"],
+            "avg_price_per_kg_inr": 60,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Mango",
+            "peak_months": [5, 6, 7],
+            "famous_varieties": ["Valsadi Hafoos", "Kesar", "Langra"],
+            "health_tags": ["immunity", "vision", "antioxidants"],
+            "avg_price_per_kg_inr": 280,
+            "estimated_user_rating": 4.8
+          }
+        ]
+      },
+      "Kutch": {
+        "agricultural_significance": "Leveraging its arid climate, Kutch has emerged as a major center for date palm cultivation, especially the Barhi variety. It is also a significant producer of pomegranates and, more recently, dragon fruit (Kamalam).",
+        "fruits": [
+          {
+            "fruit_name": "Dates",
+            "peak_months": [7, 8],
+            "famous_varieties": ["Barhi", "Medjool"],
+            "health_tags": ["energy", "iron", "fiber", "bone_health"],
+            "avg_price_per_kg_inr": 350,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Pomegranate",
+            "peak_months": [8, 9, 10, 1, 2],
+            "famous_varieties": ["Bhagwa", "Sindhuri"],
+            "health_tags": ["heart_health", "antioxidant", "blood_pressure"],
+            "avg_price_per_kg_inr": 140,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Dragon Fruit (Kamalam)",
+            "peak_months": [6, 7, 8, 9, 10],
+            "famous_varieties": ["White Flesh", "Red Flesh"],
+            "health_tags": ["immunity", "antioxidant", "low_calorie", "fiber"],
+            "avg_price_per_kg_inr": 200,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      },
+      "Anand": {
+        "agricultural_significance": "Known as part of the 'Charotar' region, Anand is a powerhouse of banana production in Gujarat. The region's fertile alluvial soil contributes to high yields and good quality bananas.",
+        "fruits": [
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Grand Naine", "Robusta"],
+            "health_tags": ["energy", "potassium", "heart_health", "digestion"],
+            "avg_price_per_kg_inr": 35,
+            "estimated_user_rating": 4.5
+          },
+          {
+            "fruit_name": "Guava",
+            "peak_months": [1, 2, 10, 11, 12],
+            "famous_varieties": ["Allahabad Safeda", "L-49"],
+            "health_tags": ["immunity", "vitamin_c", "fiber", "digestion"],
+            "avg_price_per_kg_inr": 70,
+            "estimated_user_rating": 4.4
+          }
+        ]
+      },
+      "Bhavnagar": {
+        "agricultural_significance": "Bhavnagar is a key district for pomegranate and guava cultivation. Its semi-arid climate is particularly suitable for growing high-quality, flavorful pomegranates with a long shelf life.",
+        "fruits": [
+          {
+            "fruit_name": "Pomegranate",
+            "peak_months": [7, 8, 9, 10, 11],
+            "famous_varieties": ["Bhagwa", "Ganesh"],
+            "health_tags": ["heart_health", "antioxidant", "anti_inflammatory"],
+            "avg_price_per_kg_inr": 130,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Jujube (Ber)",
+            "peak_months": [1, 2, 12],
+            "famous_varieties": ["Gola", "Meherun"],
+            "health_tags": ["digestion", "immunity", "sleep_aid", "calcium"],
+            "avg_price_per_kg_inr": 55,
+            "estimated_user_rating": 4.3
+          },
+          {
+            "fruit_name": "Papaya",
+            "peak_months": [2, 3, 9, 10, 11],
+            "famous_varieties": ["Red Lady 786", "Pusa Dwarf"],
+            "health_tags": ["digestion", "vitamin_c", "immunity", "skin_health"],
+            "avg_price_per_kg_inr": 40,
+            "estimated_user_rating": 4.4
+          }
+        ]
+      }
+    }
+  }
+}

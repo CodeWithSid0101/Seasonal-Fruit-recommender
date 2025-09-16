@@ -1,0 +1,83 @@
+{
+  "Jammu and Kashmir": {
+    "fruit_production_overview": "Jammu and Kashmir is the crown jewel of India's horticulture, with its two divisions showcasing distinct strengths. The Kashmir valley is the undisputed leader in temperate fruit production, making India's largest contribution of high-quality apples, cherries, walnuts, and almonds. In contrast, the subtropical Jammu division is known for cultivating mangoes, litchis, and citrus fruits, making the UT a region of rich and diverse fruit cultivation.",
+    "major_fruit_districts": {
+      "Shopian": {
+        "agricultural_significance": "Famously known as the 'Apple Bowl of Kashmir', Shopian is the leading district in the production of superior quality apples. The district's unique microclimate and fertile soil are ideal for cultivating a wide range of Delicious apple varieties.",
+        "fruits": [
+          {
+            "fruit_name": "Apple",
+            "peak_months": [8, 9, 10],
+            "famous_varieties": ["Delicious (Red, Royal, Golden)", "Ambri", "American Trel"],
+            "health_tags": ["fiber", "heart_health", "weight_management", "digestion"],
+            "avg_price_per_kg_inr": 140,
+            "estimated_user_rating": 4.9
+          }
+        ]
+      },
+      "Baramulla": {
+        "agricultural_significance": "Home to the Sopore Fruit Mandi, one of Asia's largest, Baramulla is a critical hub for apple and pear production and trade. The district's vast orchards contribute significantly to the UT's overall temperate fruit output.",
+        "fruits": [
+          {
+            "fruit_name": "Apple",
+            "peak_months": [8, 9],
+            "famous_varieties": ["Delicious", "Maharaji", "Kullu Delicious"],
+            "health_tags": ["fiber", "heart_health", "brain_function"],
+            "avg_price_per_kg_inr": 130,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Pear",
+            "peak_months": [8, 9],
+            "famous_varieties": ["William Bartlett", "Kashmiri Nakh"],
+            "health_tags": ["fiber", "digestion", "hydration", "low_calorie"],
+            "avg_price_per_kg_inr": 100,
+            "estimated_user_rating": 4.6
+          }
+        ]
+      },
+      "Ganderbal": {
+        "agricultural_significance": "Ganderbal is renowned for producing some of the finest cherries in the country, which are harvested early in the season. The district is also a major producer of high-quality walnuts, which thrive in its temperate climate.",
+        "fruits": [
+          {
+            "fruit_name": "Cherry",
+            "peak_months": [5, 6],
+            "famous_varieties": ["Mishri", "Double", "Makhmali"],
+            "health_tags": ["antioxidant", "anti_inflammatory", "sleep_aid", "gout_relief"],
+            "avg_price_per_kg_inr": 700,
+            "estimated_user_rating": 4.9
+          },
+          {
+            "fruit_name": "Walnut",
+            "peak_months": [9, 10],
+            "famous_varieties": ["Kagzi", "Burzul", "Suleiman"],
+            "health_tags": ["brain_health", "omega_3", "heart_health", "antioxidant"],
+            "avg_price_per_kg_inr": 600,
+            "estimated_user_rating": 4.8
+          }
+        ]
+      },
+      "Jammu": {
+        "agricultural_significance": "Representing the subtropical region of the UT, the Jammu district is a key producer of mangoes and litchis. The warmer climate of the plains is ideal for these summer fruits, which cater to the local and regional markets.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Dasheri", "Langra", "Sindhuri"],
+            "health_tags": ["immunity", "vision", "skin_health"],
+            "avg_price_per_kg_inr": 90,
+            "estimated_user_rating": 4.4
+          },
+          {
+            "fruit_name": "Litchi",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Dehraduni", "Calcutta"],
+            "health_tags": ["vitamin_c", "hydration", "antioxidant"],
+            "avg_price_per_kg_inr": 160,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      }
+    }
+  }
+}

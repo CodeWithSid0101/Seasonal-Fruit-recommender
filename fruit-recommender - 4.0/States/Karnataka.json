@@ -1,0 +1,112 @@
+{
+  "Karnataka": {
+    "fruit_production_overview": "Karnataka boasts an exceptionally diverse horticultural landscape, thanks to its varied agro-climatic zones, making it a leading producer of many fruits in India. The state is a major hub for mango, banana, pomegranate, and grape cultivation, with a significant area dedicated to each. It is also home to several unique, GI-tagged fruits like the Coorg Orange and Nanjangud Banana, which highlights its rich pomological heritage.",
+    "major_fruit_districts": {
+      "Kolar": {
+        "agricultural_significance": "Kolar, along with the adjoining Chikkaballapur district, is the mango capital of Karnataka, especially known for the Totapuri variety used in the pulp industry. The region is also a major producer of Bangalore Blue grapes, a GI-tagged variety.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [5, 6, 7],
+            "famous_varieties": ["Totapuri", "Banganapalli", "Raspuri", "Mallika"],
+            "health_tags": ["immunity", "vision", "digestion", "skin_health"],
+            "avg_price_per_kg_inr": 60,
+            "estimated_user_rating": 4.4
+          },
+          {
+            "fruit_name": "Grapes",
+            "peak_months": [1, 2, 3, 4],
+            "famous_varieties": ["Bangalore Blue", "Thompson Seedless"],
+            "health_tags": ["heart_health", "antioxidant", "brain_function"],
+            "avg_price_per_kg_inr": 90,
+            "estimated_user_rating": 4.6
+          }
+        ]
+      },
+      "Vijayapura": {
+        "agricultural_significance": "Vijayapura (formerly Bijapur) is the pomegranate and grape heartland of Karnataka, thriving in the region's arid climate. The district is renowned for producing high-quality pomegranates and is also a major center for raisin grape production.",
+        "fruits": [
+          {
+            "fruit_name": "Pomegranate",
+            "peak_months": [1, 2, 7, 8, 9],
+            "famous_varieties": ["Bhagwa", "Ganesh", "Arakta"],
+            "health_tags": ["heart_health", "antioxidant", "blood_pressure", "anti_inflammatory"],
+            "avg_price_per_kg_inr": 130,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Grapes",
+            "peak_months": [12, 1, 2, 3],
+            "famous_varieties": ["Thompson Seedless", "Sonaka"],
+            "health_tags": ["energy", "antioxidant", "bone_health"],
+            "avg_price_per_kg_inr": 80,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      },
+      "Belagavi": {
+        "agricultural_significance": "Belagavi is the leading district for Sapota (Chikoo) cultivation in Karnataka, with the town of Chikodi being a major hub. The region's unique climate and soil contribute to the fruit's distinct sweetness and grainy texture.",
+        "fruits": [
+          {
+            "fruit_name": "Sapota",
+            "peak_months": [1, 2, 9, 10, 11, 12],
+            "famous_varieties": ["Kalipatti", "Cricket Ball"],
+            "health_tags": ["energy", "fiber", "digestion", "minerals"],
+            "avg_price_per_kg_inr": 50,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Fig",
+            "peak_months": [2, 3, 6, 7],
+            "famous_varieties": ["Poona Red", "Dinkar"],
+            "health_tags": ["fiber", "bone_health", "blood_pressure"],
+            "avg_price_per_kg_inr": 350,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      },
+      "Kodagu (Coorg)": {
+        "agricultural_significance": "Famous for its coffee plantations, Kodagu is also the native home of the GI-tagged Coorg Orange. This unique mandarin variety is traditionally grown as an intercrop in coffee estates, benefiting from the shade and microclimate.",
+        "fruits": [
+          {
+            "fruit_name": "Orange",
+            "peak_months": [12, 1, 2],
+            "famous_varieties": ["Coorg Mandarin"],
+            "health_tags": ["vitamin_c", "immunity", "skin_health", "hydration"],
+            "avg_price_per_kg_inr": 100,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Passion Fruit",
+            "peak_months": [5, 6, 7],
+            "famous_varieties": ["Kaveri (Hybrid)"],
+            "health_tags": ["antioxidant", "fiber", "immunity", "vision"],
+            "avg_price_per_kg_inr": 150,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      },
+      "Mysuru": {
+        "agricultural_significance": "Mysuru is globally recognized for its unique, GI-tagged Nanjangud Rasabale, a banana variety prized for its distinct flavor, aroma, and texture. The region also cultivates other popular banana varieties like Yelakki.",
+        "fruits": [
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Nanjangud Rasabale", "Yelakki", "Robusta"],
+            "health_tags": ["energy", "potassium", "heart_health", "digestion"],
+            "avg_price_per_kg_inr": 120,
+            "estimated_user_rating": 4.9
+          },
+          {
+            "fruit_name": "Papaya",
+            "peak_months": [9, 10, 11],
+            "famous_varieties": ["Red Lady"],
+            "health_tags": ["digestion", "immunity", "skin_health"],
+            "avg_price_per_kg_inr": 30,
+            "estimated_user_rating": 4.3
+          }
+        ]
+      }
+    }
+  }
+}

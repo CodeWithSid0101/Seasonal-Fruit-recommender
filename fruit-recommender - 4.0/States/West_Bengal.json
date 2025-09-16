@@ -1,0 +1,83 @@
+{
+  "West Bengal": {
+    "fruit_production_overview": "West Bengal possesses a rich horticultural heritage, particularly renowned as a premier state for mango cultivation with several GI-tagged varieties like Himsagar, Fazli, and Laxmanbhog. The fertile Gangetic alluvial plains support extensive cultivation of jackfruit, bananas, and litchis, making them key commercial crops. Furthermore, the state's Himalayan foothills in the north are famous for the unique and flavorful Darjeeling Orange, adding to its diverse fruit basket.",
+    "major_fruit_districts": {
+      "Malda": {
+        "agricultural_significance": "Known as the 'Mango Capital of West Bengal', Malda is globally famous for its numerous mango varieties. It is the home of the GI-tagged Himsagar, Fazli, and Laxmanbhog mangoes, which are highly sought after for their unique taste and aroma.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Himsagar", "Fazli", "Laxmanbhog", "Gopalbhog"],
+            "health_tags": ["immunity", "vision", "skin_health", "digestion"],
+            "avg_price_per_kg_inr": 150,
+            "estimated_user_rating": 4.9
+          }
+        ]
+      },
+      "Murshidabad": {
+        "agricultural_significance": "Adjacent to Malda, Murshidabad is another major mango-producing district, sharing in the cultivation of the famed Himsagar variety. The district is also a significant producer of litchis, benefiting from its fertile soil and favorable climate.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Himsagar", "Lyngra", "Gopalbhog"],
+            "health_tags": ["immunity", "vision", "antioxidants"],
+            "avg_price_per_kg_inr": 130,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Litchi",
+            "peak_months": [5, 6],
+            "famous_varieties": ["Bombai", "China", "Muzaffarpuri"],
+            "health_tags": ["vitamin_c", "antioxidant", "hydration"],
+            "avg_price_per_kg_inr": 160,
+            "estimated_user_rating": 4.6
+          }
+        ]
+      },
+      "Nadia": {
+        "agricultural_significance": "Nadia is a key district in southern West Bengal for the cultivation of bananas and jackfruit. The district's fertile Gangetic plains provide the ideal conditions for these crops, which are staples in the local diet and economy.",
+        "fruits": [
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Mortoman", "Champa", "Kanthali"],
+            "health_tags": ["energy", "potassium", "heart_health", "digestion"],
+            "avg_price_per_kg_inr": 40,
+            "estimated_user_rating": 4.5
+          },
+          {
+            "fruit_name": "Jackfruit",
+            "peak_months": [6, 7, 8],
+            "famous_varieties": ["Local Varieties"],
+            "health_tags": ["fiber", "energy", "potassium", "immunity"],
+            "avg_price_per_kg_inr": 30,
+            "estimated_user_rating": 4.4
+          }
+        ]
+      },
+      "Darjeeling": {
+        "agricultural_significance": "The Himalayan foothills of Darjeeling are famous for the GI-tagged 'Darjeeling Orange'. This unique mandarin variety, grown on the terraced slopes, is known for its distinctive tangy-sweet flavor, tight skin, and bright color.",
+        "fruits": [
+          {
+            "fruit_name": "Orange",
+            "peak_months": [11, 12, 1],
+            "famous_varieties": ["Darjeeling Mandarin"],
+            "health_tags": ["vitamin_c", "immunity", "skin_health", "hydration"],
+            "avg_price_per_kg_inr": 120,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Plum",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Local Himalayan Varieties"],
+            "health_tags": ["antioxidant", "digestion", "bone_health"],
+            "avg_price_per_kg_inr": 150,
+            "estimated_user_rating": 4.3
+          }
+        ]
+      }
+    }
+  }
+}

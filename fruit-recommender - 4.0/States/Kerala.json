@@ -1,0 +1,99 @@
+{
+  "Kerala": {
+    "fruit_production_overview": "Kerala's horticulture is a vibrant tapestry of tropical fruits, dominated by the ubiquitous banana and jackfruit, which is the official state fruit. Its unique tropical monsoon climate, ranging from coastal plains to the high ranges of the Western Ghats, allows for the cultivation of a vast diversity of fruits. Besides being a national leader in banana and pineapple production, Kerala is also gaining prominence for growing exotic fruits like rambutan and mangosteen.",
+    "major_fruit_districts": {
+      "Thrissur": {
+        "agricultural_significance": "Thrissur is a major horticultural hub in central Kerala, particularly renowned for its extensive cultivation and value-addition of jackfruit. The district is also a leading producer of various traditional banana varieties, including the famous Nendran.",
+        "fruits": [
+          {
+            "fruit_name": "Jackfruit",
+            "peak_months": [5, 6, 7],
+            "famous_varieties": ["Varikka (firm flesh)", "Koozha (soft flesh)"],
+            "health_tags": ["fiber", "energy", "immunity", "potassium"],
+            "avg_price_per_kg_inr": 40,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Nendran", "Palayankodan", "Robusta"],
+            "health_tags": ["energy", "potassium", "digestion", "heart_health"],
+            "avg_price_per_kg_inr": 60,
+            "estimated_user_rating": 4.7
+          }
+        ]
+      },
+      "Palakkad": {
+        "agricultural_significance": "Known as the 'Gateway of Kerala', Palakkad is famous for its unique mango varieties that thrive in its comparatively drier climate. The district's vast farmlands also make it a significant contributor to the state's coconut production.",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [4, 5, 6],
+            "famous_varieties": ["Priyoor", "Neelam", "Kilichundan"],
+            "health_tags": ["immunity", "vision", "skin_health"],
+            "avg_price_per_kg_inr": 85,
+            "estimated_user_rating": 4.5
+          },
+          {
+            "fruit_name": "Coconut",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["West Coast Tall", "Chowghat Orange Dwarf"],
+            "health_tags": ["hydration", "electrolytes", "healthy_fats"],
+            "avg_price_per_kg_inr": 45,
+            "estimated_user_rating": 4.6
+          }
+        ]
+      },
+      "Idukki": {
+        "agricultural_significance": "The high-range district of Idukki, with its cool climate and hilly terrain, is the epicenter for exotic fruit cultivation in Kerala. It is particularly known for producing high-quality passion fruit, mangosteen, and rambutan.",
+        "fruits": [
+          {
+            "fruit_name": "Passion Fruit",
+            "peak_months": [5, 6, 7, 9, 10],
+            "famous_varieties": ["Purple", "Yellow"],
+            "health_tags": ["antioxidant", "fiber", "immunity", "sleep_aid"],
+            "avg_price_per_kg_inr": 120,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Mangosteen",
+            "peak_months": [6, 7, 8],
+            "famous_varieties": ["Local Varieties"],
+            "health_tags": ["antioxidant", "anti_inflammatory", "skin_health"],
+            "avg_price_per_kg_inr": 350,
+            "estimated_user_rating": 4.9
+          },
+          {
+            "fruit_name": "Rambutan",
+            "peak_months": [6, 7, 8],
+            "famous_varieties": ["N18", "Local Red"],
+            "health_tags": ["immunity", "iron", "energy"],
+            "avg_price_per_kg_inr": 300,
+            "estimated_user_rating": 4.8
+          }
+        ]
+      },
+      "Ernakulam": {
+        "agricultural_significance": "Ernakulam, particularly the Vazhakulam region, is famous for its pineapple production and holds a GI tag for the 'Vazhakulam Pineapple'. This area is one of the largest pineapple markets in India, known for its sweet Mauritius variety.",
+        "fruits": [
+          {
+            "fruit_name": "Pineapple",
+            "peak_months": [5, 6, 7, 12, 1],
+            "famous_varieties": ["Vazhakkulam Pineapple (Mauritius)", "Kew"],
+            "health_tags": ["digestion", "immunity", "anti_inflammatory", "vitamin_c"],
+            "avg_price_per_kg_inr": 45,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Papaya",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Red Lady"],
+            "health_tags": ["digestion", "skin_health", "immunity"],
+            "avg_price_per_kg_inr": 35,
+            "estimated_user_rating": 4.3
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "Chhattisgarh": {
+    "fruit_production_overview": "Traditionally known as the 'Rice Bowl of India', Chhattisgarh is rapidly diversifying its agricultural landscape with a significant focus on horticulture. The state leverages its varied topography to cultivate tropical fruits like mangoes and bananas in the plains, and temperate fruits like litchis and pears in its plateau regions. There is a strong emphasis on promoting fruit cultivation, especially cashew and custard apple, in the tribal belts to enhance farmer income.",
+    "major_fruit_districts": {
+      "Bastar": {
+        "agricultural_significance": "Bastar is renowned for its unique, often naturally grown mango varieties and is a major hub for cashew production in the state. The region's rich biodiversity also yields a significant amount of forest fruits like Custard Apple (Sitaphal).",
+        "fruits": [
+          {
+            "fruit_name": "Mango",
+            "peak_months": [5, 6, 7],
+            "famous_varieties": ["Dasheri", "Langra", "Bastar Special (local)"],
+            "health_tags": ["immunity", "vision", "skin_health", "digestion"],
+            "avg_price_per_kg_inr": 70,
+            "estimated_user_rating": 4.5
+          },
+          {
+            "fruit_name": "Cashew",
+            "peak_months": [4, 5],
+            "famous_varieties": ["VRI-3", "Ullal-3"],
+            "health_tags": ["heart_health", "healthy_fats", "bone_health"],
+            "avg_price_per_kg_inr": 800,
+            "estimated_user_rating": 4.4
+          },
+          {
+            "fruit_name": "Custard Apple (Sitaphal)",
+            "peak_months": [9, 10, 11],
+            "famous_varieties": ["Local Forest Varieties"],
+            "health_tags": ["energy", "minerals", "immunity", "vision"],
+            "avg_price_per_kg_inr": 100,
+            "estimated_user_rating": 4.6
+          }
+        ]
+      },
+      "Surguja": {
+        "agricultural_significance": "Often referred to as the 'Shimla of Chhattisgarh', Surguja's unique plateau climate is highly conducive to litchi and pear cultivation. The district is a key producer of high-quality, juicy litchis that are supplied across the state.",
+        "fruits": [
+          {
+            "fruit_name": "Litchi",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Shahi", "China"],
+            "health_tags": ["vitamin_c", "immunity", "hydration", "antioxidant"],
+            "avg_price_per_kg_inr": 160,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Pear",
+            "peak_months": [7, 8],
+            "famous_varieties": ["Patharnakh", "Gola Pear"],
+            "health_tags": ["fiber", "digestion", "hydration", "low_calorie"],
+            "avg_price_per_kg_inr": 90,
+            "estimated_user_rating": 4.3
+          }
+        ]
+      },
+      "Raipur": {
+        "agricultural_significance": "As the state's capital district, Raipur is a major center for the cultivation of guava and papaya, catering to a large urban market. The region's farmers have widely adopted modern horticultural practices for these crops.",
+        "fruits": [
+          {
+            "fruit_name": "Guava",
+            "peak_months": [11, 12, 1],
+            "famous_varieties": ["Allahabad Safeda", "L-49 (Sardar)"],
+            "health_tags": ["immunity", "vitamin_c", "fiber", "digestion"],
+            "avg_price_per_kg_inr": 60,
+            "estimated_user_rating": 4.5
+          },
+          {
+            "fruit_name": "Papaya",
+            "peak_months": [9, 10, 11],
+            "famous_varieties": ["Red Lady 786", "Pusa Nanha"],
+            "health_tags": ["digestion", "skin_health", "immunity"],
+            "avg_price_per_kg_inr": 35,
+            "estimated_user_rating": 4.3
+          }
+        ]
+      },
+      "Jashpur": {
+        "agricultural_significance": "Jashpur's climate is highly suitable for litchi cultivation, making it a significant production hub in Chhattisgarh. The district is also an emerging area for cashew cultivation, with large-scale plantations being promoted.",
+        "fruits": [
+          {
+            "fruit_name": "Litchi",
+            "peak_months": [6, 7],
+            "famous_varieties": ["Shahi", "Early Muzaffarpur"],
+            "health_tags": ["vitamin_c", "hydration", "antioxidant"],
+            "avg_price_per_kg_inr": 150,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Grand Naine"],
+            "health_tags": ["energy", "potassium", "heart_health"],
+            "avg_price_per_kg_inr": 40,
+            "estimated_user_rating": 4.4
+          }
+        ]
+      }
+    }
+  }
+}

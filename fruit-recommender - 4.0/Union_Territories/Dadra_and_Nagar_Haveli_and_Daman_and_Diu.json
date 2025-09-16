@@ -1,0 +1,78 @@
+{
+  "Dadra and Nagar Haveli and Daman and Diu": {
+    "fruit_production_overview": "The horticulture of this union territory is heavily influenced by its coastal geography and proximity to Gujarat, specializing in fruits that thrive in a tropical, humid climate. It is particularly renowned for its high-quality Sapota (Chikoo) and Mangoes, including the famous Valsadi Alphonso variety. Coconut is another dominant plantation crop across all three districts, integral to the local landscape and economy.",
+    "major_fruit_districts": {
+      "Dadra and Nagar Haveli": {
+        "agricultural_significance": "As the largest district, Dadra and Nagar Haveli is the primary agricultural hub of the UT, with extensive orchards of Sapota (Chikoo) and Mangoes. The region's fertile land also supports significant banana cultivation.",
+        "fruits": [
+          {
+            "fruit_name": "Sapota (Chikoo)",
+            "peak_months": [1, 2, 9, 10, 11, 12],
+            "famous_varieties": ["Kalipatti", "Cricket Ball"],
+            "health_tags": ["energy", "fiber", "digestion", "minerals"],
+            "avg_price_per_kg_inr": 65,
+            "estimated_user_rating": 4.7
+          },
+          {
+            "fruit_name": "Mango",
+            "peak_months": [5, 6, 7],
+            "famous_varieties": ["Valsadi Hafoos (Alphonso)", "Kesar"],
+            "health_tags": ["immunity", "vision", "skin_health"],
+            "avg_price_per_kg_inr": 260,
+            "estimated_user_rating": 4.8
+          },
+          {
+            "fruit_name": "Banana",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Grand Naine"],
+            "health_tags": ["energy", "potassium", "heart_health"],
+            "avg_price_per_kg_inr": 35,
+            "estimated_user_rating": 4.4
+          }
+        ]
+      },
+      "Daman": {
+        "agricultural_significance": "The coastal district of Daman is known for its dense coconut groves and high-quality Sapota orchards. Its agricultural practices are centered around fruits that are well-suited to the saline-tolerant coastal soil.",
+        "fruits": [
+          {
+            "fruit_name": "Sapota (Chikoo)",
+            "peak_months": [1, 2, 10, 11, 12],
+            "famous_varieties": ["Kalipatti"],
+            "health_tags": ["energy", "fiber", "digestion"],
+            "avg_price_per_kg_inr": 70,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Coconut",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["West Coast Tall", "Daman Tall"],
+            "health_tags": ["hydration", "electrolytes", "healthy_fats"],
+            "avg_price_per_kg_inr": 45,
+            "estimated_user_rating": 4.5
+          }
+        ]
+      },
+      "Diu": {
+        "agricultural_significance": "The island district of Diu's horticulture is dominated by coconut plantations. It is also uniquely known for the Hoka Palm, a branching palm tree whose fruit is a local delicacy and integral to the island's identity.",
+        "fruits": [
+          {
+            "fruit_name": "Coconut",
+            "peak_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "famous_varieties": ["Diu Tall", "West Coast Tall"],
+            "health_tags": ["hydration", "electrolytes", "healthy_fats"],
+            "avg_price_per_kg_inr": 40,
+            "estimated_user_rating": 4.6
+          },
+          {
+            "fruit_name": "Hoka Palm Fruit",
+            "peak_months": [9, 10],
+            "famous_varieties": ["Local Hoka"],
+            "health_tags": ["fiber", "minerals", "energy"],
+            "avg_price_per_kg_inr": 100,
+            "estimated_user_rating": 4.1
+          }
+        ]
+      }
+    }
+  }
+}
